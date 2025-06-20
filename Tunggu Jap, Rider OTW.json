@@ -568,7 +568,7 @@
       {
         "file": "assets/NewButton Idle.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewButton Idle.png\"}",
         "name": "NewButton Idle",
         "smoothed": false,
         "userAdded": false
@@ -635,6 +635,38 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
           "name": "CarterOne-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/donutFood Pressed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "donutFood Pressed",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/donutFood Hovered.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "donutFood Hovered",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/donutFood Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "donutFood Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/coffee_shop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\coffee_shop.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1020,7 +1052,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.3389693172845527,
+        "zoomFactor": 1.134371579716108,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1248,23 +1280,6 @@
           "x": 624,
           "y": -16,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 134,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grocery",
-          "persistentUuid": "7ded7d4b-5d65-47f3-9500-c457b460a6fe",
-          "width": 192,
-          "x": 800,
-          "y": 0,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1991,7 +2006,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2033,66 +2056,6 @@
                           {
                             "x": 10,
                             "y": 329
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "grocery",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Buildings\\Shops\\mini mart.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 11,
-                            "y": 5
-                          },
-                          {
-                            "x": 520,
-                            "y": 5
-                          },
-                          {
-                            "x": 520,
-                            "y": 300
-                          },
-                          {
-                            "x": 11,
-                            "y": 300
                           }
                         ]
                       ]
@@ -2156,67 +2119,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "donutFood",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 8,
-                            "y": 13
-                          },
-                          {
-                            "x": 59,
-                            "y": 13
-                          },
-                          {
-                            "x": 59,
-                            "y": 53
-                          },
-                          {
-                            "x": 8,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -2269,7 +2171,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "COOKINGGGGGGGGGG",
+          "string": "COOKING",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -2292,7 +2194,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "COOKINGGGGGGGGGG",
+            "text": "COOKING",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2335,7 +2237,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "",
+              "string": "PIZZA",
               "font": "",
               "textAlignment": "",
               "characterSize": 20,
@@ -2358,7 +2260,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "",
+                "text": "PIZZA",
                 "font": "",
                 "textAlignment": "",
                 "verticalTextAlignment": "top",
@@ -2504,11 +2406,179 @@
               "width": 192
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "donutFood",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "donutFood Hovered",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "donutFood Idle",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "DONUT",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "DONUT",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "donutFood Pressed",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "coffeeShop",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Buildings\\coffee_shop.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 11
+                          },
+                          {
+                            "x": 394,
+                            "y": 11
+                          },
+                          {
+                            "x": 394,
+                            "y": 235
+                          },
+                          {
+                            "x": 9,
+                            "y": 235
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "coffee",
+            "children": [
+              {
+                "objectName": "coffeeShop"
+              }
+            ]
+          },
+          {
+            "folderName": "donut",
+            "children": [
+              {
+                "objectName": "donutFood"
+              },
+              {
+                "objectName": "donutShop"
+              }
+            ]
+          },
+          {
+            "folderName": "pizza",
+            "children": [
+              {
+                "objectName": "pizzaFood"
+              },
+              {
+                "objectName": "pizzaShop"
+              }
+            ]
+          },
           {
             "objectName": "Player"
           },
@@ -2522,22 +2592,7 @@
             "objectName": "road2"
           },
           {
-            "objectName": "pizzaShop"
-          },
-          {
-            "objectName": "donutShop"
-          },
-          {
-            "objectName": "donutFood"
-          },
-          {
-            "objectName": "grocery"
-          },
-          {
             "objectName": "requestText"
-          },
-          {
-            "objectName": "pizzaFood"
           },
           {
             "objectName": "Score"
@@ -2813,7 +2868,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -3323,7 +3390,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Pizza"
+          "comment": "Food"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -3331,6 +3398,13 @@
             "includeConfig": 0
           },
           "target": "pizza"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "donut"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -3663,6 +3737,84 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "donut",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at Donut Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "donutShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"donut\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "donutShop",
+                "\"donutCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "donutShop.X()",
+                "donutShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -3674,7 +3826,145 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Deliver Pizza"
+          "comment": "Donut Done Cooking"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "donutShop",
+                "\"donutCookTime\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "donutFood",
+                "donutShop.X()",
+                "donutShop.Y() - 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugCooking",
+                "Text",
+                "=",
+                "\"done\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "donutShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "donutFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "donutFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "True",
+                ""
+              ]
+            }
+          ]
         }
       ]
     }
