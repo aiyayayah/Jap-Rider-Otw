@@ -564,6 +564,77 @@
         "metadata": "",
         "name": "assets\\Kenney Mini.ttf",
         "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Hovered.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewButton Hovered.png\"}",
+        "name": "NewButton Hovered",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Pressed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewButton Pressed.png\"}",
+        "name": "NewButton Pressed",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Floating Out Button Dark Blue_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/2f8919c3cad70134ff1732dbaef5dd9babd0aed0240dd817c1db9e27aa6b205b_Floating Out Button Dark Blue_Hovered.png",
+          "name": "Floating Out Button Dark Blue_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Floating Out Button Dark Blue_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d2cedf36d5812262daf2389108558a2ee0b40ca23da05f6200e1f0eee905ca11_Floating Out Button Dark Blue_Idle.png",
+          "name": "Floating Out Button Dark Blue_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Floating Out Button Dark Blue_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d246e92fe474d2825e38af207a9926794d490bc052aef447688612f61ec48861_Floating Out Button Dark Blue_Pressed.png",
+          "name": "Floating Out Button Dark Blue_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CarterOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CarterOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+          "name": "CarterOne-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
@@ -949,7 +1020,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.814188120371,
+        "zoomFactor": 1.3389693172845527,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1243,6 +1314,39 @@
           "x": 80,
           "y": 413,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "Score",
+          "persistentUuid": "3414af37-0877-447f-8f59-542a61883945",
+          "width": 0,
+          "x": 16,
+          "y": 16,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "restart",
+          "persistentUuid": "a50ae393-5a9d-488c-bda3-4f5efc8522c5",
+          "width": 96,
+          "x": 80,
+          "y": 16,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2000,67 +2104,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "pizzaFood",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 18,
-                            "y": 9
-                          },
-                          {
-                            "x": 57,
-                            "y": 9
-                          },
-                          {
-                            "x": 57,
-                            "y": 53
-                          },
-                          {
-                            "x": 18,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -2256,6 +2299,211 @@
             "characterSize": 20,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "pizzaFood",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Hovered",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Idle",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Pressed",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "assets\\Kenney Mini.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "assets\\Kenney Mini.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "restart",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "restart",
+              "font": "CarterOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 20,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "restart",
+                "font": "CarterOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2277,9 +2525,6 @@
             "objectName": "pizzaShop"
           },
           {
-            "objectName": "pizzaFood"
-          },
-          {
             "objectName": "donutShop"
           },
           {
@@ -2290,6 +2535,15 @@
           },
           {
             "objectName": "requestText"
+          },
+          {
+            "objectName": "pizzaFood"
+          },
+          {
+            "objectName": "Score"
+          },
+          {
+            "objectName": "restart"
           },
           {
             "objectName": "debugRequest"
@@ -2326,6 +2580,13 @@
             "includeConfig": 0
           },
           "target": "generateOrder"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "buttons"
         }
       ],
       "layers": [
@@ -2847,7 +3108,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Generate Order"
+          "comment": "Generate order"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2942,17 +3203,6 @@
                 "",
                 "\"GenerateOrder\""
               ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugRequest",
-                "Text",
-                "=",
-                "House1.VariableString(foodOrder)"
-              ]
             }
           ]
         },
@@ -2966,7 +3216,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Order is clicked"
+          "comment": "Player accept order"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3066,6 +3316,25 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pizza"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "pizza"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
             "b": 109,
             "g": 230,
             "r": 255,
@@ -3073,7 +3342,117 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player accept order"
+          "comment": "Player deliver order"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "House1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "Score.Text::Value()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "buttons",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "restart",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "CurrentSceneName()",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "pizza",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at Pizza Shop"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3108,7 +3487,7 @@
               },
               "parameters": [
                 "pizzaShop",
-                "\"cookTime\""
+                "\"pizzaCookTime\""
               ]
             },
             {
@@ -3129,11 +3508,173 @@
                 "",
                 "debugCooking",
                 "pizzaShop.X()",
-                "pizzaShop.Y()-30",
+                "pizzaShop.Y() - 30",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pizza Done Cooking"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "pizzaShop",
+                "\"pizzaCookTime\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "pizzaFood",
+                "pizzaShop.X()",
+                "pizzaShop.Y() - 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugCooking",
+                "Text",
+                "=",
+                "\"done\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "pizzaShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "pizzaFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "pizzaFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver Pizza"
         }
       ]
     }
