@@ -541,6 +541,29 @@
         "name": "assets\\Buildings\\Shops\\mini mart.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Mini.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Kenney Mini.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -862,20 +885,45 @@
   "objectsGroups": [],
   "variables": [
     {
+      "name": "currentOrder",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "hasFood",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "isCooking",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "isFoodReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "score",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "foodList",
       "type": "array",
       "children": [
         {
           "type": "string",
-          "value": "Pizza"
+          "value": "pizza"
         },
         {
           "type": "string",
-          "value": "Donut"
+          "value": "donut"
         },
         {
           "type": "string",
-          "value": "Groceries"
+          "value": "groceries"
         }
       ]
     }
@@ -929,10 +977,7 @@
               "name": "ChatBox"
             },
             {
-              "name": "Atok"
-            },
-            {
-              "name": "NewText"
+              "name": "npcOne"
             }
           ]
         }
@@ -1091,7 +1136,7 @@
           "height": 192,
           "keepRatio": true,
           "layer": "Ui Top",
-          "name": "Atok",
+          "name": "npcOne",
           "persistentUuid": "a2e5f247-9430-4fda-96f3-30f8cec75b93",
           "width": 146,
           "x": 30,
@@ -1123,27 +1168,10 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "Ui Top",
-          "name": "NewText",
-          "persistentUuid": "14b33027-187b-4ec9-a2e4-9f78edfc227f",
-          "width": 736,
-          "x": 224,
-          "y": 608,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 128,
           "keepRatio": true,
           "layer": "",
-          "name": "Pizza",
+          "name": "pizzaShop",
           "persistentUuid": "60a3238a-a39b-440c-901b-e0b883f39183",
           "width": 144,
           "x": 624,
@@ -1177,12 +1205,44 @@
           "height": 224,
           "keepRatio": true,
           "layer": "",
-          "name": "donut",
+          "name": "donutShop",
           "persistentUuid": "81971f7b-2544-4478-8e26-4e523860e2dc",
           "width": 256,
           "x": 1008,
           "y": -64,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "requestText",
+          "persistentUuid": "521cff3d-99dd-4f2c-a088-c7ba21f83149",
+          "width": 0,
+          "x": 226,
+          "y": 626,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "debugRequest",
+          "persistentUuid": "077fe116-a97e-4161-83b0-c67d0192b9cd",
+          "width": 0,
+          "x": 80,
+          "y": 413,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1634,7 +1694,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Atok",
+          "name": "npcOne",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -1752,67 +1812,9 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "NewText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [
-            {
-              "name": "visible",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "AutoTyping",
-              "type": "AutoTyping::AutoTyping",
-              "Text": "Text",
-              "Interval": 0.09,
-              "CharacterJustAdded": false,
-              "FullText": "",
-              "TypedText": ""
-            }
-          ],
-          "string": "I would like to have a fast food",
-          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
-          "textAlignment": "left",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "I would like to have a fast food",
-            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "color": "255;255;255"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Pizza",
+          "name": "pizzaShop",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1880,7 +1882,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "donut",
+          "name": "donutShop",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1996,25 +1998,269 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "pizzaFood",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 9
+                          },
+                          {
+                            "x": 57,
+                            "y": 9
+                          },
+                          {
+                            "x": 57,
+                            "y": 53
+                          },
+                          {
+                            "x": 18,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "requestText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "AutoTyping",
+              "type": "AutoTyping::AutoTyping",
+              "Text": "Text",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "FullText": "",
+              "TypedText": ""
+            }
+          ],
+          "string": "...",
+          "font": "assets\\Kenney Mini.ttf",
+          "textAlignment": "left",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "...",
+            "font": "assets\\Kenney Mini.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 45,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "donutFood",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 13
+                          },
+                          {
+                            "x": 59,
+                            "y": 13
+                          },
+                          {
+                            "x": 59,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debugRequest",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "...",
+          "font": "assets\\Kenney Mini.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "...",
+            "font": "assets\\Kenney Mini.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debugCooking",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "COOKINGGGGGGGGGG",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "COOKINGGGGGGGGGG",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
-          {
-            "folderName": "npc",
-            "children": [
-              {
-                "objectName": "ChatBox"
-              },
-              {
-                "objectName": "NewText"
-              },
-              {
-                "objectName": "Atok"
-              }
-            ]
-          },
           {
             "objectName": "Player"
           },
@@ -2028,13 +2274,34 @@
             "objectName": "road2"
           },
           {
-            "objectName": "Pizza"
+            "objectName": "pizzaShop"
           },
           {
-            "objectName": "donut"
+            "objectName": "pizzaFood"
+          },
+          {
+            "objectName": "donutShop"
+          },
+          {
+            "objectName": "donutFood"
           },
           {
             "objectName": "grocery"
+          },
+          {
+            "objectName": "requestText"
+          },
+          {
+            "objectName": "debugRequest"
+          },
+          {
+            "objectName": "debugCooking"
+          },
+          {
+            "objectName": "npcOne"
+          },
+          {
+            "objectName": "ChatBox"
           }
         ]
       },
@@ -2625,6 +2892,17 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "House1",
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(0, 2)])"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -2632,17 +2910,6 @@
                 "orderBubble",
                 "House1.X()",
                 "House1.Y()-30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "House1",
-                "hasOrder",
-                "True",
                 ""
               ]
             },
@@ -2658,6 +2925,17 @@
             },
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "House1",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -2667,13 +2945,13 @@
             },
             {
               "type": {
-                "value": "SetStringObjectVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "House1",
-                "foodOrder",
+                "debugRequest",
+                "Text",
                 "=",
-                "VariableString(foodList[RandomInRange(0, 2)])"
+                "House1.VariableString(foodOrder)"
               ]
             }
           ]
@@ -2701,9 +2979,7 @@
                 "orderBubble",
                 ""
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "LinkedObjects::PickObjectsLinkedTo"
@@ -2714,7 +2990,9 @@
                 "orderBubble",
                 ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "SetBooleanObjectVariable"
@@ -2740,7 +3018,118 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Npc One",
+                "npcOne",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "House1.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Hey \" + \"I want \" + House1.VariableString(foodOrder)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player accept order"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "pizzaShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"pizza\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "pizzaShop",
+                "\"cookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "pizzaShop.X()",
+                "pizzaShop.Y()-30",
                 ""
               ]
             }
