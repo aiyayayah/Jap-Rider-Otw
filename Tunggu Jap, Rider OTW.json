@@ -525,6 +525,22 @@
         "name": "assets\\Buildings\\Shops\\pizza.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Shops/donut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Shops\\donut.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Shops/mini mart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Shops\\mini mart.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -546,6 +562,11 @@
           "name": "hasOrder",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "foodOrder",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -841,7 +862,7 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Variable",
+      "name": "foodList",
       "type": "array",
       "children": [
         {
@@ -880,7 +901,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6244537826600057,
+        "zoomFactor": 0.814188120371,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1119,15 +1140,49 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 144,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "Pizza",
           "persistentUuid": "60a3238a-a39b-440c-901b-e0b883f39183",
-          "width": 176,
-          "x": 1040,
-          "y": 352,
+          "width": 144,
+          "x": 624,
+          "y": -16,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 134,
+          "keepRatio": true,
+          "layer": "",
+          "name": "grocery",
+          "persistentUuid": "7ded7d4b-5d65-47f3-9500-c457b460a6fe",
+          "width": 192,
+          "x": 800,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "donut",
+          "persistentUuid": "81971f7b-2544-4478-8e26-4e523860e2dc",
+          "width": 256,
+          "x": 1008,
+          "y": -64,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1717,7 +1772,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.09,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -1821,6 +1876,126 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "donut",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Buildings\\Shops\\donut.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 11
+                          },
+                          {
+                            "x": 395,
+                            "y": 11
+                          },
+                          {
+                            "x": 395,
+                            "y": 329
+                          },
+                          {
+                            "x": 10,
+                            "y": 329
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "grocery",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Buildings\\Shops\\mini mart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 5
+                          },
+                          {
+                            "x": 520,
+                            "y": 5
+                          },
+                          {
+                            "x": 520,
+                            "y": 300
+                          },
+                          {
+                            "x": 11,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1854,6 +2029,12 @@
           },
           {
             "objectName": "Pizza"
+          },
+          {
+            "objectName": "donut"
+          },
+          {
+            "objectName": "grocery"
           }
         ]
       },
@@ -2416,6 +2597,21 @@
             },
             {
               "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "House1"
+              ]
+            },
+            {
+              "type": {
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
@@ -2427,15 +2623,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "House1"
-              ]
-            },
             {
               "type": {
                 "value": "Create"
@@ -2467,6 +2654,26 @@
                 "",
                 "orderBubble",
                 "House1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "House1",
+                "foodOrder",
+                "=",
+                "VariableString(foodList[RandomInRange(0, 2)])"
               ]
             }
           ]
@@ -2530,12 +2737,10 @@
             },
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "Montre"
               },
               "parameters": [
                 "Npc One",
-                "visible",
-                "True",
                 ""
               ]
             }
