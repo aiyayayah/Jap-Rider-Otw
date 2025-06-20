@@ -667,6 +667,30 @@
         "name": "assets\\Buildings\\coffee_shop.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Hovered2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Hovered2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewButton Pressed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewButton Pressed2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -962,9 +986,6 @@
         "folderName": "Buildings",
         "children": [
           {
-            "folderName": "Shops"
-          },
-          {
             "folderName": "Houses",
             "children": [
               {
@@ -1026,7 +1047,7 @@
         },
         {
           "type": "string",
-          "value": "groceries"
+          "value": "coffee"
         }
       ]
     }
@@ -1288,14 +1309,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 224,
+          "height": 176,
           "keepRatio": true,
           "layer": "",
           "name": "donutShop",
           "persistentUuid": "81971f7b-2544-4478-8e26-4e523860e2dc",
-          "width": 256,
-          "x": 1008,
-          "y": -64,
+          "width": 192,
+          "x": 816,
+          "y": -80,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1362,6 +1383,23 @@
           "x": 80,
           "y": 16,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 181,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coffeeShop",
+          "persistentUuid": "3740aabf-1c30-4e42-b51c-edf097265cd4",
+          "width": 272,
+          "x": 1072,
+          "y": -80,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2493,7 +2531,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2544,16 +2590,153 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "coffeeFood",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Hovered2",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Idle2",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "COFFEE",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "COFFEE",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "NewButton Pressed2",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debugCookDone",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "done cooking",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "done cooking",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "debug",
+            "children": [
+              {
+                "objectName": "debugCookDone"
+              },
+              {
+                "objectName": "debugCooking"
+              },
+              {
+                "objectName": "debugRequest"
+              }
+            ]
+          },
+          {
             "folderName": "coffee",
             "children": [
               {
                 "objectName": "coffeeShop"
+              },
+              {
+                "objectName": "coffeeFood"
               }
             ]
           },
@@ -2599,12 +2782,6 @@
           },
           {
             "objectName": "restart"
-          },
-          {
-            "objectName": "debugRequest"
-          },
-          {
-            "objectName": "debugCooking"
           },
           {
             "objectName": "npcOne"
@@ -3407,6 +3584,13 @@
           "target": "donut"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "coffee"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3660,13 +3844,23 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Delete"
               },
               "parameters": [
                 "debugCooking",
-                "Text",
-                "=",
-                "\"done\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCookDone",
+                "pizzaShop.X()+10",
+                "pizzaShop.Y() -40",
+                ""
               ]
             }
           ]
@@ -3888,13 +4082,23 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Delete"
               },
               "parameters": [
                 "debugCooking",
-                "Text",
-                "=",
-                "\"done\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCookDone",
+                "donutShop.X()+10",
+                "donutShop.Y() -40",
+                ""
               ]
             }
           ]
@@ -3941,6 +4145,244 @@
               },
               "parameters": [
                 "donutFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "coffee",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at Coffee Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"coffee\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "coffeeShop",
+                "\"coffeeCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "coffeeShop.X()",
+                "coffeeShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Coffee Done Cooking"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "coffeeShop",
+                "\"donutCookTime\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "donutFood",
+                "coffeeShop.X()",
+                "coffeeShop.Y() - 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCookDone",
+                "coffeeFood.X()+10",
+                "coffeeFood.Y() -40",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "coffeeFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "coffeeFood",
                 ""
               ]
             },
