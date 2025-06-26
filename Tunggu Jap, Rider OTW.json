@@ -855,6 +855,16 @@
           "name": "houseID",
           "type": "number",
           "value": 2
+        },
+        {
+          "name": "hasOrder",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -920,7 +930,17 @@
         {
           "name": "houseID",
           "type": "number",
-          "value": 3
+          "value": 4
+        },
+        {
+          "name": "hasOrder",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -986,7 +1006,17 @@
         {
           "name": "houseID",
           "type": "number",
-          "value": 4
+          "value": 3
+        },
+        {
+          "name": "hasOrder",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -2485,7 +2515,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.39251611754882737,
+        "zoomFactor": 1.4307927813134447,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2530,7 +2560,7 @@
           "name": "Player",
           "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
           "width": 32,
-          "x": 624,
+          "x": 272,
           "y": 160,
           "zOrder": 2,
           "numberProperties": [],
@@ -2570,8 +2600,8 @@
           "name": "House1",
           "persistentUuid": "7c801504-43b7-49f0-a8cb-639a397e26e4",
           "width": 96,
-          "x": 192,
-          "y": 16,
+          "x": 32,
+          "y": 224,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2812,6 +2842,57 @@
           "x": 1008,
           "y": -37,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 138,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House4",
+          "persistentUuid": "a934d255-b998-4aa5-a870-f7ac8f5ec93e",
+          "width": 105,
+          "x": 352,
+          "y": 214,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House3",
+          "persistentUuid": "49d73f51-63e8-49c3-97d4-2946322c3ced",
+          "width": 112,
+          "x": 496,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House2",
+          "persistentUuid": "c30d1c34-adbf-4286-a64b-7633a144e910",
+          "width": 128,
+          "x": 160,
+          "y": 192,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4124,6 +4205,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -4140,12 +4225,20 @@
           "type": "PlatformBehavior::PlatformBehavior"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
@@ -4332,7 +4425,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "House1",
+                "Houses",
                 "hasOrder",
                 "False",
                 ""
@@ -4391,17 +4484,11 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "AjoutHasard"
               },
               "parameters": [
                 "",
-                "House1"
+                "Houses"
               ]
             },
             {
@@ -4409,11 +4496,17 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "House1",
+                "Houses",
                 "hasOrder",
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -4422,7 +4515,7 @@
                 "value": "SetStringObjectVariable"
               },
               "parameters": [
-                "House1",
+                "Houses",
                 "foodOrder",
                 "=",
                 "GlobalVariableString(foodList[RandomInRange(0, 2)])"
@@ -4435,8 +4528,8 @@
               "parameters": [
                 "",
                 "orderBubble",
-                "House1.X()",
-                "House1.Y()-30",
+                "Houses.X()",
+                "Houses.Y()-30",
                 ""
               ]
             },
@@ -4447,7 +4540,7 @@
               "parameters": [
                 "",
                 "orderBubble",
-                "House1"
+                "Houses"
               ]
             },
             {
@@ -4455,7 +4548,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "House1",
+                "Houses",
                 "hasOrder",
                 "True",
                 ""
@@ -4502,7 +4595,7 @@
               },
               "parameters": [
                 "",
-                "House1",
+                "Houses",
                 "orderBubble",
                 ""
               ]
@@ -4514,7 +4607,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "House1",
+                "Houses",
                 "hasOrder",
                 "False",
                 ""
@@ -4563,7 +4656,7 @@
               "parameters": [
                 "currentOrder",
                 "=",
-                "House1.VariableString(foodOrder)"
+                "Houses.VariableString(foodOrder)"
               ]
             },
             {
@@ -4574,7 +4667,7 @@
                 "requestText",
                 "Text",
                 "=",
-                "\"Hey \" + \"I want \" + House1.VariableString(foodOrder)"
+                "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
               ]
             }
           ]
