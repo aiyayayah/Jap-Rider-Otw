@@ -4758,7 +4758,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4057518905943898,
+        "zoomFactor": 0.54687500000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4887,8 +4887,8 @@
           "name": "requestText",
           "persistentUuid": "521cff3d-99dd-4f2c-a088-c7ba21f83149",
           "width": 1101,
-          "x": 339,
-          "y": 914,
+          "x": 112,
+          "y": 930,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -5416,13 +5416,6 @@
             "includeConfig": 0
           },
           "target": "buttons"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "deliverFood"
         }
       ],
       "layers": [
@@ -7707,12 +7700,6 @@
                 "=",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -8010,6 +7997,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "deliverFood"
         }
       ]
     },
@@ -8514,7 +8508,7 @@
               },
               "parameters": [
                 "hasFood",
-                "False",
+                "True",
                 ""
               ]
             },
@@ -8530,23 +8524,21 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Houses",
-                "receivedFood",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "groceryFood",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -8559,13 +8551,88 @@
             },
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Houses",
-                "receivedFood",
-                "True",
-                ""
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npcTwo",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npcOne",
+                    ""
+                  ]
+                }
               ]
             }
           ]
