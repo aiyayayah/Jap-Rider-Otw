@@ -7218,6 +7218,16 @@
                     "=",
                     "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
                 }
               ]
             },
@@ -7307,6 +7317,16 @@
                     "Text",
                     "=",
                     "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
                   ]
                 }
               ]
@@ -8499,6 +8519,17 @@
                 "Houses",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
                 ""
               ]
             },
