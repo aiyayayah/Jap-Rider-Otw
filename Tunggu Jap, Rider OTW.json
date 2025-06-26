@@ -1363,6 +1363,38 @@
         "name": "assets\\npc\\assets_npc_chinese_woman2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "bubble emotes july update.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bubble emotes july update.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bubble emotes july update.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bubble emotes july update",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bubble emotes july update2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bubble emotes july update2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bubble emotes july update3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bubble emotes july update3",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1389,6 +1421,11 @@
           "name": "foodOrder",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -1473,10 +1510,23 @@
           "name": "foodOrder",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1549,10 +1599,23 @@
           "name": "foodOrder",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1625,10 +1688,23 @@
           "name": "foodOrder",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "topdown_2d_pixel_art_small_house-removebg-preview",
@@ -1691,6 +1767,7 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 300,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -1704,7 +1781,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -2160,84 +2236,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "orderBubble",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\orders\\bubble\\hover.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\orders\\bubble\\idle.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\orders\\bubble\\idle.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
     },
     {
       "assetStoreId": "",
@@ -2967,25 +2965,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h5",
@@ -3048,25 +3056,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h6",
@@ -3129,25 +3147,40 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "hasFood",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h8",
@@ -3210,25 +3243,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h7",
@@ -3291,25 +3334,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h9",
@@ -3372,25 +3425,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\download-removebg-preview",
@@ -3453,25 +3516,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\3-removebg-preview",
@@ -3534,25 +3607,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h12",
@@ -3627,10 +3710,23 @@
           "name": "foodOrder",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\h14",
@@ -3693,25 +3789,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\4-removebg-preview",
@@ -3789,6 +3895,12 @@
           "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "persistentUuid": "9694e231-7a55-4f0f-a9c9-09b991d77652",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -3870,6 +3982,12 @@
           "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "persistentUuid": "9694e231-7a55-4f0f-a9c9-09b991d77652",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -3936,25 +4054,35 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "receivedFood",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h17",
@@ -4008,67 +4136,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "groceryShop",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "y-removebg-preview",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Shops\\grocery\\groceryShop.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 268,
-                        "y": 0
-                      },
-                      {
-                        "x": 268,
-                        "y": 358
-                      },
-                      {
-                        "x": 0,
-                        "y": 358
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "groceryFood",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -4106,7 +4173,7 @@
           "string": " ",
           "font": "",
           "textAlignment": "",
-          "characterSize": 20,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -4130,7 +4197,7 @@
             "font": "",
             "textAlignment": "",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 40,
             "color": "0;0;0"
           }
         },
@@ -4242,6 +4309,74 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "groceryShop",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Shops\\grocery\\groceryShop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 268,
+                        "y": 0
+                      },
+                      {
+                        "x": 268,
+                        "y": 358
+                      },
+                      {
+                        "x": 0,
+                        "y": 358
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4254,10 +4389,10 @@
             "folderName": "grocery",
             "children": [
               {
-                "objectName": "groceryFood"
+                "objectName": "groceryShop"
               },
               {
-                "objectName": "groceryShop"
+                "objectName": "groceryFood"
               }
             ]
           },
@@ -4384,9 +4519,6 @@
       },
       {
         "objectName": "Player"
-      },
-      {
-        "objectName": "orderBubble"
       },
       {
         "objectName": "requestText"
@@ -4536,7 +4668,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700232859857439,
+        "zoomFactor": 0.6040838749988972,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4546,14 +4678,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 80,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
-          "width": 32,
-          "x": 736,
-          "y": 640,
+          "width": 80,
+          "x": 784,
+          "y": 688,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4747,8 +4879,8 @@
           "name": "House3",
           "persistentUuid": "7694f425-5225-4eae-972e-6f88e4da3187",
           "width": 0,
-          "x": 480,
-          "y": 469,
+          "x": 560,
+          "y": 533,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -4781,8 +4913,8 @@
           "name": "House6",
           "persistentUuid": "c5f44e13-fa5d-483f-bf07-bba047e76a81",
           "width": 176,
-          "x": 16,
-          "y": 457,
+          "x": -32,
+          "y": 528,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -4797,8 +4929,8 @@
           "name": "House7",
           "persistentUuid": "ab6fc7f9-367b-445d-982f-7061d1e8b8dc",
           "width": 0,
-          "x": 224,
-          "y": 465,
+          "x": 240,
+          "y": 529,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -4814,8 +4946,8 @@
           "name": "House8",
           "persistentUuid": "1a61843c-692c-4708-9104-1a4095208507",
           "width": 183,
-          "x": 880,
-          "y": 688,
+          "x": 896,
+          "y": 784,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -4831,8 +4963,8 @@
           "name": "House11",
           "persistentUuid": "32878ac3-2dfc-4cef-b518-278a3982e34a",
           "width": 192,
-          "x": 32,
-          "y": 704,
+          "x": 48,
+          "y": 800,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -4881,7 +5013,7 @@
           "name": "House9",
           "persistentUuid": "bf9eaacb-4652-4a56-a5b7-9ba5c73b2fb7",
           "width": 224,
-          "x": 1344,
+          "x": 1376,
           "y": 160,
           "zOrder": 32,
           "numberProperties": [],
@@ -4915,8 +5047,8 @@
           "name": "House10",
           "persistentUuid": "49ab30ab-0812-4512-84c6-290b05f739b5",
           "width": 208,
-          "x": 736,
-          "y": 432,
+          "x": 880,
+          "y": 480,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -4932,8 +5064,8 @@
           "name": "House13",
           "persistentUuid": "3fa67367-1751-489f-8245-16b1875c75fe",
           "width": 208,
-          "x": 304,
-          "y": 688,
+          "x": 320,
+          "y": 784,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -4949,26 +5081,9 @@
           "name": "House17",
           "persistentUuid": "5e81325e-bbca-4d2b-b7ae-a4872f1c8837",
           "width": 192,
-          "x": 592,
-          "y": 736,
+          "x": 608,
+          "y": 832,
           "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 294,
-          "keepRatio": true,
-          "layer": "",
-          "name": "groceryShop",
-          "persistentUuid": "af66c02b-aa1b-4c80-b7e4-0215029d744f",
-          "width": 208,
-          "x": 1312,
-          "y": 544,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4986,6 +5101,22 @@
           "x": 240,
           "y": 1184,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "groceryShop",
+          "persistentUuid": "383095dd-ffd1-4fe0-9aca-38714e9cf94b",
+          "width": 0,
+          "x": 1280,
+          "y": 506,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5032,6 +5163,139 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "bubbleOrder",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bubble emotes july update",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bubble emotes july update",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bubble emotes july update2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bubble emotes july update3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5045,6 +5309,9 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "bubbleOrder"
           }
         ]
       },
@@ -5076,6 +5343,13 @@
             "includeConfig": 0
           },
           "target": "buttons"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "deliverFood"
         }
       ],
       "layers": [
@@ -6610,12 +6884,6 @@
                 "False",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -6627,7 +6895,7 @@
                 "Houses",
                 "foodOrder",
                 "=",
-                "GlobalVariableString(foodList[RandomInRange(0, 3)])"
+                "GlobalVariableString(foodList[RandomInRange(3, 3)])"
               ]
             },
             {
@@ -6636,10 +6904,21 @@
               },
               "parameters": [
                 "",
-                "orderBubble",
+                "bubbleOrder",
                 "Houses.X()",
                 "Houses.Y()-30",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "bubbleOrder",
+                "Scale",
+                "=",
+                "2"
               ]
             },
             {
@@ -6648,7 +6927,7 @@
               },
               "parameters": [
                 "",
-                "orderBubble",
+                "bubbleOrder",
                 "Houses"
               ]
             },
@@ -6691,11 +6970,22 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "orderBubble",
+                "bubbleOrder",
+                "",
+                "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ]
             },
             {
@@ -6711,18 +7001,12 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "LinkedObjects::PickObjectsLinkedTo"
               },
               "parameters": [
                 "",
                 "Houses",
-                "orderBubble",
+                "bubbleOrder",
                 ""
               ]
             }
@@ -6745,7 +7029,7 @@
               "parameters": [
                 "",
                 "Houses",
-                "orderBubble",
+                "bubbleOrder",
                 ""
               ]
             },
@@ -6775,7 +7059,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "orderBubble",
+                "bubbleOrder",
                 ""
               ]
             }
@@ -7029,7 +7313,7 @@
               },
               "parameters": [
                 "Player",
-                "House1",
+                "Houses",
                 "",
                 "",
                 ""
@@ -7392,6 +7676,42 @@
                 "=",
                 "\"grocery\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isFoodReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -7438,7 +7758,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Pizza Done Cooking"
+          "comment": "Grocery Done"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7451,7 +7771,7 @@
                 "groceryShop",
                 "\"groceryCookTime\"",
                 ">=",
-                "1"
+                "5"
               ]
             },
             {
@@ -7488,18 +7808,6 @@
             },
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "groceryFood",
-                "groceryShop.X()",
-                "groceryShop.Y() - 40",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -7513,13 +7821,25 @@
               },
               "parameters": [
                 "",
-                "debugCookDone",
-                "groceryShop.X()+10",
-                "groceryShop.Y() -40",
+                "groceryFood",
+                "groceryShop.X()",
+                "groceryShop.Y() - 40",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup grocery"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7554,6 +7874,22 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -8059,6 +8395,98 @@
               "parameters": [
                 "hasFood",
                 "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "deliverFood",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "receivedFood",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "receivedFood",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "npcOne",
                 ""
               ]
             }
