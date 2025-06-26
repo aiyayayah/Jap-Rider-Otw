@@ -691,6 +691,14 @@
         "name": "NewButton Pressed2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Tile Maps/tilemap_packed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tile Maps\\tilemap_packed2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1073,7 +1081,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6897782140104577,
+        "zoomFactor": 0.6040838749988938,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2046,10 +2054,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2533,10 +2541,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2716,6 +2724,14 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "NPC",
+            "children": [
+              {
+                "objectName": "npcOne"
+              }
+            ]
+          },
+          {
             "folderName": "debug",
             "children": [
               {
@@ -2782,9 +2798,6 @@
           },
           {
             "objectName": "restart"
-          },
-          {
-            "objectName": "npcOne"
           },
           {
             "objectName": "ChatBox"
@@ -2947,17 +2960,78 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.4633111824513977,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap2",
+          "persistentUuid": "907a0d6b-2614-46f8-99e8-81953b73aa6d",
+          "width": 0,
+          "x": -2,
+          "y": 346,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":38,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406],[433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433],[460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460]]}]}"
+            }
+          ],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "TileMap2",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\Tile Maps\\tilemap_packed2.png",
+            "rowCount": 18,
+            "columnCount": 27,
+            "tileSize": 16,
+            "tilesWithHitBox": ""
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "TileMap2"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::ElapsedTime"
+              },
+              "parameters": [
+                "House4",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
