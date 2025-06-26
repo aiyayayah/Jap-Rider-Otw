@@ -755,6 +755,470 @@
         "name": "assets\\Tile Maps\\Tiles2\\tile_0194.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "House_Topdown-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House_Topdown-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h9.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Buildings/Houses/h10.png\",\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h14.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/h17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\h17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "topdown_2d_pixel_art_small_house-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "topdown_2d_pixel_art_small_house-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topdown_2d_pixel_art_small_house-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topdown_2d_pixel_art_small_house-removebg-preview",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/topdown_2d_pixel_art_small_house-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\topdown_2d_pixel_art_small_house-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "download__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h9.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h9.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "e144b7c913b4eca9681a04c2a9964b78-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e144b7c913b4eca9681a04c2a9964b78-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_h10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\h10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/download-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\download-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_download-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\download-removebg-preview",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_download-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_download-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/3-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\3-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_3-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\3-removebg-preview",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_3-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_3-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/4-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\4-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_4-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\4-removebg-preview",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_4-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_4-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/1146000c972c87c1d9d359fe8fb73ce2839a826f.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\1146000c972c87c1d9d359fe8fb73ce2839a826f.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_h14.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h14.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/dek1lf1-611eef51-14d6-4b95-a04e-a4049b4b5648.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\dek1lf1-611eef51-14d6-4b95-a04e-a4049b4b5648.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Buildings_Houses_assets_Buildings_Houses_h17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/assets_Buildings_Houses_assets_Buildings_Houses_h17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_assets_Buildings_Houses_h17.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -804,7 +1268,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\h1.png",
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -820,20 +1284,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 434,
-                        "y": 0
+                        "x": 241,
+                        "y": 1
                       },
                       {
-                        "x": 434,
-                        "y": 715
+                        "x": 241,
+                        "y": 321
                       },
                       {
-                        "x": 0,
-                        "y": 715
+                        "x": 1,
+                        "y": 321
                       }
                     ]
                   ]
@@ -880,7 +1344,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\h2.png",
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -896,20 +1360,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 402,
-                        "y": 0
+                        "x": 241,
+                        "y": 1
                       },
                       {
-                        "x": 402,
-                        "y": 616
+                        "x": 241,
+                        "y": 321
                       },
                       {
-                        "x": 0,
-                        "y": 616
+                        "x": 1,
+                        "y": 321
                       }
                     ]
                   ]
@@ -956,7 +1420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\h3.png",
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -973,19 +1437,19 @@
                     [
                       {
                         "x": 1,
-                        "y": 0
+                        "y": 1
                       },
                       {
-                        "x": 424,
-                        "y": 0
+                        "x": 172,
+                        "y": 1
                       },
                       {
-                        "x": 424,
-                        "y": 467
+                        "x": 172,
+                        "y": 154
                       },
                       {
                         "x": 1,
-                        "y": 467
+                        "y": 154
                       }
                     ]
                   ]
@@ -1023,16 +1487,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "topdown_2d_pixel_art_small_house-removebg-preview",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\h4.png",
+                  "image": "assets\\Buildings\\Houses\\topdown_2d_pixel_art_small_house-removebg-preview.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1052,16 +1517,16 @@
                         "y": 0
                       },
                       {
-                        "x": 425,
+                        "x": 159,
                         "y": 0
                       },
                       {
-                        "x": 425,
-                        "y": 489
+                        "x": 159,
+                        "y": 218
                       },
                       {
                         "x": 1,
-                        "y": 489
+                        "y": 218
                       }
                     ]
                   ]
@@ -2346,6 +2811,1059 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 364,
+                        "y": 1
+                      },
+                      {
+                        "x": 364,
+                        "y": 442
+                      },
+                      {
+                        "x": 1,
+                        "y": 442
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 366,
+                        "y": 0
+                      },
+                      {
+                        "x": 366,
+                        "y": 375
+                      },
+                      {
+                        "x": 0,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h8",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 326,
+                        "y": 1
+                      },
+                      {
+                        "x": 326,
+                        "y": 408
+                      },
+                      {
+                        "x": 1,
+                        "y": 408
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 191,
+                        "y": 1
+                      },
+                      {
+                        "x": 191,
+                        "y": 158
+                      },
+                      {
+                        "x": 2,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h9",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h9.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 404,
+                        "y": 0
+                      },
+                      {
+                        "x": 404,
+                        "y": 484
+                      },
+                      {
+                        "x": 0,
+                        "y": 484
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House10",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\download-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_download-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 236,
+                        "y": 2
+                      },
+                      {
+                        "x": 236,
+                        "y": 242
+                      },
+                      {
+                        "x": 1,
+                        "y": 242
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\3-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_3-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 81,
+                        "y": 1
+                      },
+                      {
+                        "x": 81,
+                        "y": 81
+                      },
+                      {
+                        "x": 1,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h12",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 1
+                      },
+                      {
+                        "x": 246,
+                        "y": 326
+                      },
+                      {
+                        "x": 1,
+                        "y": 326
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House14",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h14",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h14.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 1024
+                      },
+                      {
+                        "x": 0,
+                        "y": 1024
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House13",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\4-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_4-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 89,
+                        "y": 1
+                      },
+                      {
+                        "x": 89,
+                        "y": 81
+                      },
+                      {
+                        "x": 1,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House15",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h15",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 487,
+                        "y": 0
+                      },
+                      {
+                        "x": 487,
+                        "y": 417
+                      },
+                      {
+                        "x": 0,
+                        "y": 417
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House16",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\h16",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 362,
+                        "y": 0
+                      },
+                      {
+                        "x": 362,
+                        "y": 380
+                      },
+                      {
+                        "x": 0,
+                        "y": 380
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "House17",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "hasMixedValues": true,
+          "name": "houseID",
+          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "hasOrder",
+          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "foodOrder",
+          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h17",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_assets_Buildings_Houses_h17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 208,
+                        "y": 0
+                      },
+                      {
+                        "x": 208,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2399,16 +3917,55 @@
             "folderName": "Houses",
             "children": [
               {
-                "objectName": "House4"
-              },
-              {
-                "objectName": "House3"
+                "objectName": "House1"
               },
               {
                 "objectName": "House2"
               },
               {
-                "objectName": "House1"
+                "objectName": "House3"
+              },
+              {
+                "objectName": "House4"
+              },
+              {
+                "objectName": "House5"
+              },
+              {
+                "objectName": "House6"
+              },
+              {
+                "objectName": "House7"
+              },
+              {
+                "objectName": "House8"
+              },
+              {
+                "objectName": "House9"
+              },
+              {
+                "objectName": "House10"
+              },
+              {
+                "objectName": "House11"
+              },
+              {
+                "objectName": "House12"
+              },
+              {
+                "objectName": "House13"
+              },
+              {
+                "objectName": "House14"
+              },
+              {
+                "objectName": "House15"
+              },
+              {
+                "objectName": "House16"
+              },
+              {
+                "objectName": "House17"
               }
             ]
           }
@@ -2515,7 +4072,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.4307927813134447,
+        "zoomFactor": 0.4335774304702444,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2533,6 +4090,45 @@
             },
             {
               "name": "House4"
+            },
+            {
+              "name": "House5"
+            },
+            {
+              "name": "House6"
+            },
+            {
+              "name": "House7"
+            },
+            {
+              "name": "House8"
+            },
+            {
+              "name": "House9"
+            },
+            {
+              "name": "House10"
+            },
+            {
+              "name": "House11"
+            },
+            {
+              "name": "House12"
+            },
+            {
+              "name": "House13"
+            },
+            {
+              "name": "House14"
+            },
+            {
+              "name": "House15"
+            },
+            {
+              "name": "House16"
+            },
+            {
+              "name": "House17"
             }
           ]
         },
@@ -2571,102 +4167,18 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 112,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "House1",
           "persistentUuid": "2b6dc7c8-35a4-4cf1-a0fd-0912680a0a30",
-          "width": 96,
-          "x": 48,
-          "y": 16,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "hasOrder",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "",
-          "name": "House1",
-          "persistentUuid": "7c801504-43b7-49f0-a8cb-639a397e26e4",
-          "width": 96,
+          "width": 112,
           "x": 32,
-          "y": 224,
+          "y": 240,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
-            {
-              "name": "houseID",
-              "type": "number",
-              "value": 2
-            },
-            {
-              "name": "hasOrder",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "",
-          "name": "House1",
-          "persistentUuid": "73d34f9e-2ba9-437b-9f80-fbbd2d7c4e67",
-          "width": 96,
-          "x": 336,
-          "y": 16,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "houseID",
-              "type": "number",
-              "value": 3
-            },
-            {
-              "name": "hasOrder",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "",
-          "name": "House1",
-          "persistentUuid": "cbdaa2a1-e246-4484-8431-4a322cbd4dcd",
-          "width": 96,
-          "x": 480,
-          "y": 16,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "houseID",
-              "type": "number",
-              "value": 4
-            },
             {
               "name": "hasOrder",
               "type": "boolean",
@@ -2740,8 +4252,8 @@
           "name": "pizzaShop",
           "persistentUuid": "60a3238a-a39b-440c-901b-e0b883f39183",
           "width": 144,
-          "x": 624,
-          "y": -16,
+          "x": 1312,
+          "y": -128,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2757,8 +4269,8 @@
           "name": "donutShop",
           "persistentUuid": "81971f7b-2544-4478-8e26-4e523860e2dc",
           "width": 192,
-          "x": 784,
-          "y": -48,
+          "x": 1648,
+          "y": 256,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2822,8 +4334,8 @@
           "name": "restart",
           "persistentUuid": "a50ae393-5a9d-488c-bda3-4f5efc8522c5",
           "width": 96,
-          "x": 80,
-          "y": 16,
+          "x": 48,
+          "y": 32,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2839,43 +4351,9 @@
           "name": "coffeeShop",
           "persistentUuid": "3740aabf-1c30-4e42-b51c-edf097265cd4",
           "width": 272,
-          "x": 1008,
-          "y": -37,
+          "x": 1584,
+          "y": 27,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 138,
-          "keepRatio": true,
-          "layer": "",
-          "name": "House4",
-          "persistentUuid": "a934d255-b998-4aa5-a870-f7ac8f5ec93e",
-          "width": 105,
-          "x": 352,
-          "y": 214,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "House3",
-          "persistentUuid": "49d73f51-63e8-49c3-97d4-2946322c3ced",
-          "width": 112,
-          "x": 496,
-          "y": 224,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2890,9 +4368,241 @@
           "name": "House2",
           "persistentUuid": "c30d1c34-adbf-4286-a64b-7633a144e910",
           "width": 128,
-          "x": 160,
-          "y": 192,
+          "x": 208,
+          "y": 224,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House3",
+          "persistentUuid": "7694f425-5225-4eae-972e-6f88e4da3187",
+          "width": 0,
+          "x": 387,
+          "y": 213,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 219,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House5",
+          "persistentUuid": "df552459-dcdf-4bea-8d84-ff6b60e39536",
+          "width": 208,
+          "x": 784,
+          "y": 165,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House6",
+          "persistentUuid": "c5f44e13-fa5d-483f-bf07-bba047e76a81",
+          "width": 176,
+          "x": 16,
+          "y": 441,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House7",
+          "persistentUuid": "ab6fc7f9-367b-445d-982f-7061d1e8b8dc",
+          "width": 0,
+          "x": 240,
+          "y": 449,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 218,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House8",
+          "persistentUuid": "1a61843c-692c-4708-9104-1a4095208507",
+          "width": 183,
+          "x": 473,
+          "y": 422,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 208,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House11",
+          "persistentUuid": "32878ac3-2dfc-4cef-b518-278a3982e34a",
+          "width": 192,
+          "x": 32,
+          "y": 640,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 240,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House14",
+          "persistentUuid": "7c9e5ee8-919a-487b-b1c8-36c5de63576d",
+          "width": 240,
+          "x": -320,
+          "y": 176,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House17",
+          "persistentUuid": "00eac005-240b-4ca1-815d-9c24b7c132db",
+          "width": 0,
+          "x": 832,
+          "y": 528,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House4",
+          "persistentUuid": "570baa10-eece-4ecf-909c-2d3454cb1e98",
+          "width": 0,
+          "x": 608,
+          "y": 144,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 340,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House9",
+          "persistentUuid": "bf9eaacb-4652-4a56-a5b7-9ba5c73b2fb7",
+          "width": 260,
+          "x": 1052,
+          "y": 44,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House12",
+          "persistentUuid": "c0d1487e-a911-46e0-b4cd-eae41dd674e1",
+          "width": 0,
+          "x": 752,
+          "y": 377,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House10",
+          "persistentUuid": "49ab30ab-0812-4512-84c6-290b05f739b5",
+          "width": 288,
+          "x": 1088,
+          "y": 416,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 208,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House13",
+          "persistentUuid": "3fa67367-1751-489f-8245-16b1875c75fe",
+          "width": 208,
+          "x": 288,
+          "y": 656,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House17",
+          "persistentUuid": "5e81325e-bbca-4d2b-b7ae-a4872f1c8837",
+          "width": 0,
+          "x": 528,
+          "y": 848,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2928,6 +4638,17 @@
             "tileSize": 16,
             "tilesWithHitBox": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -2938,6 +4659,9 @@
           },
           {
             "objectName": "road2"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -4377,7 +6101,7 @@
               },
               "parameters": [
                 "",
-                "1.5",
+                "1",
                 "",
                 "0"
               ]
