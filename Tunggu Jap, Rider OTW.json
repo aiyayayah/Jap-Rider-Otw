@@ -4615,14 +4615,22 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "burgerShop",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "download-removebg-preview",
@@ -4651,20 +4659,24 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 74.5,
+                        "y": 129.5
                       },
                       {
-                        "x": 443,
-                        "y": 1
+                        "x": 141,
+                        "y": 2.5
                       },
                       {
-                        "x": 443,
-                        "y": 409
+                        "x": 403,
+                        "y": 0
                       },
                       {
-                        "x": 1,
-                        "y": 409
+                        "x": 409,
+                        "y": 410
+                      },
+                      {
+                        "x": 0,
+                        "y": 406.5
                       }
                     ]
                   ]
@@ -5016,7 +5028,7 @@
       "title": "",
       "v": 255,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -5024,8 +5036,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.6897782140104621,
+        "snap": false,
+        "zoomFactor": 1.3841198046307097,
         "windowMask": false
       },
       "objectsGroups": [],
