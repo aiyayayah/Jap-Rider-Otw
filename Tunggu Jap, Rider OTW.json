@@ -1307,6 +1307,62 @@
         "name": "assets\\Buildings\\Shops\\grocery\\groceryFood.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/npc/chinese_woman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\chinese_woman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_chinese_woman.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\chinese_woman",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_chinese_woman2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\chinese_woman2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_atok.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_atok.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_atok2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_atok2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_chinese_woman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_chinese_woman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_chinese_woman2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_chinese_woman2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2406,7 +2462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\npc\\atok",
+                  "image": "assets\\npc\\assets_npc_atok.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2442,7 +2498,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\npc\\atok2",
+                  "image": "assets\\npc\\assets_npc_atok2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4091,6 +4147,110 @@
           "width": 32
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "npcTwo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "visible",
+          "persistentUuid": "4431cc0b-d79c-463c-a365-af513349ad9a",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\npc\\chinese_woman",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_chinese_woman.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 125
+                      },
+                      {
+                        "x": 0,
+                        "y": 125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_chinese_woman2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 125
+                      },
+                      {
+                        "x": 0,
+                        "y": 125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4146,10 +4306,13 @@
         ]
       },
       {
-        "folderName": "NPC",
+        "folderName": "NPCs",
         "children": [
           {
             "objectName": "npcOne"
+          },
+          {
+            "objectName": "npcTwo"
           }
         ]
       },
@@ -4248,7 +4411,78 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "NPCs",
+      "objects": [
+        {
+          "name": "ChatBox"
+        },
+        {
+          "name": "npcOne"
+        },
+        {
+          "name": "npcTwo"
+        }
+      ]
+    },
+    {
+      "name": "Houses",
+      "objects": [
+        {
+          "name": "House1"
+        },
+        {
+          "name": "House2"
+        },
+        {
+          "name": "House3"
+        },
+        {
+          "name": "House4"
+        },
+        {
+          "name": "House5"
+        },
+        {
+          "name": "House6"
+        },
+        {
+          "name": "House7"
+        },
+        {
+          "name": "House8"
+        },
+        {
+          "name": "House9"
+        },
+        {
+          "name": "House10"
+        },
+        {
+          "name": "House11"
+        },
+        {
+          "name": "House12"
+        },
+        {
+          "name": "House13"
+        },
+        {
+          "name": "House14"
+        },
+        {
+          "name": "House15"
+        },
+        {
+          "name": "House16"
+        },
+        {
+          "name": "House17"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "currentOrder",
@@ -4319,78 +4553,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.43357743047024466,
+        "zoomFactor": 0.604083874998897,
         "windowMask": false
       },
-      "objectsGroups": [
-        {
-          "name": "Houses",
-          "objects": [
-            {
-              "name": "House1"
-            },
-            {
-              "name": "House2"
-            },
-            {
-              "name": "House3"
-            },
-            {
-              "name": "House4"
-            },
-            {
-              "name": "House5"
-            },
-            {
-              "name": "House6"
-            },
-            {
-              "name": "House7"
-            },
-            {
-              "name": "House8"
-            },
-            {
-              "name": "House9"
-            },
-            {
-              "name": "House10"
-            },
-            {
-              "name": "House11"
-            },
-            {
-              "name": "House12"
-            },
-            {
-              "name": "House13"
-            },
-            {
-              "name": "House14"
-            },
-            {
-              "name": "House15"
-            },
-            {
-              "name": "House16"
-            },
-            {
-              "name": "House17"
-            }
-          ]
-        },
-        {
-          "name": "Npc One",
-          "objects": [
-            {
-              "name": "ChatBox"
-            },
-            {
-              "name": "npcOne"
-            }
-          ]
-        }
-      ],
+      "objectsGroups": [],
       "variables": [],
       "instances": [
         {
@@ -6585,7 +6751,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "npcOne",
+                "NPCs",
                 ""
               ]
             },
