@@ -4552,8 +4552,8 @@
           "name": "Player",
           "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
           "width": 32,
-          "x": 1152,
-          "y": 592,
+          "x": 736,
+          "y": 640,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -6529,13 +6529,11 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "Houses",
-                "hasOrder",
-                "False",
-                ""
+                "",
+                "\"GenerateOrder\""
               ]
             },
             {
@@ -6552,6 +6550,17 @@
               },
               "parameters": [
                 "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
               ]
             }
           ]
@@ -6573,12 +6582,13 @@
           "conditions": [
             {
               "type": {
-                "value": "TimeScale"
+                "value": "CompareTimer"
               },
               "parameters": [
                 "",
-                ">",
-                "0.5"
+                "\"GenerateOrder\"",
+                ">=",
+                "1"
               ]
             },
             {
@@ -6690,12 +6700,12 @@
             },
             {
               "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "",
                 "Houses",
-                "orderBubble",
+                "hasOrder",
+                "True",
                 ""
               ]
             },
@@ -6704,6 +6714,17 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "orderBubble",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -6807,15 +6828,6 @@
                     "hasOrder",
                     "False",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GenerateOrder\""
                   ]
                 },
                 {
