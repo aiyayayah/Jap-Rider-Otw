@@ -1395,6 +1395,46 @@
         "name": "bubble emotes july update3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/npc/indian_woman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\indian_woman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_indian_woman.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\indian_woman",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_indian_woman2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\indian_woman2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_indian_woman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_indian_woman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_indian_woman2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_indian_woman2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1524,10 +1564,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -1617,10 +1657,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -1722,10 +1762,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -1795,12 +1835,12 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 100000,
           "deceleration": 200,
           "jumpSpeed": 600,
           "maxSpeed": 100000,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -2338,7 +2378,7 @@
       "string": "0",
       "font": "assets\\Kenney Mini.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 70,
       "color": {
         "b": 0,
         "g": 0,
@@ -2362,7 +2402,7 @@
         "font": "assets\\Kenney Mini.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 70,
         "color": "0;0;0"
       }
     },
@@ -2471,7 +2511,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "npcOne",
+      "name": "npc1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3015,10 +3055,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3114,10 +3154,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3218,10 +3258,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3313,10 +3353,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3416,10 +3456,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3511,10 +3551,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3610,10 +3650,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3713,10 +3753,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3808,10 +3848,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3903,10 +3943,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -4176,10 +4216,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -4242,7 +4282,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "npcTwo",
+      "name": "npc2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4346,10 +4386,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -4467,6 +4507,391 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "npc0",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\npc\\indian_woman",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_indian_woman.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 121
+                      },
+                      {
+                        "x": 0,
+                        "y": 121
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_indian_woman2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 121
+                      },
+                      {
+                        "x": 0,
+                        "y": 121
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_npc2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_chinese_woman.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 125
+                      },
+                      {
+                        "x": 0,
+                        "y": 125
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_chinese_woman2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 0
+                      },
+                      {
+                        "x": 77,
+                        "y": 125
+                      },
+                      {
+                        "x": 0,
+                        "y": 125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_npc0",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_indian_woman.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 121
+                      },
+                      {
+                        "x": 0,
+                        "y": 121
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_indian_woman2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 121
+                      },
+                      {
+                        "x": 0,
+                        "y": 121
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_npc1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_atok.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_atok2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4525,10 +4950,22 @@
         "folderName": "NPCs",
         "children": [
           {
-            "objectName": "npcOne"
+            "objectName": "npc0"
           },
           {
-            "objectName": "npcTwo"
+            "objectName": "npc1"
+          },
+          {
+            "objectName": "npc2"
+          },
+          {
+            "objectName": "UI_npc0"
+          },
+          {
+            "objectName": "UI_npc1"
+          },
+          {
+            "objectName": "UI_npc2"
           }
         ]
       },
@@ -4758,7 +5195,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.54687500000001,
+        "zoomFactor": 0.8141881203710055,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4803,27 +5240,6 @@
               "value": false
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "road2",
-          "persistentUuid": "fdf66dea-89b8-482a-b53f-31bc085a598d",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":38,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,1,-1,-1,-1,-1,-1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,1,-1,-1,-1,-1,-1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
-            }
-          ],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -4887,8 +5303,8 @@
           "name": "requestText",
           "persistentUuid": "521cff3d-99dd-4f2c-a088-c7ba21f83149",
           "width": 1101,
-          "x": 112,
-          "y": 930,
+          "x": 320,
+          "y": 946,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -4912,14 +5328,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
           "keepRatio": true,
           "layer": "Ui Top",
           "name": "Score",
           "persistentUuid": "3414af37-0877-447f-8f59-542a61883945",
-          "width": 0,
-          "x": 16,
+          "width": 80,
+          "x": 32,
           "y": 16,
           "zOrder": 12,
           "numberProperties": [],
@@ -4936,7 +5353,7 @@
           "name": "restart",
           "persistentUuid": "a50ae393-5a9d-488c-bda3-4f5efc8522c5",
           "width": 96,
-          "x": 48,
+          "x": 128,
           "y": 32,
           "zOrder": 13,
           "numberProperties": [],
@@ -5190,6 +5607,57 @@
           "x": 1588,
           "y": -6,
           "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 176,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc2",
+          "persistentUuid": "29599644-3a4a-439d-ba31-1c3bbefe6c64",
+          "width": 157,
+          "x": 35,
+          "y": 880,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc1",
+          "persistentUuid": "242250a8-642a-490d-83a8-ab558acab5e0",
+          "width": 130,
+          "x": 48,
+          "y": 896,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 176,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc0",
+          "persistentUuid": "7fbc09b0-be88-4633-92f3-9196c02da5ab",
+          "width": 128,
+          "x": 48,
+          "y": 880,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5957,7 +6425,7 @@
           "depth": 0,
           "height": 192,
           "layer": "UI",
-          "name": "npcOne",
+          "name": "npc1",
           "persistentUuid": "61867c53-1f81-4a1b-94db-e0cf43a9cf9f",
           "width": 145,
           "x": 36,
@@ -6902,6 +7370,30 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc2"
+              ]
             }
           ]
         },
@@ -7085,7 +7577,7 @@
               "parameters": [
                 "npcID",
                 "=",
-                "RandomInRange(0,1)"
+                "RandomInRange(0,2)"
               ]
             },
             {
@@ -7152,9 +7644,18 @@
                   },
                   "parameters": [
                     "",
-                    "npcTwo",
+                    "npc0",
                     "Houses.X()",
                     "Houses.Y()+130",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc0",
                     ""
                   ]
                 },
@@ -7163,7 +7664,7 @@
                     "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "npcTwo",
+                    "npc0",
                     "Scale",
                     "=",
                     "0.5"
@@ -7252,9 +7753,18 @@
                   },
                   "parameters": [
                     "",
-                    "npcOne",
+                    "npc1",
                     "Houses.X()",
                     "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
                     ""
                   ]
                 },
@@ -7263,7 +7773,116 @@
                     "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "npcOne",
+                    "npc1",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc2",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc2",
                     "Scale",
                     "=",
                     "0.5"
@@ -8634,7 +9253,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "npcTwo",
+                    "npc0",
                     ""
                   ]
                 }
@@ -8660,7 +9279,33 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "npcOne",
+                    "npc1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc2",
                     ""
                   ]
                 }
