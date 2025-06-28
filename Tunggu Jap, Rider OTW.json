@@ -5576,15 +5576,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 74,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
-          "width": 80,
+          "width": 72,
           "x": 1408,
-          "y": 384,
-          "zOrder": 2,
+          "y": 390,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8354,6 +8354,17 @@
                 "",
                 "\"GenerateOrder\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
             }
           ]
         },
@@ -8434,17 +8445,6 @@
                 "",
                 "Houses",
                 "bubbleOrder",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Houses",
-                "hasOrder",
-                "False",
                 ""
               ]
             },
@@ -9057,7 +9057,7 @@
                 "groceryShop",
                 "\"groceryCookTime\"",
                 ">=",
-                "5"
+                "2"
               ]
             },
             {
@@ -9374,16 +9374,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "hasFood",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -9412,6 +9402,16 @@
                 "Text",
                 "=",
                 "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "False",
+                ""
               ]
             },
             {
@@ -9661,7 +9661,7 @@
                 "coffeeShop",
                 "\"coffeeCookTime\"",
                 ">=",
-                "5"
+                "2"
               ]
             },
             {
@@ -9810,7 +9810,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "groceryFood",
+                "coffeeFood",
                 ""
               ]
             },
@@ -9940,16 +9940,6 @@
             },
             {
               "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "Houses.VariableString(foodOrder)"
-              ]
-            },
-            {
-              "type": {
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
@@ -9957,6 +9947,16 @@
                 "hasOrder",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
               ]
             },
             {
