@@ -5543,6 +5543,11 @@
       "name": "coffeeIsCooking",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "orderCompleted",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -5570,7 +5575,13 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "orderCompleted",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -8365,6 +8376,16 @@
                 "=",
                 "Houses.VariableString(foodOrder)"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -9354,6 +9375,16 @@
             },
             {
               "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -9438,6 +9469,16 @@
               "parameters": [
                 "",
                 "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
               ]
             }
           ],
