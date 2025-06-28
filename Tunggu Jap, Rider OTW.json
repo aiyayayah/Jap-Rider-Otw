@@ -8299,7 +8299,7 @@
                 "Houses",
                 "foodOrder",
                 "=",
-                "GlobalVariableString(foodList[RandomInRange(2,3)])"
+                "GlobalVariableString(foodList[RandomInRange(2,2)])"
               ]
             },
             {
@@ -9203,15 +9203,6 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "groceryFood",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -9232,18 +9223,6 @@
             },
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "groceryFood",
-                "Player.X()-10",
-                "Player.Y()-20",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
@@ -9251,6 +9230,24 @@
                 "Scale",
                 "=",
                 "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
               ]
             }
           ]
