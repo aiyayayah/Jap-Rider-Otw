@@ -8995,7 +8995,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "groceryIsCooking",
+                "groceryIsReady",
                 "=",
                 ""
               ]
@@ -9005,7 +9005,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "groceryIsReady",
+                "groceryIsCooking",
                 "=",
                 ""
               ]
@@ -9051,6 +9051,16 @@
                 "groceryShop.X()",
                 "groceryShop.Y() - 30",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"grocery\""
               ]
             }
           ]
@@ -9417,8 +9427,8 @@
               },
               "parameters": [
                 "score",
-                "+",
-                "1"
+                "=",
+                "score + 1"
               ]
             },
             {
