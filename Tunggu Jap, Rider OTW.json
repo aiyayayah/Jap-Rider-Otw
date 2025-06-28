@@ -8982,6 +8982,17 @@
             },
             {
               "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "StringVariable"
               },
               "parameters": [
@@ -8995,8 +9006,8 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "groceryIsReady",
-                "=",
+                "hasFood",
+                "False",
                 ""
               ]
             },
@@ -9015,10 +9026,16 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hasFood",
-                "False",
+                "groceryIsReady",
+                "=",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -9051,16 +9068,6 @@
                 "groceryShop.X()",
                 "groceryShop.Y() - 30",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "\"grocery\""
               ]
             }
           ]
@@ -9489,6 +9496,16 @@
                 "orderCompleted",
                 "True",
                 "\"true\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
               ]
             }
           ],
