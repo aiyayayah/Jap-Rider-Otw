@@ -1447,7 +1447,7 @@
       {
         "file": "assets/Purple Button With Stone Frame_Hovered.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Purple Button With Stone Frame_Hovered.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Purple Button With Stone Frame_Hovered.png",
         "smoothed": false,
         "userAdded": false,
@@ -1633,6 +1633,68 @@
         "metadata": "",
         "name": "assets\\Tile Maps\\tilemap_packed1.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/backgroundMenu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backgroundMenu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\CaveatBrush-Regular.ttf",
         "userAdded": false
       }
     ],
@@ -7619,7 +7681,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2890516203134916,
+        "zoomFactor": 0.44485159988866513,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7646,14 +7708,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 167,
+          "height": 155,
           "keepRatio": true,
           "layer": "",
           "name": "buttonStart",
-          "persistentUuid": "73b72d55-05e0-41eb-80e1-9df0c02d9aa6",
-          "width": 464,
-          "x": 711,
-          "y": 717,
+          "persistentUuid": "ac160926-ac2f-46a7-98e2-b17b8ded9412",
+          "width": 386,
+          "x": 1093,
+          "y": 821,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7681,7 +7743,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\backgroundMenu.jpg",
+                      "image": "assets\\backgroundMenu.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7722,7 +7784,7 @@
           ]
         },
         {
-          "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
+          "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "buttonStart",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
@@ -7732,31 +7794,31 @@
           "content": {
             "LeftPadding": 0,
             "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
             "TopPadding": 0,
             "HoveredFadeOutDuration": 0.2
           },
           "childrenContent": {
             "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Purple Button With Stone Frame_Hovered.png",
+              "bottomMargin": 11,
+              "height": 64,
+              "leftMargin": 7,
+              "rightMargin": 7,
+              "texture": "Medieval Button Brown_Hovered.png",
               "tiled": false,
-              "topMargin": 0,
-              "width": 348
+              "topMargin": 7,
+              "width": 192
             },
             "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Purple Button With Stone Frame_Idle.png",
+              "bottomMargin": 11,
+              "height": 64,
+              "leftMargin": 7,
+              "rightMargin": 7,
+              "texture": "Medieval Button Brown_Idle.png",
               "tiled": false,
-              "topMargin": 0,
-              "width": 348
+              "topMargin": 7,
+              "width": 192
             },
             "Label": {
               "bold": false,
@@ -7764,13 +7826,13 @@
               "smoothed": true,
               "underlined": false,
               "string": "START",
-              "font": "assets\\Kenney Mini.ttf",
+              "font": "assets\\CaveatBrush-Regular.ttf",
               "textAlignment": "center",
-              "characterSize": 70,
+              "characterSize": 86,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 159,
+                "g": 190,
+                "r": 219
               },
               "content": {
                 "bold": false,
@@ -7787,22 +7849,22 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "START",
-                "font": "assets\\Kenney Mini.ttf",
+                "font": "assets\\CaveatBrush-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
-                "characterSize": 70,
-                "color": "255;255;255"
+                "characterSize": 86,
+                "color": "219;190;159"
               }
             },
             "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Purple Button With Stone Frame_Pressed.png",
+              "bottomMargin": 7,
+              "height": 64,
+              "leftMargin": 7,
+              "rightMargin": 7,
+              "texture": "Medieval Button Brown_Pressed.png",
               "tiled": false,
-              "topMargin": 0,
-              "width": 348
+              "topMargin": 11,
+              "width": 192
             }
           }
         }
