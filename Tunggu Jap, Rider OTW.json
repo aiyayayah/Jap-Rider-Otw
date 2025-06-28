@@ -1728,6 +1728,35 @@
         "name": "assets\\Buildings\\Shops\\coffee\\coffeeShop.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Kenney Pixel.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2480,9 +2509,9 @@
         }
       ],
       "string": "...",
-      "font": "assets\\CaveatBrush-Regular.ttf",
+      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "left",
-      "characterSize": 45,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -2503,16 +2532,16 @@
         "smoothed": true,
         "underlined": false,
         "text": "...",
-        "font": "assets\\CaveatBrush-Regular.ttf",
+        "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 45,
+        "characterSize": 60,
         "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Score",
       "smoothed": true,
@@ -2522,16 +2551,16 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "assets\\CaveatBrush-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
+      "font": "assets\\Kenney Pixel.ttf",
+      "textAlignment": "center",
+      "characterSize": 90,
       "color": {
         "b": 0,
         "g": 0,
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -2545,10 +2574,10 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "assets\\CaveatBrush-Regular.ttf",
-        "textAlignment": "left",
+        "font": "assets\\Kenney Pixel.ttf",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 90,
         "color": "0;0;0"
       }
     },
@@ -5459,7 +5488,6 @@
       "value": 0
     },
     {
-      "folded": true,
       "name": "foodList",
       "type": "array",
       "children": [
@@ -5503,6 +5531,16 @@
     },
     {
       "name": "groceryIsReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "coffeeIsReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "coffeeIsCooking",
       "type": "boolean",
       "value": false
     }
@@ -5629,13 +5667,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 97,
           "keepRatio": true,
           "layer": "Ui Top",
           "name": "Score",
           "persistentUuid": "3414af37-0877-447f-8f59-542a61883945",
-          "width": 80,
-          "x": 32,
+          "width": 125,
+          "x": 9,
           "y": 16,
           "zOrder": 12,
           "numberProperties": [],
@@ -8261,7 +8299,7 @@
                 "Houses",
                 "foodOrder",
                 "=",
-                "GlobalVariableString(foodList[RandomInRange(1, 2)])"
+                "GlobalVariableString(foodList[RandomInRange(2,3)])"
               ]
             },
             {
@@ -9540,7 +9578,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "isCooking",
+                "coffeeIsCooking",
                 "=",
                 ""
               ]
@@ -9550,7 +9588,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "isFoodReady",
+                "coffeeIsReady",
                 "=",
                 ""
               ]
@@ -9561,7 +9599,7 @@
               },
               "parameters": [
                 "hasFood",
-                "=",
+                "False",
                 ""
               ]
             }
@@ -9581,7 +9619,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "isCooking",
+                "coffeeIsCooking",
                 "True",
                 ""
               ]
@@ -9594,7 +9632,7 @@
                 "",
                 "debugCooking",
                 "coffeeShop.X()",
-                "coffeeShop.Y() - 30",
+                "coffeeShop.Y()",
                 ""
               ]
             }
@@ -9631,7 +9669,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "isCooking",
+                "coffeeIsCooking",
                 "True",
                 ""
               ]
@@ -9643,7 +9681,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "isCooking",
+                "coffeeIsCooking",
                 "False",
                 ""
               ]
@@ -9653,7 +9691,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "isFoodReady",
+                "coffeeIsReady",
                 "True",
                 ""
               ]
@@ -9744,7 +9782,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "isFoodReady",
+                "coffeeIsReady",
                 "True",
                 ""
               ]
@@ -9772,7 +9810,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "coffeeFood",
+                "groceryFood",
                 ""
               ]
             },
@@ -9781,7 +9819,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "isFoodReady",
+                "coffeeIsReady",
                 "False",
                 ""
               ]
@@ -9902,22 +9940,23 @@
             },
             {
               "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "hasFood",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "StringVariable"
               },
               "parameters": [
                 "currentOrder",
                 "=",
                 "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
               ]
             },
             {
@@ -9977,6 +10016,35 @@
                 "Text",
                 "=",
                 "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
               ]
             }
           ],
@@ -10060,6 +10128,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
