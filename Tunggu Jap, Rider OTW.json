@@ -1757,6 +1757,46 @@
         "metadata": "",
         "name": "assets\\Kenney Pixel.ttf",
         "userAdded": false
+      },
+      {
+        "file": "assets/npc/malay_woman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\malay_woman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_malay_woman.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\malay_woman",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_malay_woman2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\malay_woman2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_malay_woman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_malay_woman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/assets_npc_malay_woman2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\assets_npc_malay_woman2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4920,14 +4960,22 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "coffeeShop",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "s6-removebg-preview",
@@ -4956,16 +5004,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 6.5,
+                        "y": 107
                       },
                       {
-                        "x": 374,
-                        "y": 1
+                        "x": 100.5,
+                        "y": 7
                       },
                       {
-                        "x": 374,
-                        "y": 392
+                        "x": 311.5,
+                        "y": 5
+                      },
+                      {
+                        "x": 307.5,
+                        "y": 332
                       },
                       {
                         "x": 1,
@@ -5234,6 +5286,199 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "npc3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\npc\\malay_woman",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_malay_woman.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 131
+                      },
+                      {
+                        "x": 0,
+                        "y": 131
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_malay_woman2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 131
+                      },
+                      {
+                        "x": 0,
+                        "y": 131
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_npc3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_malay_woman.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 131
+                      },
+                      {
+                        "x": 0,
+                        "y": 131
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\assets_npc_malay_woman2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 0
+                      },
+                      {
+                        "x": 83,
+                        "y": 131
+                      },
+                      {
+                        "x": 0,
+                        "y": 131
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5298,6 +5543,9 @@
             "objectName": "npc2"
           },
           {
+            "objectName": "npc3"
+          },
+          {
             "objectName": "UI_npc0"
           },
           {
@@ -5305,6 +5553,9 @@
           },
           {
             "objectName": "UI_npc2"
+          },
+          {
+            "objectName": "UI_npc3"
           }
         ]
       },
@@ -5468,17 +5719,12 @@
       "value": "0"
     },
     {
+      "name": "orderCompleted",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "hasFood",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "isCooking",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "isFoodReady",
       "type": "boolean",
       "value": false
     },
@@ -5488,6 +5734,7 @@
       "value": 0
     },
     {
+      "folded": true,
       "name": "foodList",
       "type": "array",
       "children": [
@@ -5535,9 +5782,9 @@
       "value": false
     },
     {
-      "name": "coffeeIsReady",
-      "type": "boolean",
-      "value": false
+      "name": "hasGrocery",
+      "type": "number",
+      "value": 0
     },
     {
       "name": "coffeeIsCooking",
@@ -5545,9 +5792,14 @@
       "value": false
     },
     {
-      "name": "orderCompleted",
+      "name": "coffeeIsReady",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "hasCoffee",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -6054,6 +6306,23 @@
           "x": 1995,
           "y": 448,
           "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 204,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc3",
+          "persistentUuid": "f1e5ea55-d3f9-4a49-b9c9-92067fe85a28",
+          "width": 165,
+          "x": 27,
+          "y": 862,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8251,6 +8520,14 @@
               "parameters": [
                 "UI_npc2"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc3"
+              ]
             }
           ]
         },
@@ -8310,7 +8587,7 @@
                 "Houses",
                 "foodOrder",
                 "=",
-                "GlobalVariableString(foodList[RandomInRange(2,2)])"
+                "GlobalVariableString(foodList[RandomInRange(2,3)])"
               ]
             },
             {
@@ -8455,7 +8732,7 @@
               "parameters": [
                 "npcID",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,3)"
               ]
             },
             {
@@ -8877,6 +9154,131 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc3",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc3",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"Saya nak \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
             }
@@ -9006,7 +9408,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasGrocery",
                 "False",
                 ""
               ]
@@ -9226,7 +9628,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasGrocery",
                 "False",
                 ""
               ]
@@ -9254,20 +9656,9 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasGrocery",
                 "True",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "groceryFood",
-                "Scale",
-                "=",
-                "0.1"
               ]
             },
             {
@@ -9286,6 +9677,17 @@
                 "",
                 "Houses",
                 "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "groceryFood",
+                "Scale",
+                "=",
+                "0.1"
               ]
             }
           ]
@@ -9310,7 +9712,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasGrocery",
                 "True",
                 ""
               ]
@@ -9454,7 +9856,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasGrocery",
                 "False",
                 ""
               ]
@@ -9587,6 +9989,32 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc3",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9635,7 +10063,38 @@
               "parameters": [
                 "currentOrder",
                 "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
                 "\"coffee\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
               ]
             },
             {
@@ -9660,13 +10119,9 @@
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "hasFood",
-                "False",
-                ""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -9697,7 +10152,7 @@
                 "",
                 "debugCooking",
                 "coffeeShop.X()",
-                "coffeeShop.Y()",
+                "coffeeShop.Y() - 30",
                 ""
               ]
             }
@@ -9805,7 +10260,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player pickup coffee"
+          "comment": "Player pickup Coffee "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9857,7 +10312,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasCoffee",
                 "False",
                 ""
               ]
@@ -9870,15 +10325,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "coffeeFood",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -9894,20 +10340,8 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasCoffee",
                 "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "coffeeFood",
-                "Player.X()-10",
-                "Player.Y()-20",
                 ""
               ]
             },
@@ -9920,6 +10354,24 @@
                 "Scale",
                 "=",
                 "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
               ]
             }
           ]
@@ -9934,7 +10386,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player carry coffee"
+          "comment": "Player carry Coffee "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9944,7 +10396,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hasFood",
+                "hasCoffee",
                 "True",
                 ""
               ]
@@ -10005,6 +10457,16 @@
             },
             {
               "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
@@ -10016,12 +10478,12 @@
             },
             {
               "type": {
-                "value": "StringVariable"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "currentOrder",
-                "=",
-                "Houses.VariableString(foodOrder)"
+                "orderCompleted",
+                "False",
+                ""
               ]
             },
             {
@@ -10043,16 +10505,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "hasFood",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -10068,8 +10520,8 @@
               },
               "parameters": [
                 "score",
-                "+",
-                "1"
+                "=",
+                "score + 1"
               ]
             },
             {
@@ -10081,6 +10533,16 @@
                 "Text",
                 "=",
                 "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
               ]
             },
             {
@@ -10110,6 +10572,26 @@
               "parameters": [
                 "",
                 "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
               ]
             }
           ],
@@ -10187,6 +10669,32 @@
                   },
                   "parameters": [
                     "npc2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc3",
                     ""
                   ]
                 }
