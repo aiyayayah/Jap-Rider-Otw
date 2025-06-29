@@ -8499,6 +8499,36 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -8721,26 +8751,6 @@
                 "Houses",
                 "bubbleOrder",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "orderCompleted",
-                "False",
-                "\"\""
               ]
             }
           ],
@@ -9934,21 +9944,21 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"GenerateOrder\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
                 "orderCompleted",
                 "True",
                 "\"true\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
               ]
             }
           ],
@@ -10055,6 +10065,22 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
               ]
             }
           ]
@@ -10635,16 +10661,6 @@
                 "",
                 "\"GenerateOrder\""
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "npcID",
-                "=",
-                "-1"
-              ]
             }
           ],
           "events": [
@@ -10757,7 +10773,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -11036,15 +11063,6 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "bakeryFood",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -11065,18 +11083,6 @@
             },
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "bakeryFood",
-                "Player.X()-10",
-                "Player.Y()-20",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
@@ -11084,6 +11090,24 @@
                 "Scale",
                 "=",
                 "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
               ]
             }
           ]
@@ -11300,12 +11324,12 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "npcID",
-                "=",
-                "-1"
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
               ]
             },
             {
@@ -11315,16 +11339,6 @@
               "parameters": [
                 "",
                 "\"GenerateOrder\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "orderCompleted",
-                "True",
-                "\"true\"\n"
               ]
             }
           ],
@@ -11431,6 +11445,22 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
               ]
             }
           ]
