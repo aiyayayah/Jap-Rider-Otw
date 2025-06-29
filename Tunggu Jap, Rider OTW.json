@@ -8804,6 +8804,16 @@
                 "bubbleOrder",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\"\n"
+              ]
             }
           ],
           "actions": [
@@ -8819,6 +8829,17 @@
             },
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
                 "value": "LinkedObjects::PickObjectsLinkedTo"
               },
               "parameters": [
@@ -8830,22 +8851,22 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "Houses.VariableString(foodOrder)"
-              ]
-            },
-            {
-              "type": {
                 "value": "LinkedObjects::LinkObjects"
               },
               "parameters": [
                 "",
                 "Houses",
                 "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
               ]
             },
             {
@@ -9996,11 +10017,43 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
                 "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             }
           ],
@@ -10114,35 +10167,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "npcID",
-                "=",
-                "-1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },
@@ -10709,11 +10734,43 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
                 "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             }
           ],
@@ -10827,35 +10884,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "npcID",
-                "=",
-                "-1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },
