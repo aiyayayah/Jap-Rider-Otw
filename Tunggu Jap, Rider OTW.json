@@ -9783,17 +9783,6 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Houses",
-                "hasOrder",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BooleanVariable"
               },
               "parameters": [
@@ -9814,11 +9803,23 @@
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "coffeeIsReady",
+                "Houses",
+                "hasOrder",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Player.X()",
+                "Player.Y()",
                 ""
               ]
             },
@@ -9877,16 +9878,6 @@
               },
               "parameters": [
                 "hasCoffee",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsReady",
                 "False",
                 ""
               ]
@@ -10477,17 +10468,6 @@
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Houses",
-                "hasOrder",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BooleanVariable"
               },
               "parameters": [
@@ -10501,18 +10481,30 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "groceryIsReady",
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
                 "True",
                 ""
               ]
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "PickNearest"
               },
               "parameters": [
-                "orderCompleted",
-                "False",
+                "groceryFood",
+                "Player.X()",
+                "Player.Y()",
                 ""
               ]
             },
@@ -10571,16 +10563,6 @@
               },
               "parameters": [
                 "hasGrocery",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "groceryIsReady",
                 "False",
                 ""
               ]
@@ -11157,12 +11139,43 @@
             },
             {
               "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasFood",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
                 "Houses",
                 "hasOrder",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "bakeryFood",
+                "Player.X()",
+                "Player.Y()",
                 ""
               ]
             },
@@ -11185,16 +11198,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "hasFood",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -11210,8 +11213,8 @@
               },
               "parameters": [
                 "score",
-                "+",
-                "1"
+                "=",
+                "score + 1"
               ]
             },
             {
@@ -11230,7 +11233,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "bakeryIsReady",
+                "hasFood",
                 "False",
                 ""
               ]
@@ -11243,6 +11246,35 @@
                 "bakeryIsCooking",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
               ]
             }
           ],
