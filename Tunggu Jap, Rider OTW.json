@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 233,
+    "build": 231,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2726,10 +2726,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "npc1",
+      "name": "npc2",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "orderRecieved",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -4205,10 +4216,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "npc2",
+      "name": "npc3",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "orderRecieved",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -4434,10 +4456,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "npc0",
+      "name": "npc1",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "orderRecieved",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -4531,7 +4564,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "UI_npc2",
+      "name": "UI_npc3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4627,7 +4660,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "UI_npc0",
+      "name": "UI_npc1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4723,7 +4756,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "UI_npc1",
+      "name": "UI_npc2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5290,10 +5323,21 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "npc3",
+      "name": "npc4",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "orderRecieved",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 4
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5387,7 +5431,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "UI_npc3",
+      "name": "UI_npc4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5576,9 +5620,6 @@
         "folderName": "NPCs",
         "children": [
           {
-            "objectName": "npc0"
-          },
-          {
             "objectName": "npc1"
           },
           {
@@ -5588,7 +5629,7 @@
             "objectName": "npc3"
           },
           {
-            "objectName": "UI_npc0"
+            "objectName": "npc4"
           },
           {
             "objectName": "UI_npc1"
@@ -5598,6 +5639,9 @@
           },
           {
             "objectName": "UI_npc3"
+          },
+          {
+            "objectName": "UI_npc4"
           }
         ]
       },
@@ -5755,6 +5799,23 @@
           "name": "House17"
         }
       ]
+    },
+    {
+      "name": "Npcs",
+      "objects": [
+        {
+          "name": "npc2"
+        },
+        {
+          "name": "npc4"
+        },
+        {
+          "name": "npc3"
+        },
+        {
+          "name": "npc1"
+        }
+      ]
     }
   ],
   "variables": [
@@ -5845,6 +5906,11 @@
       "name": "hasCoffee",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "orderRequestNum",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -5868,10 +5934,28 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827591444,
+        "zoomFactor": 0.2725359896772985,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "NPC",
+          "objects": [
+            {
+              "name": "npc2"
+            },
+            {
+              "name": "npc3"
+            },
+            {
+              "name": "npc1"
+            },
+            {
+              "name": "npc4"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "orderCompleted",
@@ -5890,8 +5974,8 @@
           "name": "Player",
           "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
           "width": 72,
-          "x": 1408,
-          "y": 390,
+          "x": 760,
+          "y": 340,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -6263,7 +6347,7 @@
           "height": 176,
           "keepRatio": true,
           "layer": "Ui Top",
-          "name": "UI_npc2",
+          "name": "UI_npc3",
           "persistentUuid": "29599644-3a4a-439d-ba31-1c3bbefe6c64",
           "width": 157,
           "x": 35,
@@ -6280,7 +6364,7 @@
           "height": 160,
           "keepRatio": true,
           "layer": "Ui Top",
-          "name": "UI_npc1",
+          "name": "UI_npc2",
           "persistentUuid": "242250a8-642a-490d-83a8-ab558acab5e0",
           "width": 130,
           "x": 62,
@@ -6297,7 +6381,7 @@
           "height": 176,
           "keepRatio": true,
           "layer": "Ui Top",
-          "name": "UI_npc0",
+          "name": "UI_npc1",
           "persistentUuid": "7fbc09b0-be88-4633-92f3-9196c02da5ab",
           "width": 128,
           "x": 48,
@@ -6362,7 +6446,7 @@
           "height": 204,
           "keepRatio": true,
           "layer": "Ui Top",
-          "name": "UI_npc3",
+          "name": "UI_npc4",
           "persistentUuid": "f1e5ea55-d3f9-4a49-b9c9-92067fe85a28",
           "width": 165,
           "x": 27,
@@ -6454,6 +6538,615 @@
             "includeConfig": 0
           },
           "target": "generateOrder"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "buttons"
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Ui Top",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "test",
+      "name": "test",
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3553434558817057,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "orderCompleted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "maxOrder",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "houseOrder",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "npcOrder",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "foodOrder",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
+          "width": 72,
+          "x": 923,
+          "y": 410,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House1",
+          "persistentUuid": "2b6dc7c8-35a4-4cf1-a0fd-0912680a0a30",
+          "width": 112,
+          "x": 958,
+          "y": 193,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "hasOrder",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "ChatBox",
+          "opacity": 191,
+          "persistentUuid": "b998a356-dc3a-4624-8e7f-d13f487f3f63",
+          "width": 1920,
+          "x": 0,
+          "y": 832,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "requestText",
+          "persistentUuid": "521cff3d-99dd-4f2c-a088-c7ba21f83149",
+          "width": 1101,
+          "x": 320,
+          "y": 946,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "debugRequest",
+          "persistentUuid": "077fe116-a97e-4161-83b0-c67d0192b9cd",
+          "width": 0,
+          "x": 80,
+          "y": 413,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "Score",
+          "persistentUuid": "3414af37-0877-447f-8f59-542a61883945",
+          "width": 125,
+          "x": 9,
+          "y": 16,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "restart",
+          "persistentUuid": "a50ae393-5a9d-488c-bda3-4f5efc8522c5",
+          "width": 96,
+          "x": 128,
+          "y": 32,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House2",
+          "persistentUuid": "c30d1c34-adbf-4286-a64b-7633a144e910",
+          "width": 128,
+          "x": 926,
+          "y": 632,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House3",
+          "persistentUuid": "7694f425-5225-4eae-972e-6f88e4da3187",
+          "width": 0,
+          "x": 571,
+          "y": 464,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House4",
+          "persistentUuid": "570baa10-eece-4ecf-909c-2d3454cb1e98",
+          "width": 0,
+          "x": 1216,
+          "y": 453,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "groceryShop",
+          "persistentUuid": "383095dd-ffd1-4fe0-9aca-38714e9cf94b",
+          "width": 0,
+          "x": 1588,
+          "y": -6,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 176,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc3",
+          "persistentUuid": "29599644-3a4a-439d-ba31-1c3bbefe6c64",
+          "width": 157,
+          "x": 35,
+          "y": 880,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc2",
+          "persistentUuid": "242250a8-642a-490d-83a8-ab558acab5e0",
+          "width": 130,
+          "x": 62,
+          "y": 912,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 176,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc1",
+          "persistentUuid": "7fbc09b0-be88-4633-92f3-9196c02da5ab",
+          "width": 128,
+          "x": 48,
+          "y": 896,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bakeryShop",
+          "persistentUuid": "46ffb448-98aa-491f-9540-69246ed84832",
+          "width": 0,
+          "x": 1949,
+          "y": -75,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "burgerShop",
+          "persistentUuid": "e0436dd2-4b91-4abf-8bda-39c12bf6515f",
+          "width": 0,
+          "x": 2394,
+          "y": -61,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coffeeShop",
+          "persistentUuid": "203e9c50-13a8-4036-a2be-d8fc338c4229",
+          "width": 0,
+          "x": 1995,
+          "y": 448,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 204,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "UI_npc4",
+          "persistentUuid": "f1e5ea55-d3f9-4a49-b9c9-92067fe85a28",
+          "width": 165,
+          "x": 27,
+          "y": 862,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 124,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "debugNPC",
+          "persistentUuid": "712f41c4-5d98-495d-98f9-ac3cd3654568",
+          "width": 571,
+          "x": 124,
+          "y": 312,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "road",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\road\\road.png",
+            "rowCount": 64,
+            "columnCount": 64,
+            "tileSize": 16,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "road2",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "New image",
+            "rowCount": 2,
+            "columnCount": 2,
+            "tileSize": 16,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "road"
+          },
+          {
+            "objectName": "road2"
+          },
+          {
+            "objectName": "NewBBText"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "cameraSetting"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "playerMovement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "newGenerateOrderCCP"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -7159,7 +7852,7 @@
           "depth": 0,
           "height": 176,
           "layer": "UI Top",
-          "name": "UI_npc1",
+          "name": "UI_npc2",
           "persistentUuid": "7ead747e-7bb8-486c-a7a7-ca176e505b94",
           "width": 128,
           "x": 60,
@@ -7208,7 +7901,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "npc0",
+          "name": "npc1",
           "persistentUuid": "8e9a932a-6d1c-4abe-98c0-7081d4ac7c88",
           "width": 0,
           "x": 85,
@@ -7633,7 +8326,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2467258695740703,
+        "zoomFactor": 0.2160739732387611,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8574,14 +9267,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "UI_npc0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "UI_npc1"
               ]
             },
@@ -8599,6 +9284,14 @@
               },
               "parameters": [
                 "UI_npc3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc4"
               ]
             }
           ]
@@ -8751,6 +9444,1587 @@
           "comment": "Player accept order"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bubbleOrder",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "bubbleOrder",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\"\n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "RandomInRange(0,3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"DEFAUT npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "bubbleOrder",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleOrder",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc1",
+                    "Houses.X()",
+                    "Houses.Y()+130",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc1",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Yo! \" + \"I want \" + Houses.VariableString(foodOrder) + \"-ASAP. Got a meeting in 10\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc2",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc2",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc3",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc3",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc4",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc4",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"Saya nak \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Food"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "grocery"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "bakery"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "coffee"
+        }
+      ]
+    },
+    {
+      "associatedLayout": "test",
+      "name": "generateOrderCCP",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Generate order"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Houses"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "<",
+                "maxOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(2,3)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "bubbleOrder",
+                "Houses.X()",
+                "Houses.Y()-30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "bubbleOrder",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "bubbleOrder",
+                "Houses"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player accept order"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "bubbleOrder",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\"\n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "RandomInRange(0,3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"DEFAUT npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "bubbleOrder",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleOrder",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc0",
+                    "Houses.X()",
+                    "Houses.Y()+130",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc0",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Yo! \" + \"I want \" + Houses.VariableString(foodOrder) + \"-ASAP. Got a meeting in 10\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc1",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc1",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc2",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc2",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc3",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc3",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"Saya nak \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9408,7 +11682,1758 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "coffee"
+          "target": "coffeeCCP"
+        }
+      ]
+    },
+    {
+      "associatedLayout": "test",
+      "name": "newGenerateOrderCCP",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Generate order (House, NPC, Food)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Houses"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "<",
+                "maxOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(2,3)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(2,3)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Show Order"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "bubbleOrder",
+                "Houses.X()",
+                "Houses.Y()-30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "bubbleOrder",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Houses"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "<",
+                "maxOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(2,3)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "bubbleOrder",
+                "Houses.X()",
+                "Houses.Y()-30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "bubbleOrder",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "bubbleOrder",
+                "Houses"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player accept order"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\"\n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "RandomInRange(0,3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"DEFAUT npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleOrder",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcOrder",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc0",
+                    "Houses.X()",
+                    "Houses.Y()+130",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc0",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Yo! \" + \"I want \" + Houses.VariableString(foodOrder) + \"-ASAP. Got a meeting in 10\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc1",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc1",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc2",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc2",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc3",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc3",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"Saya nak \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bubbleOrder",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "bubbleOrder",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\"\n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "RandomInRange(0,3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"DEFAUT npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "bubbleOrder",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleOrder",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc0",
+                    "Houses.X()",
+                    "Houses.Y()+130",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc0",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Yo! \" + \"I want \" + Houses.VariableString(foodOrder) + \"-ASAP. Got a meeting in 10\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc1",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc1",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc2",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc2",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "npc3",
+                    "Houses.X()",
+                    "Houses.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "npc3",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"Saya nak \" + Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Food"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "grocery"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "bakery"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "coffeeCCP"
         }
       ]
     },
@@ -9699,7 +13724,7 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
@@ -9987,16 +14012,6 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -10007,12 +14022,12 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "npcID",
+                "currentOrder",
                 "=",
-                "-1"
+                "\"\""
               ]
             },
             {
@@ -10033,6 +14048,828 @@
                 "Text",
                 "=",
                 "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "coffeeCCP",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at Coffee Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"coffee\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "coffeeShop",
+                "\"coffeeCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "coffeeShop.X()",
+                "coffeeShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Coffee Done"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "coffeeShop",
+                "\"coffeeCookTime\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "coffeeFood",
+                "coffeeShop.X()",
+                "coffeeShop.Y() - 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup Coffee "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player carry grocery"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "coffeeFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "coffeeFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "score + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::RemoveLinkBetween"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Houses"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChatBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
               ]
             }
           ],
@@ -10063,6 +14900,14 @@
                 },
                 {
                   "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -10070,6 +14915,16 @@
                     "Text",
                     "=",
                     "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
                   ]
                 }
               ]
@@ -10100,6 +14955,14 @@
                 },
                 {
                   "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -10107,6 +14970,16 @@
                     "Text",
                     "=",
                     "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
                   ]
                 }
               ]
@@ -10137,6 +15010,14 @@
                 },
                 {
                   "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -10144,6 +15025,16 @@
                     "Text",
                     "=",
                     "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
                   ]
                 }
               ]
@@ -10174,6 +15065,14 @@
                 },
                 {
                   "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_npc3"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -10182,15 +15081,20 @@
                     "=",
                     "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -14117,12 +19021,18 @@
               "value": "1",
               "type": "Number",
               "label": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "String",
               "label": "Joystick name",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "JoystickIdentifier"
             },
             {
@@ -14130,12 +19040,17 @@
               "type": "Number",
               "label": "Dead zone radius (range: 0 to 1)",
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
+              "group": "",
+              "extraInformation": [],
               "name": "DeadZoneRadius"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Joystick angle (range: -180 to 180)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "JoystickAngle"
             },
@@ -14143,6 +19058,9 @@
               "value": "0",
               "type": "Number",
               "label": "Joystick force (range: 0 to 1)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "JoystickForce"
             },
@@ -14150,6 +19068,9 @@
               "value": "0",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -14157,6 +19078,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TouchIndex"
             }
@@ -14539,18 +19463,27 @@
               "value": "1",
               "type": "Number",
               "label": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "A",
               "type": "String",
               "label": "Button identifier",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "ButtonIdentifier"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "TouchID",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -14558,6 +19491,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TouchIndex"
             },
@@ -14565,6 +19501,9 @@
               "value": "",
               "type": "Boolean",
               "label": "Button released",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "IsReleased"
             }
@@ -14753,6 +19692,8 @@
               "value": "",
               "type": "Behavior",
               "label": "Platform character behavior",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
@@ -14762,12 +19703,16 @@
               "value": "1",
               "type": "Number",
               "label": "Controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "Choice",
               "label": "Joystick name",
+              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Primary",
@@ -14779,7 +19724,9 @@
               "value": "A",
               "type": "String",
               "label": "Jump button name",
+              "description": "",
               "group": "Controls",
+              "extraInformation": [],
               "name": "JumpButton"
             }
           ],
@@ -15303,6 +20250,8 @@
               "value": "",
               "type": "Behavior",
               "label": "Top-down movement behavior",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
@@ -15312,12 +20261,17 @@
               "value": "1",
               "type": "Number",
               "label": "Controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "Choice",
               "label": "Joystick name",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "Primary",
                 "Secondary"
@@ -15328,6 +20282,7 @@
               "value": "Analog",
               "type": "Choice",
               "label": "Stick mode",
+              "description": "",
               "group": "Controls",
               "extraInformation": [
                 "Analog",
@@ -16345,12 +21300,17 @@
               "value": "1",
               "type": "Number",
               "label": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "ControllerIdentifier"
             },
             {
               "value": "Primary",
               "type": "Choice",
               "label": "Joystick name",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "Primary",
                 "Secondary"
@@ -16362,6 +21322,8 @@
               "type": "Number",
               "label": "Dead zone radius (range: 0 to 1)",
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
+              "group": "",
+              "extraInformation": [],
               "name": "DeadZoneRadius"
             },
             {
@@ -16369,6 +21331,7 @@
               "type": "String",
               "label": "",
               "description": "Only used by the scene editor.",
+              "group": "",
               "extraInformation": [
                 "Thumb"
               ],
@@ -16380,6 +21343,8 @@
               "type": "Number",
               "label": "",
               "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ThumbAnchorTarget"
             },
@@ -16388,6 +21353,7 @@
               "type": "Boolean",
               "label": "",
               "description": "Only used by the scene editor.",
+              "group": "",
               "extraInformation": [
                 "Thumb"
               ],
@@ -16399,6 +21365,8 @@
               "type": "String",
               "label": "",
               "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ParentOrigin"
             }
@@ -20934,40 +25902,54 @@
               "value": "0.9",
               "type": "Number",
               "label": "Leftward catch-up speed (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "LeftwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Rightward catch-up speed (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "RightwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Upward catch-up speed (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "UpwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Downward catch-up speed (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "DownwardSpeed"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Follow on X axis",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "FollowOnX"
             },
             {
               "value": "true",
               "type": "Boolean",
               "label": "Follow on Y axis",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "FollowOnY"
             },
             {
@@ -20975,7 +25957,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area left border",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaLeft"
             },
@@ -20984,7 +25968,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area right border",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaRight"
             },
@@ -20993,7 +25979,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area top border",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaTop"
             },
@@ -21002,7 +25990,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area bottom border",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "advanced": true,
               "name": "FollowFreeAreaBottom"
             },
@@ -21011,7 +26001,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Camera offset X",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "advanced": true,
               "name": "CameraOffsetX"
             },
@@ -21020,7 +26012,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Camera offset Y",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "advanced": true,
               "name": "CameraOffsetY"
             },
@@ -21029,7 +26023,9 @@
               "type": "Number",
               "unit": "Second",
               "label": "Camera delay",
+              "description": "",
               "group": "Timing",
+              "extraInformation": [],
               "deprecated": true,
               "name": "CameraDelay"
             },
@@ -21038,7 +26034,9 @@
               "type": "Number",
               "unit": "Second",
               "label": "Forecast time",
+              "description": "",
               "group": "Timing",
+              "extraInformation": [],
               "deprecated": true,
               "name": "ForecastTime"
             },
@@ -21047,7 +26045,9 @@
               "type": "Number",
               "unit": "Second",
               "label": "Forecast history duration",
+              "description": "",
               "group": "Timing",
+              "extraInformation": [],
               "deprecated": true,
               "name": "ForecastHistoryDuration"
             },
@@ -21055,6 +26055,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "LogLeftwardSpeed"
             },
@@ -21062,6 +26065,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "LogRightwardSpeed"
             },
@@ -21069,6 +26075,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "LogDownwardSpeed"
             },
@@ -21076,6 +26085,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "LogUpwardSpeed"
             },
@@ -21083,6 +26095,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "DelayedCenterX"
             },
@@ -21090,6 +26105,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "DelayedCenterY"
             },
@@ -21097,6 +26115,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryMeanX"
             },
@@ -21104,6 +26125,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryMeanY"
             },
@@ -21111,6 +26135,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryVarianceX"
             },
@@ -21118,6 +26145,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryCovariance"
             },
@@ -21125,6 +26155,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryLinearA"
             },
@@ -21132,6 +26165,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryLinearB"
             },
@@ -21139,6 +26175,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastedX"
             },
@@ -21146,6 +26185,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastedY"
             },
@@ -21153,6 +26195,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedNewestX"
             },
@@ -21160,6 +26205,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedNewestY"
             },
@@ -21167,6 +26215,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedOldestX"
             },
@@ -21174,6 +26225,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ProjectedOldestY"
             },
@@ -21181,6 +26235,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ForecastHistoryVarianceY"
             },
@@ -21188,6 +26245,9 @@
               "value": "",
               "type": "Number",
               "label": "Index (local variable)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             },
@@ -21195,6 +26255,9 @@
               "value": "0",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "CameraDelayCatchUpSpeed"
             },
@@ -21202,6 +26265,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "CameraExtraDelay"
             },
@@ -21209,6 +26275,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "WaitingSpeedXMax"
             },
@@ -21216,6 +26285,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "WaitingSpeedYMax"
             },
@@ -21223,6 +26295,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "WaitingEnd"
             },
@@ -21230,6 +26305,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "CameraDelayCatchUpDuration"
             },
@@ -21238,7 +26316,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Leftward maximum speed",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "advanced": true,
               "name": "LeftwardSpeedMax"
             },
@@ -21247,7 +26327,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Rightward maximum speed",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "advanced": true,
               "name": "RightwardSpeedMax"
             },
@@ -21256,7 +26338,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Upward maximum speed",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "advanced": true,
               "name": "UpwardSpeedMax"
             },
@@ -21265,7 +26349,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Downward maximum speed",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "advanced": true,
               "name": "DownwardSpeedMax"
             },
@@ -21273,6 +26359,9 @@
               "value": "",
               "type": "Number",
               "label": "OldX (local variable)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "OldX"
             },
@@ -21280,6 +26369,9 @@
               "value": "",
               "type": "Number",
               "label": "OldY (local variable)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "OldY"
             },
@@ -21287,6 +26379,9 @@
               "value": "",
               "type": "Boolean",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "IsCalledManually"
             }
@@ -21519,6 +26614,8 @@
               "value": "",
               "type": "Behavior",
               "label": "Platformer character behavior",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
@@ -21528,6 +26625,8 @@
               "value": "",
               "type": "Behavior",
               "label": "Smooth camera behavior",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
@@ -21537,6 +26636,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "JumpOriginY"
             },
@@ -21545,7 +26647,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area top in the air",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "name": "AirFollowFreeAreaTop"
             },
             {
@@ -21553,7 +26657,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area bottom in the air",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "name": "AirFollowFreeAreaBottom"
             },
             {
@@ -21561,7 +26667,9 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area top on the floor",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "name": "FloorFollowFreeAreaTop"
             },
             {
@@ -21569,35 +26677,45 @@
               "type": "Number",
               "unit": "Pixel",
               "label": "Follow free area bottom on the floor",
+              "description": "",
               "group": "Position",
+              "extraInformation": [],
               "name": "FloorFollowFreeAreaBottom"
             },
             {
               "value": "0.95",
               "type": "Number",
               "label": "Upward speed in the air (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "AirUpwardSpeed"
             },
             {
               "value": "0.95",
               "type": "Number",
               "label": "Downward speed in the air (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "AirDownwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Upward speed on the floor (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "FloorUpwardSpeed"
             },
             {
               "value": "0.9",
               "type": "Number",
               "label": "Downward speed on the floor (in ratio per second)",
+              "description": "",
               "group": "Catch-up speed",
+              "extraInformation": [],
               "name": "FloorDownwardSpeed"
             },
             {
@@ -21605,7 +26723,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Upward maximum speed in the air",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "name": "AirUpwardSpeedMax"
             },
             {
@@ -21613,7 +26733,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Downward maximum speed in the air",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "name": "AirDownwardSpeedMax"
             },
             {
@@ -21621,7 +26743,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Upward maximum speed on the floor",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "name": "FloorUpwardSpeedMax"
             },
             {
@@ -21629,7 +26753,9 @@
               "type": "Number",
               "unit": "PixelSpeed",
               "label": "Downward maximum speed on the floor",
+              "description": "",
               "group": "Maximum speed",
+              "extraInformation": [],
               "name": "FloorDownwardSpeedMax"
             }
           ],
@@ -22266,12 +27392,18 @@
               "value": "",
               "type": "Boolean",
               "label": "Only follow the position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "OnlyFollowPosition"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "Destroy when the object it's stuck on is destroyed",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "IsDestroyedWithParent"
             }
           ],
@@ -23400,6 +28532,8 @@
               "type": "Boolean",
               "label": "",
               "description": "Should check hovering",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "ShouldCheckHovering"
             },
@@ -23407,6 +28541,8 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "Idle",
                 "Hovered",
@@ -23421,6 +28557,9 @@
               "value": "0",
               "type": "Number",
               "label": "Touch id",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -23428,6 +28567,9 @@
               "value": "",
               "type": "Boolean",
               "label": "Touch is inside",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TouchIsInside"
             },
@@ -23435,6 +28577,9 @@
               "value": "",
               "type": "Boolean",
               "label": "Mouse is inside",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "MouseIsInside"
             },
@@ -23442,6 +28587,9 @@
               "value": "",
               "type": "Number",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             }
@@ -24934,12 +30082,16 @@
               "value": "0",
               "type": "Number",
               "label": "Label offset on Y axis when pressed",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "PressedLabelOffsetY"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Left padding",
+              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -24950,6 +30102,7 @@
               "value": "0",
               "type": "Number",
               "label": "Right padding",
+              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -24960,6 +30113,7 @@
               "value": "0",
               "type": "Number",
               "label": "Top padding",
+              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -24970,6 +30124,7 @@
               "value": "0",
               "type": "Number",
               "label": "Bottom padding",
+              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -24980,6 +30135,9 @@
               "value": "0.25",
               "type": "Number",
               "label": "Hovered fade out duration (in seconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "HoveredFadeOutDuration"
             }
           ],
@@ -25960,6 +31118,8 @@
               "value": "",
               "type": "Behavior",
               "label": "Text capability",
+              "description": "",
+              "group": "",
               "extraInformation": [
                 "TextContainerCapability::TextContainerBehavior"
               ],
@@ -25970,12 +31130,18 @@
               "type": "Number",
               "unit": "Second",
               "label": "Time between characters",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "name": "Interval"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "Detect if a new text character was just displayed",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "CharacterJustAdded"
             },
@@ -25983,6 +31149,9 @@
               "value": "",
               "type": "String",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "FullText"
             },
@@ -25990,6 +31159,9 @@
               "value": "",
               "type": "String",
               "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
               "hidden": true,
               "name": "TypedText"
             }
