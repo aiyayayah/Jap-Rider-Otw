@@ -8722,6 +8722,26 @@
                 "bubbleOrder",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                "\"\""
+              ]
             }
           ],
           "actions": [
@@ -9920,6 +9940,16 @@
                 "",
                 "\"GenerateOrder\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
+              ]
             }
           ],
           "events": [
@@ -10605,6 +10635,16 @@
                 "",
                 "\"GenerateOrder\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
+              ]
             }
           ],
           "events": [
@@ -11260,12 +11300,12 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "orderCompleted",
-                "True",
-                "\"true\"\n"
+                "npcID",
+                "=",
+                "-1"
               ]
             },
             {
@@ -11275,6 +11315,16 @@
               "parameters": [
                 "",
                 "\"GenerateOrder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
               ]
             }
           ],
@@ -11352,6 +11402,32 @@
                   },
                   "parameters": [
                     "npc2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc3",
                     ""
                   ]
                 }
