@@ -5816,6 +5816,23 @@
           "name": "npc1"
         }
       ]
+    },
+    {
+      "name": "UI_npcs",
+      "objects": [
+        {
+          "name": "UI_npc3"
+        },
+        {
+          "name": "UI_npc1"
+        },
+        {
+          "name": "UI_npc2"
+        },
+        {
+          "name": "UI_npc4"
+        }
+      ]
     }
   ],
   "variables": [
@@ -6735,6 +6752,11 @@
           "name": "foodOrder",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "statusOrder",
+          "type": "string",
+          "value": "free"
         }
       ],
       "instances": [
@@ -11764,14 +11786,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "UI_npc0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "UI_npc1"
               ]
             },
@@ -11789,6 +11803,14 @@
               },
               "parameters": [
                 "UI_npc3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npc4"
               ]
             }
           ]
@@ -11945,6 +11967,22 @@
                 "=",
                 "houseOrder"
               ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -12237,23 +12275,13 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "npcID",
-                "=",
-                "RandomInRange(0,3)"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "debugNPC",
                 "Text",
                 "=",
-                "\"DEFAUT npcID = \" + ToString(GlobalVariable(npcID))\n"
+                "\"DEFAUT npcID = \" + npcOrder"
               ]
             },
             {
@@ -12273,6 +12301,16 @@
               "parameters": [
                 "bubbleOrder",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
               ]
             }
           ],
@@ -12294,128 +12332,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "CreateByName"
                   },
                   "parameters": [
                     "",
-                    "npc0",
+                    "Npcs",
+                    "\"npc\" + npcOrder",
                     "Houses.X()",
                     "Houses.Y()+130",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "UI_npc0",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "npc0",
-                    "Scale",
-                    "=",
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Houses",
-                    "hasOrder",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "currentOrder",
-                    "=",
-                    "Houses.VariableString(foodOrder)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ChatBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "requestText",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "requestText",
-                    "Text",
-                    "=",
-                    "\"Yo! \" + \"I want \" + Houses.VariableString(foodOrder) + \"-ASAP. Got a meeting in 10\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "UI_npc0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "npc1",
-                    "Houses.X()",
-                    "Houses.Y()",
                     ""
                   ]
                 },
@@ -12433,7 +12357,7 @@
                     "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "npc1",
+                    "Npcs",
                     "Scale",
                     "=",
                     "0.5"
@@ -12486,33 +12410,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "Houses",
-                    "Player"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "UI_npc1"
+                    "\"Yo! \" + \"I want \" + foodOrder+ \" -ASAP. Got a meeting in 10\""
                   ]
                 }
               ]
@@ -12525,22 +12423,23 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "npcID",
+                    "npcOrder",
                     "=",
-                    "3"
+                    "2"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "CreateByName"
                   },
                   "parameters": [
                     "",
-                    "npc2",
+                    "Npcs",
+                    "\"npc\" + npcOrder",
                     "Houses.X()",
-                    "Houses.Y()",
+                    "Houses.Y()+130",
                     ""
                   ]
                 },
@@ -12558,7 +12457,7 @@
                     "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "npc2",
+                    "Npcs",
                     "Scale",
                     "=",
                     "0.5"
@@ -12611,7 +12510,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Hey \" + \"I want \" + Houses.VariableString(foodOrder)"
+                    "\"Hey \" + \"I want \" + foodOrder"
                   ]
                 },
                 {
@@ -12622,22 +12521,6 @@
                     "",
                     "Houses",
                     "Player"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "UI_npc2"
                   ]
                 }
               ]
@@ -12650,22 +12533,23 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "npcID",
+                    "npcOrder",
                     "=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "CreateByName"
                   },
                   "parameters": [
                     "",
-                    "npc3",
+                    "Npcs",
+                    "\"npc\" + npcOrder",
                     "Houses.X()",
-                    "Houses.Y()",
+                    "Houses.Y()+130",
                     ""
                   ]
                 },
@@ -12683,7 +12567,7 @@
                     "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "npc3",
+                    "Npcs",
                     "Scale",
                     "=",
                     "0.5"
@@ -12736,7 +12620,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Hey \" + \"Saya nak \" + Houses.VariableString(foodOrder)"
+                    "\"Hey \" + \"I want \" + foodOrder"
                   ]
                 },
                 {
@@ -12748,29 +12632,169 @@
                     "Houses",
                     "Player"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "UI_npc3"
-                  ]
                 }
               ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcOrder",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "Npcs",
+                    "\"npc\" + npcOrder",
+                    "Houses.X()",
+                    "Houses.Y()+130",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Npcs",
+                    "Scale",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Houses",
+                    "hasOrder",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "currentOrder",
+                    "=",
+                    "Houses.VariableString(foodOrder)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Hey \" + \"Saya nak \" + foodOrder"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Houses",
+                    "Player"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChatBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
             }
           ]
         },
