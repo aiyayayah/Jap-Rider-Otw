@@ -5479,6 +5479,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "debugNPC",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5631,6 +5673,9 @@
           },
           {
             "objectName": "debugCookDone"
+          },
+          {
+            "objectName": "debugNPC"
           }
         ]
       },
@@ -6323,6 +6368,23 @@
           "x": 27,
           "y": 862,
           "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 124,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "debugNPC",
+          "persistentUuid": "712f41c4-5d98-495d-98f9-ac3cd3654568",
+          "width": 571,
+          "x": 124,
+          "y": 312,
+          "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8509,16 +8571,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "orderCompleted",
-                "True",
-                "-1"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -9944,16 +9996,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "orderCompleted",
-                "True",
-                "\"true\"\n"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -10088,7 +10130,19 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -10792,12 +10846,13 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "npcID",
+                "debugNPC",
+                "Text",
                 "=",
-                "-1"
+                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             }
           ]
