@@ -5868,7 +5868,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35534345588170546,
+        "zoomFactor": 0.41943397827591444,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10027,17 +10027,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -10740,17 +10729,6 @@
                 "npcID",
                 "=",
                 "-1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             },
             {
