@@ -8571,16 +8571,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "npcID",
-                "=",
-                "-1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -8835,7 +8825,7 @@
                 "debugNPC",
                 "Text",
                 "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+                "\"DEFAUT npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             },
             {
@@ -10042,7 +10032,7 @@
                 "debugNPC",
                 "Text",
                 "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+                "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             }
           ],
@@ -10070,6 +10060,17 @@
                     "npc0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
                 }
               ]
             },
@@ -10095,6 +10096,17 @@
                   "parameters": [
                     "npc1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
                   ]
                 }
               ]
@@ -10122,6 +10134,17 @@
                     "npc2",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
                 }
               ]
             },
@@ -10147,6 +10170,17 @@
                   "parameters": [
                     "npc3",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
                   ]
                 }
               ]
@@ -10642,6 +10676,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "Houses.Variable(npcID)"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -10748,10 +10792,26 @@
                 "debugNPC",
                 "Text",
                 "=",
-                "\"npcID = \" + ToString(GlobalVariable(npcID))\n"
+                "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                ""
               ]
             }
           ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10775,6 +10835,17 @@
                   "parameters": [
                     "npc0",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
                   ]
                 }
               ]
@@ -10802,6 +10873,17 @@
                     "npc1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
                 }
               ]
             },
@@ -10827,6 +10909,17 @@
                   "parameters": [
                     "npc2",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
                   ]
                 }
               ]
@@ -10854,15 +10947,21 @@
                     "npc3",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "debugNPC",
+                    "Text",
+                    "=",
+                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                  ]
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
