@@ -10785,6 +10785,22 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
+              ]
+            }
+          ]
         }
       ]
     },
