@@ -3379,6 +3379,126 @@
         "name": "assets\\Player\\idle\\idle2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/npc/Adventurer Sprite Sheet v1.5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_npc_Adventurer Sprite Sheet v1.11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\npc\\Adventurer Sprite Sheet v1.11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npc/accidentDriver/assets_npc_Adventurer Sprite Sheet v1.11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.11.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8927,6 +9047,11 @@
           "name": "direction",
           "type": "string",
           "value": "left"
+        },
+        {
+          "name": "canMove",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
@@ -9112,7 +9237,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "hospitalOutline",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -9274,6 +9413,283 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_accidentDriver",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\npc\\Adventurer Sprite Sheet v1.5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\accidentDriver\\assets_npc_Adventurer Sprite Sheet v1.11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 1
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 5,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -9398,6 +9814,9 @@
           },
           {
             "objectName": "UI_npc4"
+          },
+          {
+            "objectName": "UI_accidentDriver"
           },
           {
             "objectName": "UI_Nurse"
@@ -10702,10 +11121,6 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
-        },
-        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
         }
@@ -11399,10 +11814,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
         },
         {
           "name": "Text",
@@ -12416,10 +12827,6 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
-        },
-        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
         }
@@ -12816,10 +13223,6 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
-        },
-        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
         }
@@ -13156,10 +13559,6 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
-        },
-        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
         }
@@ -13185,7 +13584,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9227465364204578,
+        "zoomFactor": 0.7315786463753019,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13394,6 +13793,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 254,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_accidentDriver",
+          "persistentUuid": "ae5c210a-4532-4ac4-981c-a9a38ec35652",
+          "width": 295,
+          "x": 10,
+          "y": 808,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -13557,10 +13973,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
         },
         {
           "name": "Text",
@@ -13795,11 +14207,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -22775,6 +23182,14 @@
                 "value": "Cache"
               },
               "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
                 "UI_Nurse"
               ]
             },
@@ -22783,7 +23198,18 @@
                 "value": "Cache"
               },
               "parameters": [
-                "requestText"
+                "UI_accidentDriver"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalOutline\"",
+                "no"
               ]
             }
           ]
@@ -22813,6 +23239,17 @@
                 "=",
                 "\"left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "carOne",
+                "canMove",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -22841,6 +23278,17 @@
                 "direction",
                 "=",
                 "\"right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "carOne",
+                "canMove",
+                "True",
+                ""
               ]
             }
           ],
@@ -22980,6 +23428,17 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "carOne",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -23004,7 +23463,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "requestText",
+                "UI_accidentDriver",
                 ""
               ]
             },
@@ -23022,7 +23481,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "UI_Nurse",
+                "requestText",
                 ""
               ]
             },
@@ -23034,7 +23493,7 @@
                 "requestText",
                 "Text",
                 "=",
-                "\"OH No! Send her to hospital now！\""
+                "\"My bad! That looked like a hard hit—better get to the hospital\""
               ]
             },
             {
@@ -23045,6 +23504,14 @@
                 "cameraOnPlayer",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "carOne"
               ]
             }
           ]
@@ -23064,6 +23531,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
             {
               "type": {
                 "value": "Tween::TweenCameraPosition2"
@@ -23089,6 +23564,100 @@
                 "",
                 "\"linear\"",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_accidentDriver"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "hospital",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalOutline\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalOutline\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_Nurse",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Admitting yourself to the hospital will cost RM20. Do you want to proceed?\""
               ]
             }
           ]
