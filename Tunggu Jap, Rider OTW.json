@@ -2363,6 +2363,46 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/angryWoman3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\angryWoman3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/angryWoman1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\angryWoman1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/angryWoman2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\angryWoman2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/angryMan1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\angryMan1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6980,7 +7020,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.332538709125084,
+        "zoomFactor": 1.3841198046307128,
         "windowMask": false
       },
       "objectsGroups": [
@@ -7094,8 +7134,8 @@
           "name": "debugRequest",
           "persistentUuid": "077fe116-a97e-4161-83b0-c67d0192b9cd",
           "width": 0,
-          "x": 26,
-          "y": 244,
+          "x": -512,
+          "y": 32,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -7496,8 +7536,8 @@
           "name": "debugNPC",
           "persistentUuid": "712f41c4-5d98-495d-98f9-ac3cd3654568",
           "width": 571,
-          "x": 16,
-          "y": 112,
+          "x": -512,
+          "y": -96,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -10847,6 +10887,18 @@
           "comment": "Player accept order"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "\"ACCEPT ORDER  : \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder +  \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasGrocery)"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10993,17 +11045,6 @@
               "parameters": [
                 "bubbleOrder",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"ACCEPT ORDER  : \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder +  \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasGrocery)"
               ]
             }
           ],
@@ -13876,17 +13917,6 @@
                 "Houses",
                 "Player"
               ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugRequest",
-                "Text",
-                "=",
-                "\"PICK UP: \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder + \n        \" | NPC: \" + ToString(npcID) + \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasCoffee) + \" | Bakery: \" + ToString(hasBakery) "
-              ]
             }
           ]
         },
@@ -14730,6 +14760,18 @@
                     "UI_npc1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman1.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14802,6 +14844,18 @@
                   },
                   "parameters": [
                     "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman2.mp3",
+                    "",
+                    "80",
                     ""
                   ]
                 }
@@ -14878,6 +14932,18 @@
                     "UI_npc4",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman3.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14950,6 +15016,18 @@
                   },
                   "parameters": [
                     "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryMan1.mp3",
+                    "",
+                    "80",
                     ""
                   ]
                 }
@@ -15204,6 +15282,18 @@
           "comment": "Player pickup bakery"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "\"PICK UP: \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder + \n        \" | NPC: \" + ToString(npcID) + \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasCoffee) + \" | Bakery: \" + ToString(hasBakery) "
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15323,17 +15413,6 @@
                 "",
                 "Houses",
                 "Player"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugRequest",
-                "Text",
-                "=",
-                "\"PICK UP: \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder + \n        \" | NPC: \" + ToString(npcID) + \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasCoffee) + \" | Bakery: \" + ToString(hasBakery) "
               ]
             }
           ]
@@ -16178,6 +16257,18 @@
                     "UI_npc1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman1.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
                 }
               ]
             },
@@ -16250,6 +16341,18 @@
                   },
                   "parameters": [
                     "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman2.mp3",
+                    "",
+                    "80",
                     ""
                   ]
                 }
@@ -16326,6 +16429,18 @@
                     "UI_npc4",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman3.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
                 }
               ]
             },
@@ -16398,6 +16513,18 @@
                   },
                   "parameters": [
                     "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryMan1.mp3",
+                    "",
+                    "80",
                     ""
                   ]
                 }
@@ -17626,6 +17753,18 @@
                     "UI_npc1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman1.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
                 }
               ]
             },
@@ -17698,6 +17837,18 @@
                   },
                   "parameters": [
                     "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman2.mp3",
+                    "",
+                    "80",
                     ""
                   ]
                 }
@@ -17774,6 +17925,18 @@
                     "UI_npc4",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman3.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
                 }
               ]
             },
@@ -17846,6 +18009,18 @@
                   },
                   "parameters": [
                     "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryMan1.mp3",
+                    "",
+                    "80",
                     ""
                   ]
                 }
