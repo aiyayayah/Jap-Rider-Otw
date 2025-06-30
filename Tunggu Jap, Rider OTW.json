@@ -9729,6 +9729,11 @@
       "name": "houseOrder",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "cameraOnPlayer",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [
@@ -13180,7 +13185,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49138775453293626,
+        "zoomFactor": 0.9227465364204578,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13375,15 +13380,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 195,
           "keepRatio": true,
           "layer": "",
           "name": "hospital",
           "persistentUuid": "7dac5f01-490a-4d52-9166-62ebecf6bdf1",
-          "width": 0,
-          "x": 1072,
-          "y": 265,
+          "width": 199,
+          "x": 1085,
+          "y": 286,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -22705,7 +22711,18 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "True",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -23022,13 +23039,40 @@
             },
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Tween::TweenCameraPosition2"
               },
               "parameters": [
                 "",
                 "\"ZoomOnHospital\"",
-                "1072",
-                "265",
+                "hospital.X() - 50",
+                "hospital.Y() + 250",
                 "",
                 "\"linear\"",
                 "1"
@@ -23041,31 +23085,13 @@
               "parameters": [
                 "",
                 "\"ZoomCamera\"",
-                "3",
+                "2",
                 "",
                 "\"linear\"",
                 "1"
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CameraZoom"
-              },
-              "parameters": [
-                "",
-                "=",
-                "",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": []
         }
       ]
     }
