@@ -2333,6 +2333,26 @@
         "name": "assets\\Player\\walkRight\\walkRight4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/thankyouWoman.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\thankyouWoman.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/thankyouMan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\thankyouMan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -14806,6 +14826,18 @@
                     "=",
                     "-1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\thankyouWoman.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14841,6 +14873,18 @@
                     "npcID",
                     "=",
                     "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\thankyouWoman.mp3",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -14878,6 +14922,18 @@
                     "=",
                     "-1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\thankyouWoman.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14913,6 +14969,18 @@
                     "npcID",
                     "=",
                     "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\thankyouMan.mp3",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
