@@ -6838,7 +6838,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203710081,
+        "zoomFactor": 0.584378441074105,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10340,7 +10340,7 @@
                 "",
                 "assets\\sound\\main.mp3",
                 "yes",
-                "30",
+                "20",
                 ""
               ]
             }
@@ -10402,7 +10402,7 @@
                 "Houses",
                 "foodOrder",
                 "=",
-                "GlobalVariableString(foodList[RandomInRange(2,3)])"
+                "GlobalVariableString(foodList[RandomInRange(2,2)])"
               ]
             },
             {
