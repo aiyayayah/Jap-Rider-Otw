@@ -6980,7 +6980,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.624453782660012,
+        "zoomFactor": 0.332538709125084,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11132,7 +11132,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -11141,6 +11141,22 @@
                   },
                   "parameters": [
                     "UI_npc1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChatBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "requestText"
                   ]
                 }
               ]
@@ -11269,7 +11285,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -11278,6 +11294,22 @@
                   },
                   "parameters": [
                     "UI_npc2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChatBox"
                   ]
                 }
               ]
@@ -11406,7 +11438,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -11415,6 +11447,22 @@
                   },
                   "parameters": [
                     "UI_npc3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChatBox"
                   ]
                 }
               ]
@@ -11543,7 +11591,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -11552,6 +11600,22 @@
                   },
                   "parameters": [
                     "UI_npc4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChatBox"
                   ]
                 }
               ]
@@ -14106,6 +14170,33 @@
                 },
                 {
                   "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -14160,6 +14251,33 @@
                     "assets\\sound\\thankyouWoman.mp3",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
                     ""
                   ]
                 },
@@ -14224,6 +14342,33 @@
                 },
                 {
                   "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -14278,6 +14423,33 @@
                     "assets\\sound\\thankyouMan.mp3",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
                     ""
                   ]
                 },
@@ -14531,6 +14703,33 @@
                     "=",
                     "\"I hope you didn’t bagi my food to the wrong house!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14577,6 +14776,33 @@
                     "Text",
                     "=",
                     "\"Aiyo, did you send my order to the wrong person again?\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
                   ]
                 }
               ]
@@ -14625,6 +14851,33 @@
                     "=",
                     "\"My food still belum sampai… you hantar salah rumah ke?\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14671,6 +14924,33 @@
                     "Text",
                     "=",
                     "\"I think something’s wrong. My \" + currentOrder + \" belum sampai.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
                   ]
                 }
               ]
@@ -15346,6 +15626,33 @@
                     "=",
                     "\"You came just in time! Thank you so much.\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -15403,7 +15710,34 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Thanks!\""
+                    "\"Appreciate it! Now I can survive the rest of the day.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
                   ]
                 }
               ]
@@ -15464,6 +15798,33 @@
                     "=",
                     "\"On time, like always. Terima kasih!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
                 }
               ]
             },
@@ -15522,6 +15883,33 @@
                     "Text",
                     "=",
                     "\"My day is complete now. Thanks, young man.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
                   ]
                 }
               ]
@@ -15763,6 +16151,33 @@
                     "=",
                     "\"Apa ni, I’m still waiting here… hungry already!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -15809,6 +16224,33 @@
                     "Text",
                     "=",
                     "\"Aiyo, you hantar to wrong person already.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
                   ]
                 }
               ]
@@ -15857,6 +16299,33 @@
                     "=",
                     "\"I dah lapar gila. Where’s my \" + currentOrder"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
                 }
               ]
             },
@@ -15903,6 +16372,33 @@
                     "Text",
                     "=",
                     "\"Boy, did you lupa my order or what?\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
                   ]
                 }
               ]
@@ -16578,6 +17074,33 @@
                     "=",
                     "\"Bless you, I can makan already!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -16636,6 +17159,33 @@
                     "Text",
                     "=",
                     "\"Walao, I almost faint liao — thank you!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
                   ]
                 }
               ]
@@ -16696,6 +17246,33 @@
                     "=",
                     "\"Alhamdulillah, sampai juga. Thank you!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
                 }
               ]
             },
@@ -16754,6 +17331,33 @@
                     "Text",
                     "=",
                     "\"Ah, terima kasih, young man. Just what I needed.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
                   ]
                 }
               ]
@@ -16995,6 +17599,33 @@
                     "=",
                     "\"You forgot mine, ah? I asked for \" + currentOrder+ \", remember?\"\n\n"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -17041,6 +17672,33 @@
                     "Text",
                     "=",
                     "\"Aiyo, you hantar to wrong person already.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc3",
+                    ""
                   ]
                 }
               ]
@@ -17089,6 +17747,33 @@
                     "=",
                     "\"Cepat sikit la… I’ve been waiting forever!\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc4",
+                    ""
+                  ]
                 }
               ]
             },
@@ -17135,6 +17820,33 @@
                     "Text",
                     "=",
                     "\"Aiyo, you hantar to wrong person already.3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_npc2",
+                    ""
                   ]
                 }
               ]
