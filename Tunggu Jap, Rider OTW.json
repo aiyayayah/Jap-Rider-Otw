@@ -6997,6 +6997,11 @@
       "name": "orderLocked",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "statusOrder",
+      "type": "string",
+      "value": "free"
     }
   ],
   "layouts": [
