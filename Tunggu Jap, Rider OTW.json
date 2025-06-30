@@ -2364,6 +2364,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -2457,6 +2463,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -2550,6 +2562,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -2655,6 +2673,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -3847,6 +3871,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -3946,6 +3976,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4050,6 +4086,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4145,6 +4187,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4248,6 +4296,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4343,6 +4397,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4442,6 +4502,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4545,6 +4611,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4640,6 +4712,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4735,6 +4813,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4838,6 +4922,12 @@
           "persistentUuid": "9694e231-7a55-4f0f-a9c9-09b991d77652",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -4925,6 +5015,12 @@
           "persistentUuid": "9694e231-7a55-4f0f-a9c9-09b991d77652",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -5008,6 +5104,12 @@
           "name": "receivedFood",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "originalOrder",
+          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -6815,6 +6917,11 @@
       "name": "orderRequestNum",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "orderLocked",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -6838,7 +6945,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6455105703311613,
+        "zoomFactor": 0.624453782660012,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6952,8 +7059,8 @@
           "name": "debugRequest",
           "persistentUuid": "077fe116-a97e-4161-83b0-c67d0192b9cd",
           "width": 0,
-          "x": 35,
-          "y": 405,
+          "x": 26,
+          "y": 244,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -7304,8 +7411,8 @@
           "name": "bakeryShop",
           "persistentUuid": "46ffb448-98aa-491f-9540-69246ed84832",
           "width": 0,
-          "x": 1936,
-          "y": -139,
+          "x": 2400,
+          "y": -123,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -7320,7 +7427,7 @@
           "name": "coffeeShop",
           "persistentUuid": "203e9c50-13a8-4036-a2be-d8fc338c4229",
           "width": 0,
-          "x": 2368,
+          "x": 1904,
           "y": -57,
           "zOrder": 46,
           "numberProperties": [],
@@ -7354,8 +7461,8 @@
           "name": "debugNPC",
           "persistentUuid": "712f41c4-5d98-495d-98f9-ac3cd3654568",
           "width": 571,
-          "x": 45,
-          "y": 304,
+          "x": 16,
+          "y": 112,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -7720,7 +7827,7 @@
           "isLocked": false,
           "name": "Ui Top",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -10478,18 +10585,32 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ChatBox"
+                "hasGrocery",
+                "False",
+                ""
               ]
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "requestText"
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
               ]
             },
             {
@@ -10505,12 +10626,23 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetStringObjectVariable"
               },
               "parameters": [
-                "currentOrder",
+                "Houses",
+                "foodOrder",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcID",
+                "=",
+                "-1"
               ]
             },
             {
@@ -10543,6 +10675,22 @@
               },
               "parameters": [
                 "UI_npc4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
               ]
             }
           ]
@@ -10648,17 +10796,6 @@
                 "False",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugRequest",
-                "Text",
-                "=",
-                "Houses.VariableString(foodOrder)"
-              ]
             }
           ]
         },
@@ -10743,6 +10880,47 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.VariableString(foodOrder)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "originalOrder",
+                "=",
+                "Houses.foodOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderLocked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -10775,21 +10953,22 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "Houses.VariableString(foodOrder)"
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
                 "bubbleOrder",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"ACCEPT ORDER  : \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder +  \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasGrocery)"
               ]
             }
           ],
@@ -13233,777 +13412,6 @@
     },
     {
       "associatedLayout": "ky",
-      "name": "coffee",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Player place order at Coffee Shop"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "coffeeShop",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "Houses",
-                "Player",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "\"coffee\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "hasCoffee",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsCooking",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsReady",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "coffeeShop",
-                "\"coffeeCookTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsCooking",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "debugCooking",
-                "coffeeShop.X()",
-                "coffeeShop.Y() - 30",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Coffee Done"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "coffeeShop",
-                "\"coffeeCookTime\"",
-                ">=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsCooking",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsCooking",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsReady",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "debugCooking",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "coffeeFood",
-                "coffeeShop.X()",
-                "coffeeShop.Y() - 40",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "coffeeFood",
-                "Scale",
-                "=",
-                "0.1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Player pickup Coffee "
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "coffeeShop",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "coffeeFood",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsReady",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "hasCoffee",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsReady",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "hasCoffee",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "coffeeFood",
-                "Scale",
-                "=",
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::LinkObjects"
-              },
-              "parameters": [
-                "",
-                "Houses",
-                "Player"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Player carry grocery"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "hasCoffee",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "coffeeFood",
-                "=",
-                "Player.X() - 10",
-                "=",
-                "Player.Y() - 20"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Deliver"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Houses",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "Houses",
-                "Player",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "Houses.VariableString(foodOrder)"
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "hasCoffee",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "orderCompleted",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Houses",
-                "hasOrder",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "coffeeFood",
-                "Player.X()",
-                "Player.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "coffeeFood",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "requestText",
-                "Text",
-                "=",
-                "\"Thanks!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "score",
-                "=",
-                "score + 1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "score"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "hasCoffee",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "coffeeIsCooking",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "orderCompleted",
-                "True",
-                "\"true\"\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "currentOrder",
-                "=",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "npc1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "debugNPC",
-                    "Text",
-                    "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "-1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "npc2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "debugNPC",
-                    "Text",
-                    "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "-1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "npc3",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "debugNPC",
-                    "Text",
-                    "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "-1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "npc4",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "debugNPC",
-                    "Text",
-                    "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "-1"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "ky",
       "name": "grocery",
       "events": [
         {
@@ -14286,6 +13694,16 @@
             },
             {
               "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"grocery\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -14339,6 +13757,17 @@
                 "",
                 "Houses",
                 "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "\"PICK UP: \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder + \n        \" | NPC: \" + ToString(npcID) + \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasCoffee)"
               ]
             }
           ]
@@ -14429,7 +13858,17 @@
               "parameters": [
                 "currentOrder",
                 "=",
-                "Houses.VariableString(foodOrder)"
+                "Houses.originalOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderLocked",
+                "True",
+                ""
               ]
             },
             {
@@ -14574,12 +14013,7 @@
                 "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -14603,64 +14037,6 @@
                   "parameters": [
                     "npc1",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "debugNPC",
-                    "Text",
-                    "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "-1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "npcID",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "npc2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "debugNPC",
-                    "Text",
-                    "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
                   ]
                 },
                 {
@@ -14701,13 +14077,760 @@
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "debugNPC",
-                    "Text",
+                    "npcID",
                     "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "ky",
+      "name": "coffee",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at coffee Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"coffee\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "coffeeShop",
+                "\"coffeeCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "coffeeShop.X()",
+                "coffeeShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "coffee Done"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "coffeeShop",
+                "\"coffeeCookTime\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "coffeeFood",
+                "coffeeShop.X()",
+                "coffeeShop.Y() - 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup cofffeee"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "coffeeFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"coffee\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "\"PICK UP: \" +\n\"Order: \" + currentOrder + \n        \" | House: \" + Houses.foodOrder + \n        \" | NPC: \" + ToString(npcID) + \n        \" | Coffee: \" + ToString(hasCoffee) +\n        \" | Grocery: \" + ToString(hasCoffee)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player carry coffeee"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "coffeeFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Houses",
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "Houses.originalOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderLocked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "coffeeFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "score + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "orderCompleted",
+                "True",
+                "\"true\"\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "currentOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"Delivery npcID = \" + ToString(GlobalVariable(npcID))\n"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc3",
+                    ""
                   ]
                 },
                 {
@@ -14748,13 +14871,38 @@
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "debugNPC",
-                    "Text",
+                    "npcID",
                     "=",
-                    "\"Deleted npcID = \" + ToString(GlobalVariable(npcID))\n"
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc2",
+                    ""
                   ]
                 },
                 {
@@ -14770,6 +14918,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
