@@ -1981,6 +1981,358 @@
         "name": "walkLeft6",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/assets_Player_prototype_character.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkRight\\assets_Player_prototype_character.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/assets_Player_prototype_character2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkRight\\assets_Player_prototype_character2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkLeft3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkLeft3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkLeft4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkLeft4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkLeft5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkLeft5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkLeft6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkLeft6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkFront/assets_Player_prototype_character3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkFront\\assets_Player_prototype_character3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkFront/assets_Player_prototype_character4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkFront\\assets_Player_prototype_character4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkFront/assets_Player_prototype_character5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkFront\\assets_Player_prototype_character5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkFront/assets_Player_prototype_character6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkFront\\assets_Player_prototype_character6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkLeft/walkLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkLeft\\walkLeft.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkLeft/walkLeft2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkLeft\\walkLeft2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkLeft7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Player/walkRight/walkLeft7.png\",\"extension\":\".png\"}",
+        "name": "assets\\Player\\walkRight\\walkLeft7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkLeft8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Player/walkRight/walkLeft8.png\",\"extension\":\".png\"}",
+        "name": "assets\\Player\\walkRight\\walkLeft8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkLeft9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Player/walkRight/walkLeft9.png\",\"extension\":\".png\"}",
+        "name": "assets\\Player\\walkRight\\walkLeft9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkLeft10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Player/walkRight/walkLeft10.png\",\"extension\":\".png\"}",
+        "name": "assets\\Player\\walkRight\\walkLeft10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkLeft14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkLeft14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkLeft/walkLeft11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkLeft\\walkLeft11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkLeft/walkLeft12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkLeft\\walkLeft12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkLeft/walkLeft13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkLeft\\walkLeft13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkLeft/walkLeft14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkLeft\\walkLeft14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkBack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkBack",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkBack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkBack2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkBack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkBack3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkBack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkBack4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkBack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkBack.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkBack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkBack2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkBack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkBack3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkBack/walkBack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkBack\\walkBack4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkRight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkRight",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkRight2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkRight2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkRight3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkRight3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walkRight4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkRight4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkRight\\walkRight.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkRight2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkRight\\walkRight2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkRight3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkRight\\walkRight3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/walkRight/walkRight4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\walkRight\\walkRight4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2372,7 +2724,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Player",
       "type": "Sprite",
@@ -2403,403 +2755,17 @@
       ],
       "animations": [
         {
-          "name": "Walk",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walk8",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "walkRight",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\prototype_character",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\prototype_character2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 0
-                      },
-                      {
-                        "x": 20,
-                        "y": 35
-                      },
-                      {
-                        "x": 0,
-                        "y": 35
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "walkBack",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkLeft",
+                  "image": "assets\\Player\\walkBack\\walkBack.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2819,23 +2785,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkLeft2",
+                  "image": "assets\\Player\\walkBack\\walkBack2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2855,23 +2821,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkLeft3",
+                  "image": "assets\\Player\\walkBack\\walkBack3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2891,23 +2857,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkLeft4",
+                  "image": "assets\\Player\\walkBack\\walkBack4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2927,16 +2893,16 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
@@ -2952,11 +2918,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\prototype_character3",
+                  "image": "assets\\Player\\walkFront\\assets_Player_prototype_character3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2976,23 +2942,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\prototype_character4",
+                  "image": "assets\\Player\\walkFront\\assets_Player_prototype_character4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3012,23 +2978,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\prototype_character5",
+                  "image": "assets\\Player\\walkFront\\assets_Player_prototype_character5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3048,23 +3014,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\prototype_character6",
+                  "image": "assets\\Player\\walkFront\\assets_Player_prototype_character6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3084,16 +3050,16 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
@@ -3109,11 +3075,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkLeft5",
+                  "image": "assets\\Player\\walkLeft\\walkLeft11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3133,23 +3099,23 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walkLeft6",
+                  "image": "assets\\Player\\walkLeft\\walkLeft12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3169,16 +3135,245 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 35
+                        "x": 11,
+                        "y": 14
                       },
                       {
                         "x": 0,
-                        "y": 35
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\walkLeft\\walkLeft13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\walkLeft\\walkLeft14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walkRight",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\walkRight\\walkRight.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\walkRight\\walkRight2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\walkRight\\walkRight3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\walkRight\\walkRight4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
                       }
                     ]
                   ]
@@ -6643,7 +6838,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514071,
+        "zoomFactor": 0.8141881203710081,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6677,14 +6872,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 74,
+          "height": 46,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
-          "width": 72,
-          "x": 760,
-          "y": 340,
+          "width": 46,
+          "x": 759,
+          "y": 346,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -9867,6 +10062,17 @@
                 "-350",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"walkBack\""
+              ]
             }
           ]
         },
@@ -9893,6 +10099,17 @@
                 "0",
                 "350",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"walkFront\""
               ]
             }
           ]
@@ -9921,6 +10138,17 @@
                 "0",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"walkLeft\""
+              ]
             }
           ]
         },
@@ -9947,6 +10175,17 @@
                 "350",
                 "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"walkRight\""
               ]
             }
           ]
