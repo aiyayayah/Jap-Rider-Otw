@@ -12346,7 +12346,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402157085,
+        "zoomFactor": 0.19561100536770196,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13601,6 +13601,22 @@
           "x": 8,
           "y": 819,
           "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI Top",
+          "name": "requestText2",
+          "persistentUuid": "804cae21-e8fd-4a54-a32d-f03852dad300",
+          "width": 0,
+          "x": 273,
+          "y": 922,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25457,6 +25473,15 @@
                 "value": "Montre"
               },
               "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
                 "requestText",
                 ""
               ]
@@ -25470,6 +25495,38 @@
                 "Text",
                 "=",
                 "\"Admitting yourself to the hospital will cost RM20. Do you want to proceed?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5.0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_Nurse"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
               ]
             }
           ]
