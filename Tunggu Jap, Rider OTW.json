@@ -3567,6 +3567,14 @@
         "name": "assets\\Buildings\\Petrol Section.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/npc/UI_Petrol.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\UI_Petrol.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12323,7 +12331,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101674119,
+        "zoomFactor": 0.5290357402157085,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12362,7 +12370,7 @@
           "width": 0,
           "x": 294,
           "y": 263,
-          "zOrder": 39,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13565,6 +13573,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI Top",
+          "name": "UI_Petrol",
+          "persistentUuid": "ef01a693-8f5e-473b-be3d-52ad8d199c7e",
+          "width": 0,
+          "x": 8,
+          "y": 819,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -13914,6 +13938,66 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_Petrol",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\npc\\UI_Petrol.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 71,
+                            "y": 55
+                          },
+                          {
+                            "x": 248,
+                            "y": 55
+                          },
+                          {
+                            "x": 248,
+                            "y": 186
+                          },
+                          {
+                            "x": 71,
+                            "y": 186
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13951,6 +14035,9 @@
           },
           {
             "objectName": "Alley_Collider2"
+          },
+          {
+            "objectName": "UI_Petrol"
           }
         ]
       },
@@ -25739,7 +25826,7 @@
               "parameters": [
                 "PlayerFuel",
                 "=",
-                "60"
+                "11"
               ]
             },
             {
@@ -25751,6 +25838,14 @@
                 "Text",
                 "=",
                 "\"Current Fuel: \" + ToString(GlobalVariable(PlayerFuel))\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_Petrol"
               ]
             }
           ]
@@ -25815,7 +25910,16 @@
                 "value": "Montre"
               },
               "parameters": [
-                "UI_Nurse",
+                "UI_Petrol",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
                 ""
               ]
             },
@@ -25836,7 +25940,7 @@
                 "requestText",
                 "Text",
                 "=",
-                "\"///////////////\""
+                "\"Fueling up — just a moment!\""
               ]
             }
           ]
@@ -25940,41 +26044,101 @@
             },
             {
               "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "ChatBox",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "requestText",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "requestText",
-                "Text",
-                "=",
-                "\"//////////\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "KeyPressCounter",
                 "=",
                 "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerFuel",
+                    "<=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_Petrol",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Fuel is low, please refuel at the gas station!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4.0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_Petrol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChatBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "requestText"
+                  ]
+                }
               ]
             }
           ]
