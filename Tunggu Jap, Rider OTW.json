@@ -3985,7 +3985,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Player",
       "type": "Sprite",
@@ -4048,11 +4048,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4084,11 +4084,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4120,11 +4120,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4156,11 +4156,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4192,11 +4192,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4228,11 +4228,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4264,11 +4264,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4300,11 +4300,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4336,11 +4336,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4384,11 +4384,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4420,11 +4420,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4456,11 +4456,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4492,11 +4492,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4528,11 +4528,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4564,11 +4564,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4600,11 +4600,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4636,11 +4636,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4672,11 +4672,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4720,11 +4720,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4756,11 +4756,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4792,11 +4792,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4828,11 +4828,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4864,11 +4864,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4900,11 +4900,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4936,11 +4936,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -4972,11 +4972,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5008,11 +5008,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5056,11 +5056,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5092,11 +5092,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5128,11 +5128,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5164,11 +5164,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5200,11 +5200,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5236,11 +5236,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5272,11 +5272,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5308,11 +5308,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5344,11 +5344,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5393,11 +5393,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -5429,11 +5429,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
-                        "y": 1
+                        "y": 11.5
                       },
                       {
                         "x": 21,
@@ -7357,7 +7357,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\grocery\\groceryShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 35.5,
+                      "y": 346
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -7904,7 +7910,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\burger\\burgerShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 112,
+                      "y": 379.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -7919,8 +7931,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 74.5,
-                        "y": 129.5
+                        "x": 18.5,
+                        "y": 199.5
                       },
                       {
                         "x": 141,
@@ -7935,8 +7947,8 @@
                         "y": 410
                       },
                       {
-                        "x": 0,
-                        "y": 406.5
+                        "x": 17,
+                        "y": 410
                       }
                     ]
                   ]
@@ -7978,7 +7990,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\bakery\\bakeryShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 222,
+                      "y": 436.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -8047,7 +8065,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\coffee\\coffeeShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 230.5,
+                      "y": 330
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -8062,7 +8086,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
+                        "x": 3.5,
                         "y": 106
                       },
                       {
@@ -8078,8 +8102,8 @@
                         "y": 338
                       },
                       {
-                        "x": 0,
-                        "y": 393
+                        "x": 10,
+                        "y": 382
                       }
                     ]
                   ]
@@ -8659,14 +8683,22 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "eggShop",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "s5-removebg-preview (2)",
@@ -8680,7 +8712,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\egg\\eggShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 174.5,
+                      "y": 381
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -8696,15 +8734,31 @@
                     [
                       {
                         "x": 0,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 52,
+                        "y": 96
+                      },
+                      {
+                        "x": 188,
                         "y": 0
                       },
                       {
-                        "x": 458,
-                        "y": 0
+                        "x": 356,
+                        "y": 48
                       },
                       {
-                        "x": 458,
-                        "y": 394
+                        "x": 427,
+                        "y": 97
+                      },
+                      {
+                        "x": 457.5,
+                        "y": 321
+                      },
+                      {
+                        "x": 307,
+                        "y": 386
                       },
                       {
                         "x": 0,
@@ -8781,9 +8835,9 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "icrecreamShop",
+      "name": "icecreamShop",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8810,7 +8864,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\icecream\\iceCreamShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 143,
+                      "y": 405
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -8825,20 +8885,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 54,
+                        "y": 328
                       },
                       {
-                        "x": 316,
-                        "y": 1
+                        "x": 54,
+                        "y": 83.5
                       },
                       {
-                        "x": 316,
-                        "y": 444
+                        "x": 156,
+                        "y": 0
                       },
                       {
-                        "x": 1,
-                        "y": 444
+                        "x": 266,
+                        "y": 84
+                      },
+                      {
+                        "x": 262,
+                        "y": 332
+                      },
+                      {
+                        "x": 317,
+                        "y": 428
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 427.5
                       }
                     ]
                   ]
@@ -8940,7 +9012,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Buildings\\Shops\\cottonCandy\\cottoncandyShop.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Door",
+                      "x": 120.5,
+                      "y": 251
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -8955,6 +9033,10 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 0,
+                        "y": 204.5
+                      },
+                      {
                         "x": 34,
                         "y": 0
                       },
@@ -8963,12 +9045,20 @@
                         "y": 2.5
                       },
                       {
-                        "x": 215,
-                        "y": 289
+                        "x": 264,
+                        "y": 154
                       },
                       {
-                        "x": 23,
-                        "y": 289
+                        "x": 264,
+                        "y": 237
+                      },
+                      {
+                        "x": 205.5,
+                        "y": 278
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 274
                       }
                     ]
                   ]
@@ -10188,7 +10278,7 @@
                 "objectName": "icecreamFood"
               },
               {
-                "objectName": "icrecreamShop"
+                "objectName": "icecreamShop"
               }
             ]
           },
@@ -10493,6 +10583,32 @@
           "name": "UI_npc4"
         }
       ]
+    },
+    {
+      "name": "Foods",
+      "objects": [
+        {
+          "name": "groceryFood"
+        },
+        {
+          "name": "coffeeFood"
+        },
+        {
+          "name": "bakeryFood"
+        },
+        {
+          "name": "burgerFood"
+        },
+        {
+          "name": "eggFood"
+        },
+        {
+          "name": "icecreamFood"
+        },
+        {
+          "name": "cottoncandyFood"
+        }
+      ]
     }
   ],
   "variables": [
@@ -10517,7 +10633,6 @@
       "value": 0
     },
     {
-      "folded": true,
       "name": "foodList",
       "type": "array",
       "children": [
@@ -10536,13 +10651,25 @@
         {
           "type": "string",
           "value": "coffee"
+        },
+        {
+          "type": "string",
+          "value": "egg"
+        },
+        {
+          "type": "string",
+          "value": "icecream"
+        },
+        {
+          "type": "string",
+          "value": "cottoncandy"
         }
       ]
     },
     {
       "name": "npcID",
       "type": "number",
-      "value": 1
+      "value": 0
     },
     {
       "name": "hasBakery",
@@ -10586,6 +10713,66 @@
     },
     {
       "name": "coffeeIsReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "hasEgg",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "eggIsCooking",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "eggIsReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "hasIcecream",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "icecreamIsCooking",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "icecreamIsReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "hasCottoncandy",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "cottoncandyIsCooking",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "cottoncandyIsReady",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "hasBurger",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "burgerIsCooking",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "burgerIsReady",
       "type": "boolean",
       "value": false
     },
@@ -11426,7 +11613,7 @@
           "height": 427,
           "keepRatio": true,
           "layer": "",
-          "name": "icrecreamShop",
+          "name": "icecreamShop",
           "persistentUuid": "aab540bb-7251-4663-8927-1ec962d8ef27",
           "width": 368,
           "x": 2783,
@@ -11651,7 +11838,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817057,
+        "zoomFactor": 0.36732575450588983,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11668,23 +11855,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 74,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "5b815b14-98c8-401e-be39-9f3c24e830af",
-          "width": 72,
-          "x": 923,
-          "y": 410,
-          "zOrder": 100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -11918,8 +12088,8 @@
           "name": "bakeryShop",
           "persistentUuid": "46ffb448-98aa-491f-9540-69246ed84832",
           "width": 0,
-          "x": 1949,
-          "y": -75,
+          "x": 1157,
+          "y": -308,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -11934,8 +12104,8 @@
           "name": "burgerShop",
           "persistentUuid": "e0436dd2-4b91-4abf-8bda-39c12bf6515f",
           "width": 0,
-          "x": 2394,
-          "y": -61,
+          "x": 721,
+          "y": -302,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -11950,8 +12120,8 @@
           "name": "coffeeShop",
           "persistentUuid": "203e9c50-13a8-4036-a2be-d8fc338c4229",
           "width": 0,
-          "x": 1995,
-          "y": 448,
+          "x": 1532,
+          "y": 383,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -12012,13 +12182,77 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Ui Top",
           "name": "debugHouse",
           "persistentUuid": "b999a1b7-ea55-4a78-8095-e5c252c90ca3",
           "width": 0,
           "x": 464,
           "y": 284,
           "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "eggShop",
+          "persistentUuid": "7459f512-7903-480a-85e5-3e7cfaa37b38",
+          "width": 0,
+          "x": -2,
+          "y": 378,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "icecreamShop",
+          "persistentUuid": "919feb0b-87de-4bbf-9699-acf7674c3bf4",
+          "width": 0,
+          "x": 1248,
+          "y": 799,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cottoncandyShop",
+          "persistentUuid": "4aa9799a-3253-4e80-8816-fd1f8377ec16",
+          "width": 0,
+          "x": 620,
+          "y": 879,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "f47a5a62-77c7-4c5f-8b1d-0b5a0cc7e492",
+          "width": 0,
+          "x": 990,
+          "y": 472,
+          "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16895,7 +17129,7 @@
               "parameters": [
                 "foodOrder",
                 "=",
-                "GlobalVariableString(foodList[RandomInRange(1,3)])"
+                "GlobalVariableString(foodList[RandomInRange(0,6)])"
               ]
             },
             {
@@ -17699,6 +17933,468 @@
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver Wrong"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "!=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Foods",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Foods",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasBakery",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasGrocery",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcOrder",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"You forgot mine, ah? I asked for \" + foodOrder+ \", remember?\"\n\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman1.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcOrder",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Aiyo, you hantar to wrong person already.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryMan1.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcOrder",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Aiyo, you hantar to wrong person already.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman2.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "npcOrder",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "npc4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "npcID",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Cepat sikit la… I’ve been waiting forever!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\angryWoman3.mp3",
+                    "",
+                    "80",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Late Delivery"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
             "b": 33,
             "g": 211,
             "r": 126,
@@ -17728,6 +18424,34 @@
             "includeConfig": 0
           },
           "target": "coffeeCCP"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "egg"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "burger"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "icecream"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "cottoncandy"
         }
       ]
     },
@@ -22449,8 +23173,8 @@
               "parameters": [
                 "",
                 "coffeeFood",
-                "coffeeShop.X()",
-                "coffeeShop.Y() - 40",
+                "coffeeShop.PointX(\"Door\")",
+                "coffeeShop.PointY(\"Door\")",
                 ""
               ]
             },
@@ -23208,8 +23932,8 @@
               "parameters": [
                 "",
                 "groceryFood",
-                "groceryShop.X()",
-                "groceryShop.Y() - 40",
+                "groceryShop.PointX(\"Door\") - 25",
+                "groceryShop.PointY(\"Door\")",
                 ""
               ]
             },
@@ -23967,8 +24691,8 @@
               "parameters": [
                 "",
                 "bakeryFood",
-                "bakeryShop.X()",
-                "bakeryShop.Y() - 40",
+                "bakeryShop.PointX(\"Door\")",
+                "bakeryShop.PointY(\"Door\")",
                 ""
               ]
             },
@@ -24316,6 +25040,3042 @@
               },
               "parameters": [
                 "hasBakery",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChatBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugHouse",
+                "Text",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "test",
+      "name": "egg",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at egg Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "eggShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"egg\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "eggIsCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "eggIsReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "eggShop",
+                "\"eggCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\shop-bell.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "eggIsCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "eggShop.X()",
+                "eggShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "egg Done"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "eggShop",
+                "\"eggCookTime\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "eggIsCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "eggIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "eggIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "eggFood",
+                "eggShop.PointX(\"Door\")",
+                "eggShop.PointY(\"Door\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "eggFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup egg "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "eggShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "eggIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "eggIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "eggFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player carry egg"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "eggFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"egg\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "eggFood",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "eggFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "score + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChatBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugHouse",
+                "Text",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "test",
+      "name": "burger",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at burger Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "burgerShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"burger\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "burgerIsCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "burgerIsReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "burgerShop",
+                "\"burgerCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\shop-bell.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "burgerIsCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "burgerShop.X()",
+                "burgerShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "burger Done"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "burgerShop",
+                "\"burgerCookTime\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "burgerIsCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "burgerIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "burgerIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "burgerFood",
+                "burgerShop.PointX(\"Door\")",
+                "burgerShop.PointY(\"Door\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "burgerFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup burger "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "burgerShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "burgerIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "burgerIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "burgerFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player carry burger"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "burgerFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"burger\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "burgerFood",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "burgerFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "score + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChatBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugHouse",
+                "Text",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "test",
+      "name": "icecream",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at icecream Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "icecreamShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"icecream\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "icecreamShop",
+                "\"icecreamCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\shop-bell.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "icecreamShop.X()",
+                "icecreamShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "icecream Done"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "icecreamShop",
+                "\"icecreamCookTime\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "icecreamFood",
+                "icecreamShop.PointX(\"Door\")",
+                "icecreamShop.PointY(\"Door\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "icecreamFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup icecream "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "icecreamShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "icecreamFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player carry icecream"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "icecreamFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"icecream\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "icecreamFood",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "icecreamFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "score + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ChatBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugHouse",
+                "Text",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GenerateOrder\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "test",
+      "name": "cottoncandy",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player place order at cottoncandy Shop"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "cottoncandyShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"cottoncandy\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsCooking",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsReady",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "cottoncandyShop",
+                "\"cottoncandyCookTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\shop-bell.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsCooking",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "debugCooking",
+                "cottoncandyShop.X()",
+                "cottoncandyShop.Y() - 30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "cottoncandy Done"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "cottoncandyShop",
+                "\"cottoncandyCookTime\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsCooking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsCooking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "debugCooking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "cottoncandyFood",
+                "cottoncandyShop.PointX(\"Door\")",
+                "cottoncandyShop.PointY(\"Door\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player pickup cottoncandy "
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "cottoncandyShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player carry cottoncandy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Deliver"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"cottoncandy\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "=",
+                "score + 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
                 "False",
                 ""
               ]
