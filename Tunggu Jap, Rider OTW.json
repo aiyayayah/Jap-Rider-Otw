@@ -3531,6 +3531,14 @@
         "name": "assets\\npc\\robber.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/npc/UI_question mark_events.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\npc\\UI_question mark_events.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10247,6 +10255,16 @@
       "name": "cameraOnPlayer",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "QuestionMarkMsgShown",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "RobberEventsTrigger",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -11935,7 +11953,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845353825,
+        "zoomFactor": 0.5290357402157,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11974,7 +11992,7 @@
           "width": 0,
           "x": 173,
           "y": 560,
-          "zOrder": 39,
+          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12629,23 +12647,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 49,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ColliderAlley",
-          "persistentUuid": "0e88917d-f9f1-47e4-9823-79d76ea98b2b",
-          "width": 118,
-          "x": 737,
-          "y": -11,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 218,
           "keepRatio": true,
           "layer": "UI Top",
@@ -12655,6 +12656,89 @@
           "x": 44,
           "y": 828,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_QuestionMark",
+          "persistentUuid": "c07e6374-3248-4401-b941-d7d75c5bfc52",
+          "width": 0,
+          "x": 311,
+          "y": 442,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI Top",
+          "name": "UI_QuestionMark",
+          "persistentUuid": "8f04fcc8-83f5-4a06-8875-3fab324f9177",
+          "width": 0,
+          "x": -177,
+          "y": 770,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 230,
+          "keepRatio": true,
+          "layer": "UI Top",
+          "name": "UI_QuestionMark",
+          "persistentUuid": "95b1d7ee-70e9-4a9a-8107-e4aa3baa3b3b",
+          "width": 170,
+          "x": 56,
+          "y": 820,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alley_Collider_1",
+          "persistentUuid": "62012e36-408d-4ce7-859d-55dd16658f51",
+          "width": 343,
+          "x": 375,
+          "y": 115,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alley_Collider2",
+          "persistentUuid": "ee214a4e-6fb0-4f97-8fee-d919d84355ed",
+          "width": 151,
+          "x": 706,
+          "y": -60,
+          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12959,7 +13043,29 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "ColliderAlley",
+          "name": "UI_QuestionMark",
+          "texture": "assets\\npc\\UI_question mark_events.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Alley_Collider_1",
+          "texture": "Screenshot 2025-07-01 090447.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Alley_Collider2",
           "texture": "Screenshot 2025-07-01 090447.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -12993,7 +13099,13 @@
             "objectName": "Tree1"
           },
           {
-            "objectName": "ColliderAlley"
+            "objectName": "UI_QuestionMark"
+          },
+          {
+            "objectName": "Alley_Collider_1"
+          },
+          {
+            "objectName": "Alley_Collider2"
           }
         ]
       },
@@ -24012,6 +24124,14 @@
               "parameters": [
                 "UI_Robber"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_QuestionMark"
+              ]
             }
           ]
         },
@@ -24024,9 +24144,19 @@
               },
               "parameters": [
                 "Player",
-                "ColliderAlley",
+                "Alley_Collider_1",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "QuestionMarkMsgShown",
+                "=",
                 ""
               ]
             },
@@ -24040,23 +24170,12 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "score",
-                "-",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "score"
+                "QuestionMarkMsgShown",
+                "True",
+                ""
               ]
             },
             {
@@ -24064,7 +24183,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "UI_Robber",
+                "UI_QuestionMark",
                 ""
               ]
             },
@@ -24094,7 +24213,39 @@
                 "requestText",
                 "Text",
                 "=",
-                "\"Money, life, even your underwear- I WANT IT ALL!\""
+                "\"Watch out, there’s danger up ahead. Do you dare to risk it?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_QuestionMark"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
               ]
             }
           ]
@@ -24108,10 +24259,20 @@
               },
               "parameters": [
                 "Player",
-                "ColliderAlley",
+                "Alley_Collider2",
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RobberEventsTrigger",
+                "=",
+                "0"
               ]
             },
             {
@@ -24121,72 +24282,127 @@
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "score",
-                "-",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "score"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "UI_Robber",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "ChatBox",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "requestText",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "requestText",
-                "Text",
-                "=",
-                "\"Money, life, even your underwear- I WANT IT ALL!\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Random(1)\n",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "score",
+                    "-",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "score"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_Robber",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChatBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "requestText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestText",
+                    "Text",
+                    "=",
+                    "\"Money, life, even your underwear- I WANT IT ALL!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UI_Robber"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChatBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RobberEventsTrigger",
+                    "=",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     }
