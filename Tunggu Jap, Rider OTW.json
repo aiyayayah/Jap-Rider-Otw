@@ -3539,6 +3539,26 @@
         "name": "assets\\npc\\UI_question mark_events.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/robber.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\robber.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/Hmm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\Hmm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11953,7 +11973,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402157,
+        "zoomFactor": 0.39251611754883453,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11992,7 +12012,7 @@
           "width": 0,
           "x": 173,
           "y": 560,
-          "zOrder": 45,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12713,14 +12733,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 42,
+          "height": 43,
           "keepRatio": true,
           "layer": "",
           "name": "Alley_Collider_1",
           "persistentUuid": "62012e36-408d-4ce7-859d-55dd16658f51",
           "width": 343,
           "x": 375,
-          "y": 115,
+          "y": 114,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -12730,14 +12750,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 87,
+          "height": 144,
           "keepRatio": true,
           "layer": "",
           "name": "Alley_Collider2",
           "persistentUuid": "ee214a4e-6fb0-4f97-8fee-d919d84355ed",
-          "width": 151,
-          "x": 706,
-          "y": -60,
+          "width": 260,
+          "x": 611,
+          "y": -80,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -13055,7 +13075,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Alley_Collider_1",
-          "texture": "Screenshot 2025-07-01 090447.png",
+          "texture": "assets\\NewSprite5.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -13066,7 +13086,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Alley_Collider2",
-          "texture": "Screenshot 2025-07-01 090447.png",
+          "texture": "assets\\NewSprite5.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -24218,6 +24238,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\Hmm.mp3",
+                "",
+                "90",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -24306,7 +24338,7 @@
                   "parameters": [
                     "score",
                     "-",
-                    "20"
+                    "0"
                   ]
                 },
                 {
@@ -24356,6 +24388,18 @@
                     "Text",
                     "=",
                     "\"Money, life, even your underwear- I WANT IT ALL!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\robber.mp3",
+                    "",
+                    "90",
+                    ""
                   ]
                 },
                 {
