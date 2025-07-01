@@ -26245,7 +26245,7 @@
               },
               "parameters": [
                 "PlayerFuel",
-                "=",
+                "<=",
                 "0"
               ]
             }
