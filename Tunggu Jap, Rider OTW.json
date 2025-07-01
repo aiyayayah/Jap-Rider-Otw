@@ -3974,7 +3974,13 @@
       "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CurrentLine",
+          "type": "number",
+          "value": -1
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -11972,7 +11978,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445322,
+        "zoomFactor": 0.2725359896773035,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12166,7 +12172,7 @@
           "initialVariables": []
         },
         {
-          "angle": 270,
+          "angle": 90,
           "customSize": true,
           "depth": 1,
           "height": 31,
@@ -12175,7 +12181,7 @@
           "name": "→Left",
           "persistentUuid": "9ef5c849-4129-4dc2-8680-3c7cf07c9ab5",
           "width": 31,
-          "x": 1033,
+          "x": 991,
           "y": 839,
           "zOrder": 3,
           "numberProperties": [],
@@ -12183,7 +12189,7 @@
           "initialVariables": []
         },
         {
-          "angle": 90,
+          "angle": 270,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -12191,7 +12197,7 @@
           "name": "←Right",
           "persistentUuid": "86b23534-ba39-4301-8c92-b8891fe0d30c",
           "width": 0,
-          "x": 992,
+          "x": 1048,
           "y": 840,
           "zOrder": 12,
           "numberProperties": [],
@@ -12965,57 +12971,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 55,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Road_Collider",
-          "persistentUuid": "e5c2ea3e-a96b-4062-9f53-c131076ecea2",
-          "width": 647,
-          "x": 2,
-          "y": 205,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 55,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Road_Collider",
-          "persistentUuid": "41402f88-ccd1-4ec4-8a7d-9a1c6f2a8ebd",
-          "width": 1616,
-          "x": 712,
-          "y": 608,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 55,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Road_Collider",
-          "persistentUuid": "06919eed-3f3e-4e53-b1e3-099757ca3113",
-          "width": 1228,
-          "x": 1093,
-          "y": 142,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -13365,17 +13320,6 @@
               "yGrabOffset": 0
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Road_Collider",
-          "texture": "Screenshot 2025-07-01 090447.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -13410,9 +13354,6 @@
           },
           {
             "objectName": "Platform_Collider"
-          },
-          {
-            "objectName": "Road_Collider"
           },
           {
             "objectName": "Alley_Collider2"
@@ -13454,24 +13395,6 @@
             "includeConfig": 0
           },
           "target": "Alley"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Platform_Collider",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": []
         }
       ],
       "layers": [
