@@ -11978,7 +11978,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2725359896773035,
+        "zoomFactor": 0.6244537826600234,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13313,10 +13313,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -13388,6 +13388,13 @@
             "includeConfig": 0
           },
           "target": "buttons"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Alley"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
