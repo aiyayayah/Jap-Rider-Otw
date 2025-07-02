@@ -4009,6 +4009,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/ohNo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\ohNo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11859,7 +11869,7 @@
       "string": "Text",
       "font": "assets\\Silkscreen-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 70,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -11883,7 +11893,7 @@
         "font": "assets\\Silkscreen-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
-        "characterSize": 70,
+        "characterSize": 60,
         "color": "255;255;255"
       }
     },
@@ -18430,8 +18440,8 @@
           "layer": "ui",
           "name": "decisionText",
           "persistentUuid": "60be8a80-52d5-4b53-a5e5-bd3d0b029b80",
-          "width": 853,
-          "x": 493,
+          "width": 1236,
+          "x": 322,
           "y": 371,
           "zOrder": 129,
           "numberProperties": [],
@@ -31812,7 +31822,7 @@
               "parameters": [
                 "money",
                 "=",
-                "22"
+                "8"
               ]
             },
             {
@@ -32878,6 +32888,7 @@
           "comment": "Player make decision"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32888,6 +32899,12 @@
                 "decisionYes",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -33004,10 +33021,21 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "money"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
                     "decisionText",
                     "Text",
                     "=",
-                    "\"You don’t have enough duit for treatment\""
+                    "\"no money\""
                   ]
                 }
               ]
@@ -33056,6 +33084,219 @@
                 "Effect",
                 "\"Effect\"",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "decisionText",
+                "Text",
+                "=",
+                "\"Aiyo! Sure ah? Your leg like quite serious wor...\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "money",
+                ">=",
+                "20"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\money.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "money",
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "money"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "decisionText",
+                "Text",
+                "=",
+                "\"Still a bit sakit, but can jalan already. Next time, hati-hati sikit\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "money",
+                "<",
+                "20"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\ohNo.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "money"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "decisionText",
+                "Text",
+                "=",
+                "\"You don’t have enough duit for treatment.\""
               ]
             }
           ]
