@@ -4054,6 +4054,86 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/coins/assets_coins_coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coins/assets_coins_coin10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coins\\assets_coins_coin10.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4482,6 +4562,16 @@
           "name": "isAlive",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "rating",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "multiplier",
+          "type": "number",
+          "value": 1
         }
       ],
       "effects": [],
@@ -6059,7 +6149,7 @@
       "behaviors": [],
       "string": "0",
       "font": "assets\\Kenney Pixel.ttf",
-      "textAlignment": "center",
+      "textAlignment": "left",
       "characterSize": 90,
       "color": {
         "b": 0,
@@ -6082,7 +6172,7 @@
         "underlined": false,
         "text": "0",
         "font": "assets\\Kenney Pixel.ttf",
-        "textAlignment": "center",
+        "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 90,
         "color": "0;0;0"
@@ -12113,6 +12203,390 @@
           "width": 32
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Coin",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coins\\assets_coins_coin10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 1,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -12435,6 +12909,9 @@
       },
       {
         "objectName": "DeliveryTimer"
+      },
+      {
+        "objectName": "Coin"
       }
     ]
   },
@@ -13793,7 +14270,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26364576737708584,
+        "zoomFactor": 0.3925161175488311,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13888,14 +14365,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 97,
+          "height": 69,
           "keepRatio": true,
           "layer": "Ui Top",
           "name": "Score",
           "persistentUuid": "3414af37-0877-447f-8f59-542a61883945",
           "width": 125,
-          "x": 9,
-          "y": 16,
+          "x": 133,
+          "y": 34,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -13911,8 +14388,8 @@
           "name": "restart",
           "persistentUuid": "a50ae393-5a9d-488c-bda3-4f5efc8522c5",
           "width": 96,
-          "x": 128,
-          "y": 32,
+          "x": 279,
+          "y": 38,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -14228,6 +14705,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "Coin",
+          "persistentUuid": "ea140bf9-1786-405f-b388-46d3fa34ac4a",
+          "width": 58,
+          "x": 37,
+          "y": 37,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ui Top",
+          "name": "debugRating",
+          "persistentUuid": "077e4b88-7ee4-4416-8af4-13ec1684578f",
+          "width": 0,
+          "x": 342,
+          "y": 192,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14344,6 +14854,48 @@
             "characterSize": 40,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "debugRating",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Rating",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Rating",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -14360,6 +14912,9 @@
           },
           {
             "objectName": "debugHouse"
+          },
+          {
+            "objectName": "debugRating"
           }
         ]
       },
@@ -22265,6 +22820,17 @@
                 "=",
                 "statusOrder"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRating",
+                "Text",
+                "=",
+                "Player.rating"
+              ]
             }
           ]
         },
@@ -22543,11 +23109,20 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "StringVariable"
               },
               "parameters": [
-                "Player",
-                "Houses",
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bubbleOrder",
                 "",
                 "",
                 ""
@@ -22555,21 +23130,11 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
+                "\"Left\""
               ]
             },
             {
@@ -35440,13 +36005,43 @@
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Score",
-                "Text",
+                "money",
                 "+",
-                "ToString(RandomInRange(15, 25))"
+                "(RandomInRange(15,25) * Player.multiplier)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DeliveryTime\"",
+                    "<=",
+                    "90"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "rating",
+                    "+",
+                    "0.5"
+                  ]
+                }
               ]
             }
           ]
@@ -35654,6 +36249,17 @@
                 "hasBurger",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                "=",
+                "0"
               ]
             }
           ],
@@ -36319,6 +36925,17 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                "=",
+                "0"
+              ]
             }
           ],
           "events": [
@@ -36698,6 +37315,76 @@
                     "UI_npcs"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Rating"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "multiplier",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "multiplier",
+                "=",
+                "3"
               ]
             }
           ]
