@@ -3586,6 +3586,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "25.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "25.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/25.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\25.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BG IMG/c62f07874279cea0b2f90de36511fcdd.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BG IMG\\c62f07874279cea0b2f90de36511fcdd.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BG IMG/d7f7d55fb9eba84928533c76440c774b.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BG IMG\\d7f7d55fb9eba84928533c76440c774b.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BG IMG/fe7e39bb98721a99bd4a974b8a91d65d.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BG IMG\\fe7e39bb98721a99bd4a974b8a91d65d.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11888,7 +11928,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.30104611971825246,
+        "zoomFactor": 0.26364576737708584,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14962,7 +15002,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44485159988866513,
+        "zoomFactor": 0.23689563725446575,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14978,8 +15018,8 @@
           "name": "background",
           "persistentUuid": "8ec24c35-7e37-45ef-a27d-b080a55d2b43",
           "width": 1920,
-          "x": -5,
-          "y": -6,
+          "x": 1,
+          "y": -1099,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -15148,6 +15188,66 @@
               "width": 192
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\BG IMG\\c62f07874279cea0b2f90de36511fcdd.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2944,
+                            "y": 0
+                          },
+                          {
+                            "x": 2944,
+                            "y": 1608
+                          },
+                          {
+                            "x": 0,
+                            "y": 1608
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -15158,6 +15258,9 @@
           },
           {
             "objectName": "buttonStart"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
