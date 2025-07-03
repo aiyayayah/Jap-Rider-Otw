@@ -28748,11 +28748,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "coffeeFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
@@ -29486,11 +29497,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "groceryFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
@@ -30224,11 +30246,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bakeryFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
@@ -30962,11 +30995,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "eggFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
@@ -31700,11 +31744,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "burgerFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
@@ -32438,11 +32493,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "icecreamFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
@@ -33176,11 +33242,22 @@
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Left\""
               ]
             },
             {
