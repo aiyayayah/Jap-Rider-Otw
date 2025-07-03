@@ -6858,7 +6858,6 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
@@ -12627,6 +12626,48 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "debugStatus",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "status",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "status",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -12903,6 +12944,9 @@
       {
         "folderName": "debug",
         "children": [
+          {
+            "objectName": "debugStatus"
+          },
           {
             "objectName": "debugHouse"
           },
@@ -14313,7 +14357,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817063,
+        "zoomFactor": 0.3797121001948016,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14474,7 +14518,13 @@
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 3
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14490,7 +14540,13 @@
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 4
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14807,48 +14863,6 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "debugStatus",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "status",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 40,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "status",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
           "name": "debugRating",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -14896,9 +14910,6 @@
           },
           {
             "objectName": "road2"
-          },
-          {
-            "objectName": "debugStatus"
           },
           {
             "objectName": "debugRating"
@@ -16037,48 +16048,6 @@
             "tileSize": 16,
             "tilesWithHitBox": ""
           }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "debugStatus",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "status",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 40,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "status",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "color": "0;0;0"
-          }
         }
       ],
       "objectsFolderStructure": {
@@ -16089,9 +16058,6 @@
           },
           {
             "objectName": "road2"
-          },
-          {
-            "objectName": "debugStatus"
           }
         ]
       },
@@ -16350,11 +16316,22 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104858,
+        "zoomFactor": 0.34375202416125,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "maxOrder",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "houseNum",
+          "type": "number",
+          "value": 10
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -16628,22 +16605,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI Top",
-          "name": "Score",
-          "persistentUuid": "e7621342-8ce8-4d0b-8c41-9419b38125f1",
-          "width": 0,
-          "x": 16,
-          "y": 16,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 48,
           "height": 54,
@@ -16774,7 +16735,13 @@
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 6
+            }
+          ]
         },
         {
           "angle": 0,
@@ -16790,7 +16757,13 @@
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 9
+            }
+          ]
         },
         {
           "angle": 0,
@@ -16806,7 +16779,13 @@
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "angle": 0,
@@ -16822,7 +16801,13 @@
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 8
+            }
+          ]
         },
         {
           "angle": 0,
@@ -16838,7 +16823,13 @@
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 5
+            }
+          ]
         },
         {
           "angle": 0,
@@ -17224,7 +17215,13 @@
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 2
+            }
+          ]
         },
         {
           "angle": 0,
@@ -17241,7 +17238,13 @@
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 4
+            }
+          ]
         },
         {
           "angle": 0,
@@ -17258,7 +17261,13 @@
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 7
+            }
+          ]
         },
         {
           "angle": 0,
@@ -17275,7 +17284,13 @@
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "houseID",
+              "type": "number",
+              "value": 3
+            }
+          ]
         },
         {
           "angle": 0,
@@ -17536,8 +17551,8 @@
           "name": "Current_Fuel_",
           "persistentUuid": "b424d759-8152-4da2-962d-46e9f3fd9995",
           "width": 415,
-          "x": 83,
-          "y": 27,
+          "x": 23,
+          "y": 118,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -17621,6 +17636,55 @@
           "x": 371,
           "y": -325,
           "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "UI Top",
+          "name": "Coin",
+          "persistentUuid": "4c0bbef0-68b4-4ac0-92cd-d85b35cf0872",
+          "width": 58,
+          "x": 37,
+          "y": 37,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 69,
+          "layer": "UI Top",
+          "name": "Score",
+          "persistentUuid": "164bc124-35f8-4c78-8134-227ce8b4ca07",
+          "width": 125,
+          "x": 133,
+          "y": 34,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 103,
+          "layer": "UI Top",
+          "name": "DeliveryTimer",
+          "persistentUuid": "fb7269ce-a948-4153-8487-18829bc0b5a8",
+          "width": 283,
+          "x": 1605,
+          "y": 4,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18048,11 +18112,26 @@
           "target": "playerMovement"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
           },
           "target": "generateOrder"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "newGenerateOrder"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Delivery"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -19074,7 +19153,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35269049347713805,
+        "zoomFactor": 0.3895856273827459,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19083,6 +19162,11 @@
           "name": "houseNum",
           "type": "number",
           "value": 8
+        },
+        {
+          "name": "maxOrder",
+          "type": "number",
+          "value": 1
         }
       ],
       "instances": [
@@ -19155,22 +19239,6 @@
           "x": 452,
           "y": 640,
           "zOrder": 100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "Score",
-          "persistentUuid": "728be1f5-5e31-474e-a88e-20e9ad6697fb",
-          "width": 0,
-          "x": 44,
-          "y": 46,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20281,16 +20349,118 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 237,
           "keepRatio": true,
           "layer": "ui",
-          "name": "debugHouse",
-          "persistentUuid": "7ad71e19-c0af-47de-810d-bf9e96b408c8",
-          "width": 0,
-          "x": 765,
-          "y": 279,
-          "zOrder": 132,
+          "name": "UI_npc1",
+          "persistentUuid": "67b57066-9073-43f0-951d-2213714bead1",
+          "width": 143,
+          "x": 68,
+          "y": 810,
+          "zOrder": 134,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 231,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_npc2",
+          "persistentUuid": "a65ade11-700c-419c-adfc-915a35d98dca",
+          "width": 148,
+          "x": 68,
+          "y": 808,
+          "zOrder": 135,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 251,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_npc3",
+          "persistentUuid": "8ffcfa57-c5e7-4c80-acec-d33538585bb5",
+          "width": 154,
+          "x": 65,
+          "y": 797,
+          "zOrder": 136,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 232,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_npc4",
+          "persistentUuid": "04b2aa7b-3a6e-4c9d-8514-8dcc36cd017e",
+          "width": 147,
+          "x": 66,
+          "y": 812,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6.327272727272726,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Coin",
+          "persistentUuid": "d1782b84-4204-4447-8bfc-238dcce8808f",
+          "width": 58,
+          "x": 37,
+          "y": 37,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 69,
+          "layer": "ui",
+          "name": "Score",
+          "persistentUuid": "adff395c-acfe-4973-b331-97cf78e0a75e",
+          "width": 125,
+          "x": 133,
+          "y": 34,
+          "zOrder": 139,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 103,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "DeliveryTimer",
+          "persistentUuid": "466afec5-d8b7-4f54-b858-fb2d586ba5b5",
+          "width": 283,
+          "x": 1605,
+          "y": 4,
+          "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22842,6 +23012,17 @@
                 "=",
                 "houseOrder"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugNPC",
+                "Text",
+                "=",
+                "\"DEFAUT npcID = \" + npcOrder"
+              ]
             }
           ]
         },
@@ -23156,17 +23337,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugNPC",
-                "Text",
-                "=",
-                "\"DEFAUT npcID = \" + npcOrder"
-              ]
-            },
             {
               "type": {
                 "value": "Delete"
