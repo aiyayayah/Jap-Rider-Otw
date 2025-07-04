@@ -16324,7 +16324,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416125095,
+        "zoomFactor": 0.4789341884535525,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18382,7 +18382,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40575189059442573,
+        "zoomFactor": 0.3010461197182779,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19610,6 +19610,70 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI_top",
+          "name": "debugHouse",
+          "persistentUuid": "2c137aba-55df-4dc1-a871-a251417ee0d0",
+          "width": 0,
+          "x": 658,
+          "y": 307,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI_top",
+          "name": "debugRequest",
+          "persistentUuid": "920fa4af-3d2f-41c4-89fa-a880f0ded4c2",
+          "width": 0,
+          "x": 645,
+          "y": 376,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI_top",
+          "name": "debugNPC",
+          "persistentUuid": "4e216988-6e5d-4fd1-9e92-eda8a893d97f",
+          "width": 0,
+          "x": 648,
+          "y": 469,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI_top",
+          "name": "debugStatus",
+          "persistentUuid": "772f5178-41f6-4783-909c-0a69141e2962",
+          "width": 0,
+          "x": 662,
+          "y": 247,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -19692,6 +19756,7 @@
           "target": "playerMovement"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -21841,7 +21906,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22904,7 +22969,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "1.5",
                 "",
                 "0"
               ]
@@ -24112,7 +24177,7 @@
                 "",
                 "assets\\sound\\main.mp3",
                 "yes",
-                "50",
+                "30",
                 ""
               ]
             }
@@ -24175,7 +24240,18 @@
                 "debugNPC",
                 "Text",
                 "=",
-                "\"DEFAUT npcID = \" + npcOrder"
+                "\"npc \" + npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugRequest",
+                "Text",
+                "=",
+                "foodOrder"
               ]
             }
           ]
@@ -24509,6 +24585,24 @@
                 "=",
                 "\"progress\""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
             }
           ],
           "events": [
@@ -24597,24 +24691,6 @@
                     "currentOrder",
                     "=",
                     "Houses.VariableString(foodOrder)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ChatBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "requestText",
-                    ""
                   ]
                 },
                 {
@@ -24719,24 +24795,6 @@
                 },
                 {
                   "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ChatBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "requestText",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -24744,16 +24802,6 @@
                     "Text",
                     "=",
                     "\"Hey \" + \"I want \" + foodOrder"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "Houses",
-                    "Player"
                   ]
                 }
               ]
@@ -24847,24 +24895,6 @@
                 },
                 {
                   "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ChatBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "requestText",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -24872,16 +24902,6 @@
                     "Text",
                     "=",
                     "\"Hey \" + \"I want \" + foodOrder"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "Houses",
-                    "Player"
                   ]
                 }
               ]
@@ -24975,24 +24995,6 @@
                 },
                 {
                   "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ChatBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "requestText",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -25000,16 +25002,6 @@
                     "Text",
                     "=",
                     "\"Hey \" + \"Saya nak \" + foodOrder"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "Houses",
-                    "Player"
                   ]
                 }
               ]
@@ -34975,22 +34967,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "decisionBackground"
               ]
             },
@@ -35069,7 +35045,7 @@
               "parameters": [
                 "money",
                 "=",
-                "8"
+                "0"
               ]
             },
             {
