@@ -4158,6 +4158,26 @@
         "name": "decisionYes Idle2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/burgerShop.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\burgerShop.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/eggShop.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\eggShop.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -32336,9 +32356,9 @@
               },
               "parameters": [
                 "",
-                "assets\\sound\\shop-bell.mp3",
+                "assets\\sound\\eggShop.mp3",
                 "",
-                "50",
+                "100",
                 ""
               ]
             },
@@ -33085,9 +33105,9 @@
               },
               "parameters": [
                 "",
-                "assets\\sound\\shop-bell.mp3",
+                "assets\\sound\\burgerShop.mp3",
                 "",
-                "50",
+                "100",
                 ""
               ]
             },
