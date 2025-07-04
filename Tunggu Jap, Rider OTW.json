@@ -4178,6 +4178,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/helloMalayWoman1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\helloMalayWoman1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/helloOldMan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\helloOldMan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12908,6 +12928,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_Petrol",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\UI_Petrol.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 71,
+                        "y": 55
+                      },
+                      {
+                        "x": 248,
+                        "y": 55
+                      },
+                      {
+                        "x": 248,
+                        "y": 186
+                      },
+                      {
+                        "x": 71,
+                        "y": 186
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13242,6 +13322,9 @@
       },
       {
         "objectName": "DeliveryTimer"
+      },
+      {
+        "objectName": "UI_Petrol"
       },
       {
         "objectName": "Coin"
@@ -18243,66 +18326,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "UI_Petrol",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\npc\\UI_Petrol.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 71,
-                            "y": 55
-                          },
-                          {
-                            "x": 248,
-                            "y": 55
-                          },
-                          {
-                            "x": 248,
-                            "y": 186
-                          },
-                          {
-                            "x": 71,
-                            "y": 186
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18328,9 +18351,6 @@
           },
           {
             "objectName": "UI_QuestionMark"
-          },
-          {
-            "objectName": "UI_Petrol"
           }
         ]
       },
@@ -20695,7 +20715,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44485159988868506,
+        "zoomFactor": 0.6197916666666944,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21969,6 +21989,39 @@
           "x": 1605,
           "y": 4,
           "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Current_Fuel_",
+          "persistentUuid": "8dbb6cb5-2bcc-4632-9ac9-d99285e227ca",
+          "width": 0,
+          "x": 30,
+          "y": 122,
+          "zOrder": 140,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 293,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_Petrol",
+          "persistentUuid": "d039a947-f3f8-401e-9106-cc1a113178cd",
+          "width": 345,
+          "x": -41,
+          "y": 766,
+          "zOrder": 141,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23743,7 +23796,7 @@
                     "",
                     "assets\\sound\\helloIndianWoman.mp3",
                     "",
-                    "",
+                    "100",
                     ""
                   ]
                 },
@@ -24946,7 +24999,7 @@
                     "",
                     "assets\\sound\\helloIndianWoman.mp3",
                     "",
-                    "50",
+                    "100",
                     ""
                   ]
                 },
@@ -24990,7 +25043,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Yo! \" + \"I want \" + foodOrder+ \" -ASAP. Got a meeting in 10\""
+                    "\"I need to relax a bit. Please bring me \" + foodOrder"
                   ]
                 },
                 {
@@ -25076,9 +25129,9 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sound\\helloMan2.mp3",
+                    "assets\\sound\\helloOldMan.mp3",
                     "",
-                    "50",
+                    "70",
                     ""
                   ]
                 },
@@ -25122,7 +25175,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Hey \" + \"I want \" + foodOrder"
+                    "\"Ah Girl, get me some \" + foodOrder"
                   ]
                 },
                 {
@@ -25254,7 +25307,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Hey \" + \"I want \" + foodOrder"
+                    "\"I’m super tired… help me get \" + foodOrder"
                   ]
                 },
                 {
@@ -25340,9 +25393,9 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sound\\helloMalayWoman.mp3",
+                    "assets\\sound\\helloMalayWoman1.mp3",
                     "",
-                    "50",
+                    "60",
                     ""
                   ]
                 },
@@ -25386,7 +25439,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Hey \" + \"Saya nak \" + foodOrder"
+                    "\"Adik. Tolong belikan satu \" + foodOrder"
                   ]
                 },
                 {
@@ -38256,7 +38309,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"You forgot mine, ah? I asked for \" + foodOrder+ \", remember?\"\n\n"
+                    "\"Eh, I think you gave mine to the wrong house.\""
                   ]
                 },
                 {
@@ -38315,7 +38368,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Aiyo, you hantar to wrong person already.\""
+                    "\"Girl, did you lupa my order or what?\""
                   ]
                 },
                 {
@@ -38374,7 +38427,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Aiyo, you hantar to wrong person already.\""
+                    "\"You send to wrong person again ah?\""
                   ]
                 },
                 {
@@ -38433,7 +38486,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Cepat sikit la… I’ve been waiting forever!\""
+                    "\"Eh? You bagi my food to someone else ah?\""
                   ]
                 },
                 {
@@ -38931,7 +38984,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"You forgot mine, ah? I asked for \" + foodOrder+ \", remember?\"\n\n"
+                    "\"Wah, finally! Took you long enough.\""
                   ]
                 },
                 {
@@ -38990,7 +39043,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Aiyo, you hantar to wrong person already.\""
+                    "\"Old bones can’t tahan long without makan, ah girl.\""
                   ]
                 },
                 {
@@ -39049,7 +39102,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Aiyo, you hantar to wrong person already.\""
+                    "\"I nearly fell asleep waiting, you know.\""
                   ]
                 },
                 {
@@ -39108,7 +39161,7 @@
                     "requestText",
                     "Text",
                     "=",
-                    "\"Cepat sikit la… I’ve been waiting forever!\""
+                    "\"Fuh, I dah nak marah tadi. Tapi dapat juga, thanks!\""
                   ]
                 },
                 {
