@@ -16542,7 +16542,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488453,
+        "zoomFactor": 0.4335774304702628,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17914,6 +17914,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "hospital",
+          "persistentUuid": "d5601b27-67fb-4aca-ad3c-4e17348bae19",
+          "width": 0,
+          "x": 1576,
+          "y": 245,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18324,6 +18340,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -18600,7 +18617,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1726229638178953,
+        "zoomFactor": 0.3111974942445554,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19613,7 +19630,7 @@
           "depth": 1,
           "height": 256,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "ChatBox",
           "opacity": 191,
           "persistentUuid": "24b1e317-0c32-4d35-87bc-7a6cb682d875",
@@ -19631,7 +19648,7 @@
           "depth": 1,
           "height": 46,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "requestText",
           "persistentUuid": "822fafe8-7ed9-44b9-a7be-a5e85940cfac",
           "width": 1101,
@@ -19648,7 +19665,7 @@
           "depth": 1,
           "height": 176,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_npc3",
           "persistentUuid": "84429de5-6b88-41b9-98c3-b5b5c54e30ca",
           "width": 157,
@@ -19665,7 +19682,7 @@
           "depth": 1,
           "height": 160,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_npc2",
           "persistentUuid": "cd2a3838-4627-4387-86f6-8691df57a4fd",
           "width": 130,
@@ -19682,7 +19699,7 @@
           "depth": 1,
           "height": 176,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_npc1",
           "persistentUuid": "bfad4fb7-b71e-4392-8528-fd256a056c65",
           "width": 128,
@@ -19699,7 +19716,7 @@
           "depth": 1,
           "height": 204,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_npc4",
           "persistentUuid": "455ac3c9-a59b-465b-87e3-b0eda259e196",
           "width": 165,
@@ -19784,7 +19801,7 @@
           "depth": 10,
           "height": 218,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_accidentDriver",
           "persistentUuid": "77e425af-a766-4a12-9af1-69d8a267487b",
           "width": 248,
@@ -19801,7 +19818,7 @@
           "depth": 1,
           "height": 204,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_Nurse",
           "persistentUuid": "7b1d29cb-cecd-4702-8d28-a0def0ee3bac",
           "width": 124,
@@ -19818,7 +19835,7 @@
           "depth": 1,
           "height": 212,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "UI_Robber",
           "persistentUuid": "447c6624-1a93-4ed2-8718-8af324dffd13",
           "width": 157,
@@ -19834,7 +19851,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "debugHouse",
           "persistentUuid": "2c137aba-55df-4dc1-a871-a251417ee0d0",
           "width": 0,
@@ -19850,7 +19867,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "debugRequest",
           "persistentUuid": "920fa4af-3d2f-41c4-89fa-a880f0ded4c2",
           "width": 0,
@@ -19866,7 +19883,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "debugNPC",
           "persistentUuid": "4e216988-6e5d-4fd1-9e92-eda8a893d97f",
           "width": 0,
@@ -19882,7 +19899,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "debugStatus",
           "persistentUuid": "772f5178-41f6-4783-909c-0a69141e2962",
           "width": 0,
@@ -19899,7 +19916,7 @@
           "depth": 6,
           "height": 58,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "Coin",
           "persistentUuid": "29b49578-5f73-4c58-812b-fb7abdb85123",
           "width": 58,
@@ -19916,7 +19933,7 @@
           "depth": 1,
           "height": 69,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "Score",
           "persistentUuid": "ed2b3d43-b31b-4441-9220-254b38f2e54d",
           "width": 125,
@@ -19933,7 +19950,7 @@
           "depth": 1,
           "height": 103,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "DeliveryTimer",
           "persistentUuid": "059f7817-568c-4cfe-b4c0-e143279f77d9",
           "width": 283,
@@ -19950,7 +19967,7 @@
           "depth": 1,
           "height": 45,
           "keepRatio": true,
-          "layer": "UI_top",
+          "layer": "ui",
           "name": "Current_Fuel_",
           "persistentUuid": "5edceb2f-fbed-44a8-930c-abdd271c4266",
           "width": 415,
@@ -20156,7 +20173,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "UI_top",
+          "name": "ui",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -20658,7 +20675,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4027225833326092,
+        "zoomFactor": 0.3526904934771384,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35350,7 +35367,7 @@
               "parameters": [
                 "money",
                 "=",
-                "0"
+                "45"
               ]
             },
             {
@@ -36115,6 +36132,15 @@
               "parameters": [
                 "requestText"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "carOne",
+                ""
+              ]
             }
           ]
         },
@@ -36541,6 +36567,50 @@
                 "=",
                 "\"Aiyo! Sure ah? Your leg like quite serious wor...\""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionText",
+                ""
+              ]
             }
           ]
         },
@@ -36647,6 +36717,158 @@
                 "=",
                 "\"Still a bit sakit, but can jalan already. Next time, hati-hati sikit\""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionText",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "cameraOnPlayer",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenCameraPosition2"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ZoomOnPlayer\"",
+                    "Player.X() ",
+                    "Player.Y()",
+                    "",
+                    "\"linear\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenCameraZoom2"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ZoomCamera\"",
+                    "2",
+                    "",
+                    "\"linear\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "cameraOnPlayer",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isAlive",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "canMove",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Scale",
+                    "=",
+                    "1.5"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -36742,6 +36964,50 @@
                 "Text",
                 "=",
                 "\"You don’t have enough duit for treatment.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionText",
+                ""
               ]
             }
           ]
