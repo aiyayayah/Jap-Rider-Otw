@@ -4286,7 +4286,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -4384,7 +4398,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -4482,7 +4510,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -4588,7 +4630,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -6657,12 +6713,25 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -6766,7 +6835,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -6871,12 +6954,25 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -6976,7 +7072,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7084,7 +7194,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7180,12 +7304,25 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7285,12 +7422,25 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7398,7 +7548,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7494,12 +7658,25 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7595,12 +7772,25 @@
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -7680,36 +7870,45 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
         },
         {
           "name": "receivedFood",
-          "persistentUuid": "9694e231-7a55-4f0f-a9c9-09b991d77652",
           "type": "boolean",
           "value": false
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -7773,36 +7972,45 @@
         {
           "hasMixedValues": true,
           "name": "houseID",
-          "persistentUuid": "eb16374d-e272-405c-9130-d6fd733abeef",
           "type": "number",
           "value": 1
         },
         {
           "name": "hasOrder",
-          "persistentUuid": "9dd2fb14-b971-444a-859d-7db8399a3f4e",
           "type": "boolean",
           "value": false
         },
         {
           "name": "foodOrder",
-          "persistentUuid": "76504632-fe98-4846-921e-412acec9e309",
           "type": "string",
           "value": "0"
         },
         {
           "name": "receivedFood",
-          "persistentUuid": "9694e231-7a55-4f0f-a9c9-09b991d77652",
           "type": "boolean",
           "value": false
         },
         {
           "name": "originalOrder",
-          "persistentUuid": "3e6ed48b-25f7-4594-95e6-212c1e61cc32",
           "type": "string",
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -7890,7 +8098,21 @@
           "value": "0"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "houseHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -8071,7 +8293,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -8623,7 +8859,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -8702,7 +8952,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "isFolded": true,
@@ -8778,7 +9042,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -9425,7 +9703,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -9577,7 +9869,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -9725,7 +10031,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "shopHover",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 2,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Platform",
@@ -13038,6 +13358,17 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "UI_QuestionMark",
+      "texture": "assets\\npc\\UI_question mark_events.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -13378,6 +13709,9 @@
       },
       {
         "objectName": "Coin"
+      },
+      {
+        "objectName": "UI_QuestionMark"
       }
     ]
   },
@@ -13495,6 +13829,32 @@
         },
         {
           "name": "cottoncandyFood"
+        }
+      ]
+    },
+    {
+      "name": "Shops",
+      "objects": [
+        {
+          "name": "groceryShop"
+        },
+        {
+          "name": "burgerShop"
+        },
+        {
+          "name": "bakeryShop"
+        },
+        {
+          "name": "coffeeShop"
+        },
+        {
+          "name": "eggShop"
+        },
+        {
+          "name": "icecreamShop"
+        },
+        {
+          "name": "cottoncandyShop"
         }
       ]
     }
@@ -15322,6 +15682,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -15348,6 +15709,13 @@
             "includeConfig": 0
           },
           "target": "buttons"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "langgarMasukHospital"
         },
         {
           "disabled": true,
@@ -18365,17 +18733,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "UI_QuestionMark",
-          "texture": "assets\\npc\\UI_question mark_events.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -18398,9 +18755,6 @@
           },
           {
             "objectName": "Tree1"
-          },
-          {
-            "objectName": "UI_QuestionMark"
           }
         ]
       },
@@ -18707,7 +19061,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445554,
+        "zoomFactor": 0.3325387091251151,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20067,6 +20421,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 230,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_QuestionMark",
+          "persistentUuid": "517d8d16-6027-4d2e-882c-2d229ddfcd4c",
+          "width": 170,
+          "x": 26,
+          "y": 845,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -20765,7 +21136,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34118560234736056,
+        "zoomFactor": 0.6622955665506687,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20899,7 +21270,7 @@
           "opacity": 191,
           "persistentUuid": "d802afb5-76d2-48a4-8769-e39693bd0424",
           "width": 2005,
-          "x": 3,
+          "x": -24,
           "y": 718,
           "zOrder": 1,
           "numberProperties": [],
@@ -22072,6 +22443,23 @@
           "x": -41,
           "y": 766,
           "zOrder": 141,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 230,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_QuestionMark",
+          "persistentUuid": "7b8d101d-e3e3-4f1c-b4d0-ad08d09145b1",
+          "width": 170,
+          "x": 67,
+          "y": 811,
+          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24511,15 +24899,6 @@
           "actions": [
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"GenerateOrder\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -24606,6 +24985,28 @@
                 "assets\\sound\\main.mp3",
                 "yes",
                 "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Houses",
+                "Effect",
+                "\"houseHover\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Shops",
+                "Effect",
+                "\"shopHover\"",
                 ""
               ]
             }
@@ -24995,6 +25396,30 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
             {
               "type": {
                 "value": "Delete"
@@ -30457,6 +30882,126 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "coffeeFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "coffeeFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "coffeeFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCoffee",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "coffeeIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -30509,9 +31054,10 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player carry grocery"
+          "comment": "Player carry coffee"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -30553,6 +31099,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -30715,66 +31262,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -30783,49 +31271,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -30843,16 +31288,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -30860,33 +31295,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -30972,6 +31437,26 @@
                 "hasGrocery",
                 "=",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "groceryShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ]
             },
             {
@@ -31206,6 +31691,126 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "groceryFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "groceryFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "groceryShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "groceryFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "groceryIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasGrocery",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "groceryIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -31245,6 +31850,18 @@
                 "=",
                 "statusOrder"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "groceryFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
             }
           ]
         },
@@ -31261,6 +31878,7 @@
           "comment": "Player carry grocery"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -31302,6 +31920,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -31464,66 +32083,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -31532,49 +32092,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -31592,16 +32109,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -31609,33 +32116,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -31955,6 +32492,126 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "bakeryFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "bakeryFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "bakeryShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bakeryFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "bakeryIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasBakery",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "bakeryIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -32010,6 +32667,7 @@
           "comment": "Player carry bakery"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32051,6 +32709,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32213,66 +32872,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -32281,49 +32881,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -32341,16 +32898,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -32358,33 +32905,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -32704,6 +33281,126 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "eggFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "eggFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "eggShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "eggFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "eggIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasEgg",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "eggIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -32759,6 +33456,7 @@
           "comment": "Player carry egg"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32800,6 +33498,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32962,66 +33661,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -33030,49 +33670,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -33090,16 +33687,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -33107,33 +33694,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -33453,6 +34070,115 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "burgerFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "burgerFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "burgerShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "burgerFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "burgerIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasBurger",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "burgerIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -33481,17 +34207,6 @@
                 "=",
                 "0.1"
               ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugStatus",
-                "Text",
-                "=",
-                "statusOrder"
-              ]
             }
           ]
         },
@@ -33508,6 +34223,7 @@
           "comment": "Player carry burger"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -33549,6 +34265,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -33711,66 +34428,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -33779,49 +34437,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -33839,16 +34454,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -33856,33 +34461,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -34202,6 +34837,115 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "icecreamFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "icecreamFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "icecreamShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "icecreamFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasIcecream",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "icecreamIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -34257,6 +35001,7 @@
           "comment": "Player carry icecream"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -34298,6 +35043,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -34460,66 +35206,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -34528,49 +35215,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -34588,16 +35232,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -34605,33 +35239,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -34951,6 +35615,115 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "Scale",
+                "=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "cottoncandyShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cottoncandyFood",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsReady",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "hasCottoncandy",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cottoncandyIsReady",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -35006,6 +35779,7 @@
           "comment": "Player carry cottoncandy"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35047,6 +35821,7 @@
           "comment": "Deliver"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35209,66 +35984,7 @@
                 "=",
                 "statusOrder"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"delivered\""
-              ]
             },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ChatBox",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "UI_npcs",
-                "id",
-                "=",
-                "npcOrder"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
@@ -35277,49 +35993,6 @@
                 "foodOrder",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "statusOrder",
-                "=",
-                "\"free\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ChatBox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "requestText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Npcs",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_npcs"
               ]
             },
             {
@@ -35337,16 +36010,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "houseOrder",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "orderRequestNum",
                 "-",
                 "1"
@@ -35354,33 +36017,63 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "debugStatus",
-                "Text",
+                "houseOrder",
                 "=",
-                "statusOrder"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "debugHouse",
-                "Text",
-                "=",
-                "houseOrder"
+                "2"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"GenerateOrder\""
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
               ]
             }
           ]
@@ -38127,6 +38820,17 @@
               "parameters": [
                 "DeliveryTimer"
               ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Houses",
+                "Effect",
+                "\"houseHover\"",
+                "no"
+              ]
             }
           ]
         },
@@ -38141,6 +38845,293 @@
             "textR": 0
           },
           "comment": "Delivery Successfully"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Foods",
+                "=",
+                "Player.X() - 10",
+                "=",
+                "Player.Y() - 20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "houseID",
+                "=",
+                "houseOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "UI_npcs",
+                "id",
+                "=",
+                "npcOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Foods",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Houses",
+                "Effect",
+                "\"houseHover\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Foods",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "UI_npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Thanks!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivered\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Npcs",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_npcs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -38278,12 +39269,43 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Houses",
+                "Effect",
+                "\"houseHover\"",
+                "no"
+              ]
+            },
             {
               "type": {
                 "value": "Delete"
@@ -38666,24 +39688,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "statusOrder",
-                    "=",
-                    "\"free\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -38761,6 +39765,16 @@
                   },
                   "parameters": [
                     "UI_npcs"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "statusOrder",
+                    "=",
+                    "\"free\""
                   ]
                 }
               ]
@@ -39545,6 +40559,212 @@
                 "multiplier",
                 "=",
                 "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Delivering Hover Houses"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Houses",
+                "Effect",
+                "\"houseHover\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Houses",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"delivering\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Houses",
+                "Effect",
+                "\"houseHover\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Delivering Hover Houses"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Shops",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Shops",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Shops",
+                "Effect",
+                "\"shopHover\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Shops",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"progress\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Shops",
+                "Effect",
+                "\"shopHover\"",
+                "no"
               ]
             }
           ]
