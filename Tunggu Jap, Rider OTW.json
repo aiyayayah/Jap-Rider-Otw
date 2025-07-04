@@ -4198,6 +4198,56 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/homelessOnehHiccups.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\homelessOnehHiccups.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/homelessOneLaugh.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\homelessOneLaugh.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/homelessOne/homelessOnehHiccups.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\homelessOne\\homelessOnehHiccups.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/homelessOne/homelessOneLaugh.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\homelessOne\\homelessOneLaugh.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/homelessOne/homelessOneReject.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\homelessOne\\homelessOneReject.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -20715,7 +20765,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6197916666666944,
+        "zoomFactor": 0.6197916666666946,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20798,8 +20848,8 @@
           "name": "Player",
           "persistentUuid": "16ef9bc2-b462-4e11-a571-4579a45fed21",
           "width": 21,
-          "x": 452,
-          "y": 640,
+          "x": 1556,
+          "y": 150,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -21833,8 +21883,8 @@
           "name": "npcHomeless1",
           "persistentUuid": "d9924cc4-0b32-4dab-8a03-9594544e5ba1",
           "width": 0,
-          "x": 1538,
-          "y": 1010,
+          "x": 1599,
+          "y": 203,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
@@ -22032,6 +22082,42 @@
         "folderName": "__ROOT"
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "money"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "money",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -35432,27 +35518,6 @@
                 "\"Effect\"",
                 "no"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "money",
-                "=",
-                "45"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "money"
-              ]
             }
           ]
         },
@@ -36205,15 +36270,6 @@
               "parameters": [
                 "requestText"
               ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "carOne",
-                ""
-              ]
             }
           ]
         },
@@ -36586,6 +36642,17 @@
                 "decisionNo",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -36695,6 +36762,33 @@
                 "decisionText",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "carOne",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
+                ""
+              ]
             }
           ]
         },
@@ -36709,12 +36803,6 @@
                 "decisionYes",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             },
             {
               "type": {
@@ -36735,6 +36823,23 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -36974,6 +37079,15 @@
                 "=",
                 "1.5"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "carOne",
+                ""
+              ]
             }
           ]
         },
@@ -36991,9 +37105,14 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "BooleanObjectVariable"
               },
-              "parameters": []
+              "parameters": [
+                "Player",
+                "isAlive",
+                "=",
+                ""
+              ]
             },
             {
               "type": {
@@ -37004,6 +37123,12 @@
                 "<",
                 "20"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -37015,7 +37140,7 @@
                 "",
                 "assets\\sound\\ohNo.mp3",
                 "",
-                "",
+                "90",
                 ""
               ]
             },
@@ -37134,6 +37259,33 @@
               },
               "parameters": [
                 "decisionText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "carOne",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
                 ""
               ]
             }
@@ -39478,6 +39630,18 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "npcHomeless1",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -39537,7 +39701,7 @@
                 "requestText",
                 "Text",
                 "=",
-                "\"Hey, student... got any leftovers from your delivery?\" \n"
+                "\"Boss, ada RM5 tak? Nak beli makan...\""
               ]
             },
             {
@@ -39545,7 +39709,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "4"
+                "3"
               ]
             },
             {
@@ -39556,7 +39720,31 @@
                 "requestText",
                 "Text",
                 "=",
-                "\"Not begging, just hungry. Times are tough.\""
+                "\"Don’t mean to kacau… just hungry, that’s all.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
               ]
             },
             {
@@ -39579,13 +39767,725 @@
             },
             {
               "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "decisionNo",
+                "decisionBackground.X() + 200",
+                "decisionBackground.Y() + 360",
+                "\"ui\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "decisionYes",
+                "decisionBackground.X() + 800",
+                "decisionBackground.Y() + 360",
+                "\"ui\""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionNo",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "decisionNo",
+                "Resizable",
+                "=",
+                "63"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "decisionYes",
+                "Resizable",
+                "=",
+                "63"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "decisionNo",
+                "Resizable",
+                "=",
+                "375"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "decisionText",
                 "Text",
                 "=",
-                "\"Do you want to give him your leftover food?\""
+                "\"Do you want to give RM5 to the homeless man?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "decisionYes",
+                "Resizable",
+                "=",
+                "375"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player make decision"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "npcHomeless1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionNo",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionNo",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\homelessOne\\homelessOneReject.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"It's okay... I didn't expect much anyway.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "npcHomeless1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "npcHomeless1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "money",
+                ">=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionNo",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\money.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "money",
+                "-",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "money"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"You're a real one — now I can afford that cheap wine.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\homelessOne\\homelessOnehHiccups.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "npcHomeless1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "npcHomeless1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "money",
+                "<",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "decisionYes",
+                "Effect",
+                "\"Effect\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "money"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionYes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionNo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "decisionText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "requestText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ChatBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestText",
+                "Text",
+                "=",
+                "\"Ah... broke, just like me huh?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\homelessOne\\homelessOneLaugh.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "npcHomeless1",
+                ""
               ]
             }
           ]
