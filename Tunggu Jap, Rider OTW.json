@@ -40106,10 +40106,22 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\homelessOne\\homelessOnehHiccups.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "decisionNo",
+                "decisionYes",
                 "Effect",
                 "\"Effect\"",
                 "yes"
@@ -40230,18 +40242,6 @@
                 "Text",
                 "=",
                 "\"You're a real one — now I can afford that cheap wine.\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\sound\\homelessOne\\homelessOnehHiccups.mp3",
-                "",
-                "",
-                ""
               ]
             },
             {
