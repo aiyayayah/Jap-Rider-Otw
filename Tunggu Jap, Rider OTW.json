@@ -36729,11 +36729,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionBackground",
-                ""
+                "decisionBackground"
               ]
             },
             {
@@ -36756,11 +36755,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionText",
-                ""
+                "decisionText"
               ]
             },
             {
@@ -36949,11 +36947,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionBackground",
-                ""
+                "decisionBackground"
               ]
             },
             {
@@ -36976,11 +36973,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionText",
-                ""
+                "decisionText"
               ]
             },
             {
@@ -37066,6 +37062,17 @@
               },
               "parameters": [
                 "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
                 ""
               ]
             },
@@ -37228,11 +37235,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionBackground",
-                ""
+                "decisionBackground"
               ]
             },
             {
@@ -37255,11 +37261,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionText",
-                ""
+                "decisionText"
               ]
             },
             {
@@ -39944,11 +39949,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionBackground",
-                ""
+                "decisionBackground"
               ]
             },
             {
@@ -39971,11 +39975,10 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionText",
-                ""
+                "decisionText"
               ]
             },
             {
@@ -40024,7 +40027,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "3"
               ]
             },
             {
@@ -40181,11 +40184,18 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionBackground",
-                ""
+                "decisionBackground"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "decisionText"
               ]
             },
             {
@@ -40203,15 +40213,6 @@
               },
               "parameters": [
                 "decisionNo",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "decisionText",
                 ""
               ]
             },
@@ -40375,15 +40376,6 @@
                 "value": "Delete"
               },
               "parameters": [
-                "decisionBackground",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
                 "decisionYes",
                 ""
               ]
@@ -40399,11 +40391,18 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Cache"
               },
               "parameters": [
-                "decisionText",
-                ""
+                "decisionBackground"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "decisionText"
               ]
             },
             {
