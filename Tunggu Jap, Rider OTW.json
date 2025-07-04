@@ -3987,7 +3987,7 @@
       {
         "file": "assets/decisionYes Hovered.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/decisionYes Hovered.png\"}",
         "name": "decisionYes Hovered",
         "smoothed": false,
         "userAdded": false
@@ -4140,6 +4140,22 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Map\\map ccp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/decisionYes Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "decisionYes Idle2",
         "smoothed": false,
         "userAdded": false
       }
@@ -12065,7 +12081,7 @@
           "height": 32,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "decisionYes Idle",
+          "texture": "decisionYes Idle2",
           "tiled": false,
           "topMargin": 0,
           "width": 32
@@ -18584,7 +18600,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000614,
+        "zoomFactor": 1.1726229638178953,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20642,7 +20658,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3300560049166073,
+        "zoomFactor": 0.4027225833326092,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21778,8 +21794,8 @@
           "opacity": 204,
           "persistentUuid": "4c848be8-50a5-44ba-90fa-bf6175650d27",
           "width": 1510,
-          "x": 191,
-          "y": 144,
+          "x": 183,
+          "y": 137,
           "zOrder": 128,
           "numberProperties": [],
           "stringProperties": [],
@@ -21795,43 +21811,9 @@
           "name": "decisionText",
           "persistentUuid": "60be8a80-52d5-4b53-a5e5-bd3d0b029b80",
           "width": 1236,
-          "x": 322,
-          "y": 371,
+          "x": 314,
+          "y": 364,
           "zOrder": 129,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 257,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "decisionNo",
-          "persistentUuid": "1fb0fe8b-2a11-4167-a307-7c1fab7264f5",
-          "width": 356,
-          "x": 507,
-          "y": 455,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 44.61618798955613,
-          "height": 239.81201044386415,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "decisionYes",
-          "persistentUuid": "7d688f60-4ba7-45f7-8c3f-9de648421d72",
-          "width": 356,
-          "x": 1003,
-          "y": 476,
-          "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35319,30 +35301,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "decisionText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "decisionYes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "decisionNo"
-              ]
-            },
-            {
-              "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
@@ -36394,30 +36352,103 @@
                 },
                 {
                   "type": {
-                    "value": "Montre"
+                    "value": "Create"
                   },
                   "parameters": [
-                    "decisionYes",
-                    ""
+                    "",
+                    "decisionNo",
+                    "decisionBackground.X() + 200",
+                    "decisionBackground.Y() + 300",
+                    "\"ui\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Montre"
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "decisionYes",
+                    "decisionBackground.X() + 800",
+                    "decisionBackground.Y() + 360",
+                    "\"ui\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
                     "decisionNo",
-                    ""
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
                   ]
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
                     "decisionYes",
-                    "\"Pay RM20 and recover\"",
-                    ""
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "decisionNo",
+                    "Resizable",
+                    "=",
+                    "63"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "decisionYes",
+                    "Resizable",
+                    "=",
+                    "63"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "decisionNo",
+                    "Resizable",
+                    "=",
+                    "375"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "decisionYes",
+                    "Resizable",
+                    "=",
+                    "375"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "decisionText",
+                    "Text",
+                    "=",
+                    "\"Proceed with treatment?\""
                   ]
                 },
                 {
@@ -36432,13 +36463,12 @@
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
                   },
                   "parameters": [
-                    "decisionText",
-                    "Text",
-                    "=",
-                    "\"Proceed with treatment?\""
+                    "decisionYes",
+                    "\"Pay RM20\"",
+                    ""
                   ]
                 }
               ]
@@ -36456,161 +36486,6 @@
             "textR": 0
           },
           "comment": "Player make decision"
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "decisionYes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "decisionYes",
-                "Effect",
-                "\"Effect\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "decisionYes",
-                "Effect",
-                "\"Effect\"",
-                "no"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "money",
-                    ">=",
-                    "20"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\sound\\money.mp3",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "money",
-                    "-",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Score",
-                    "Text",
-                    "=",
-                    "money"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "decisionText",
-                    "Text",
-                    "=",
-                    "\"Still a bit sakit, but can jalan already. Next time, hati-hati sikit\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "money",
-                    "<",
-                    "20"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Score",
-                    "Text",
-                    "=",
-                    "money"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "decisionText",
-                    "Text",
-                    "=",
-                    "\"no money\""
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
