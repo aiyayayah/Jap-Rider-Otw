@@ -10264,7 +10264,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.2,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -20675,7 +20675,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3526904934771384,
+        "zoomFactor": 0.44485159988868506,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20828,7 +20828,7 @@
           "width": 304,
           "x": 429,
           "y": 794,
-          "zOrder": 101,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20921,7 +20921,7 @@
           "width": 237,
           "x": 1278,
           "y": -10,
-          "zOrder": 105,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20938,7 +20938,7 @@
           "width": 287,
           "x": 829,
           "y": 801,
-          "zOrder": 106,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20955,7 +20955,7 @@
           "width": 263,
           "x": 16,
           "y": 788,
-          "zOrder": 107,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20972,7 +20972,7 @@
           "width": 246,
           "x": 933,
           "y": -4,
-          "zOrder": 108,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21006,7 +21006,7 @@
           "width": 240,
           "x": 1645,
           "y": -11,
-          "zOrder": 110,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21084,7 +21084,7 @@
           "width": 198,
           "x": 292,
           "y": 394,
-          "zOrder": 114,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -21357,7 +21357,7 @@
           "width": 249,
           "x": 1204,
           "y": 811,
-          "zOrder": 117,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -21722,7 +21722,7 @@
           "width": 272,
           "x": 1594,
           "y": 815,
-          "zOrder": 123,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21773,7 +21773,7 @@
           "width": 23,
           "x": 1522,
           "y": 668,
-          "zOrder": 126,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -21811,8 +21811,8 @@
           "opacity": 204,
           "persistentUuid": "4c848be8-50a5-44ba-90fa-bf6175650d27",
           "width": 1510,
-          "x": 183,
-          "y": 137,
+          "x": 185,
+          "y": 179,
           "zOrder": 128,
           "numberProperties": [],
           "stringProperties": [],
@@ -36279,17 +36279,6 @@
                 },
                 {
                   "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "hospital",
-                    "Effect",
-                    "\"hospitalOutline\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -36578,6 +36567,28 @@
             },
             {
               "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalHint\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalOutline\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -36641,9 +36652,41 @@
                 ">=",
                 "20"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalHint\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalOutline\"",
+                "no"
+              ]
+            },
             {
               "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
@@ -36761,113 +36804,102 @@
                 "decisionText",
                 ""
               ]
-            }
-          ],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "cameraOnPlayer",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenCameraPosition2"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ZoomOnPlayer\"",
-                    "Player.X() ",
-                    "Player.Y()",
-                    "",
-                    "\"linear\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenCameraZoom2"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ZoomCamera\"",
-                    "2",
-                    "",
-                    "\"linear\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "cameraOnPlayer",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "isAlive",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "canMove",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeLayer"
-                  },
-                  "parameters": [
-                    "Player",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Scale",
-                    "=",
-                    "1.5"
-                  ]
-                }
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"ZoomOnPlayer\"",
+                "Player.X() ",
+                "Player.Y()",
+                "",
+                "\"linear\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraZoom2"
+              },
+              "parameters": [
+                "",
+                "\"ZoomCamera\"",
+                "2",
+                "",
+                "\"linear\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Player",
+                "Scale",
+                "=",
+                "1.5"
               ]
             }
           ]
@@ -36972,6 +37004,28 @@
               },
               "parameters": [
                 "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalHint\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "hospital",
+                "Effect",
+                "\"hospitalOutline\"",
+                "no"
               ]
             },
             {
