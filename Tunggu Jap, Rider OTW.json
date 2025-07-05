@@ -4882,6 +4882,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -4894,9 +4896,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -15959,7 +15959,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "langgarMasukHospital"
+          "target": "accidentOne"
         }
       ],
       "layers": [
@@ -19531,7 +19531,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "langgarMasukHospital"
+          "target": "accidentOne"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -21824,7 +21824,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "langgarMasukHospital"
+          "target": "accidentOne"
         },
         {
           "disabled": true,
@@ -22452,7 +22452,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5610952083583072,
+        "zoomFactor": 0.26167741169926184,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22860,8 +22860,8 @@
           "name": "colliderLeft",
           "persistentUuid": "d18905e2-a2ff-4933-a8b7-7f5a49472cea",
           "width": 16,
-          "x": 1303,
-          "y": 1615,
+          "x": 18,
+          "y": 1617,
           "zOrder": 125,
           "numberProperties": [],
           "stringProperties": [],
@@ -32470,7 +32470,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "langgarMasukHospital"
+          "target": "accidentOne"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -32655,7 +32655,7 @@
           "isLocked": false,
           "name": "colliders",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -32688,7 +32688,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -32772,7 +32772,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4303403802207652,
+        "zoomFactor": 0.14890670595874259,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32781,14 +32781,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 1092,
+          "depth": 1,
+          "height": 1795,
           "layer": "",
           "name": "BackGround",
           "persistentUuid": "56935020-38c6-439d-88b0-68a364008c24",
-          "width": 2292,
-          "x": -333,
-          "y": -12,
+          "width": 3201,
+          "x": 7,
+          "y": 6,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -32796,15 +32796,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 570,
           "keepRatio": true,
           "layer": "",
           "name": "GameOver",
           "persistentUuid": "a96f03b6-088d-4709-ad10-7b9237673f29",
-          "width": 0,
-          "x": 177,
-          "y": 229,
+          "width": 2293,
+          "x": 719,
+          "y": 402,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -32813,14 +32814,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 36.754285714285714,
-          "height": 150,
+          "depth": 37,
+          "height": 247,
           "layer": "",
           "name": "buttonRestart",
           "persistentUuid": "3bba2d54-b2f6-4245-90ac-77f8320f2636",
-          "width": 268,
-          "x": 1251,
-          "y": 822,
+          "width": 374,
+          "x": 2219,
+          "y": 1377,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -32829,14 +32830,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 43.31313131313131,
-          "height": 150,
+          "depth": 43,
+          "height": 247,
           "layer": "",
           "name": "buttonQuit",
           "persistentUuid": "cc318619-8a32-47d9-a14c-79d3c4677d80",
-          "width": 268,
-          "x": 1548,
-          "y": 820,
+          "width": 374,
+          "x": 2634,
+          "y": 1374,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -33140,7 +33141,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6197916666666665,
+        "zoomFactor": 0.29879853636069054,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33149,14 +33150,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 1092,
+          "depth": 1,
+          "height": 1807,
           "layer": "",
           "name": "BackGround",
           "persistentUuid": "d3ce58b7-0d5c-4d42-8023-eae091d5ddd5",
-          "width": 2292,
-          "x": -333,
-          "y": -12,
+          "width": 3204,
+          "x": 10,
+          "y": -1,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -33165,14 +33166,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 36.754285714285714,
-          "height": 150,
+          "depth": 37,
+          "height": 248,
           "layer": "",
           "name": "buttonRestart",
           "persistentUuid": "5d7eeb5c-c2ab-46b8-9427-d2aff4b5b409",
-          "width": 268,
-          "x": 1329,
-          "y": 822,
+          "width": 375,
+          "x": 2333,
+          "y": 1379,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -33181,14 +33182,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 43.31313131313131,
-          "height": 150,
+          "depth": 43,
+          "height": 248,
           "layer": "",
           "name": "buttonQuit",
           "persistentUuid": "0f95ccd5-e0ed-4f1b-a602-c470682a2869",
-          "width": 268,
-          "x": 1611,
-          "y": 822,
+          "width": 375,
+          "x": 2728,
+          "y": 1379,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -33198,14 +33199,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 250,
+          "height": 414,
           "keepRatio": true,
           "layer": "",
           "name": "Win",
           "persistentUuid": "6304f3a2-e832-488e-884b-c610175498d9",
-          "width": 1354,
-          "x": 337,
-          "y": 200,
+          "width": 1893,
+          "x": 947,
+          "y": 350,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -33215,13 +33216,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 67,
-          "height": 150,
+          "height": 248,
           "layer": "",
           "name": "buttonNextLevel",
           "persistentUuid": "d16ac970-e135-41f8-be02-1101aa5b5760",
-          "width": 268,
-          "x": 1048,
-          "y": 821,
+          "width": 375,
+          "x": 1941,
+          "y": 1377,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -46564,7 +46565,7 @@
     },
     {
       "associatedLayout": "bossScene",
-      "name": "langgarMasukHospital",
+      "name": "accidentOne",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
