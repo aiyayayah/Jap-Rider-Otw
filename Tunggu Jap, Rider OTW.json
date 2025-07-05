@@ -10632,7 +10632,13 @@
       "name": "hospital",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "clickable",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [
         {
           "effectType": "Outline",
@@ -22569,7 +22575,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15911838846841422,
+        "zoomFactor": 0.23689563725450857,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22630,8 +22636,8 @@
           "name": "Player",
           "persistentUuid": "16ef9bc2-b462-4e11-a571-4579a45fed21",
           "width": 54,
-          "x": 2630,
-          "y": 261,
+          "x": 1180,
+          "y": 1422,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -31324,26 +31330,9 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 40,
-          "keepRatio": true,
-          "layer": "",
-          "name": "carTwo",
-          "persistentUuid": "d0d6da04-a6b7-4ae0-af71-132ddf0b1013",
-          "width": 86,
-          "x": 1447,
-          "y": 364,
-          "zOrder": 163,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "",
+          "layer": "colliders",
           "name": "colliderLeft",
           "persistentUuid": "97da9d52-4157-40be-9396-1d3bf91f0519",
           "width": 43,
@@ -31360,7 +31349,7 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "",
+          "layer": "colliders",
           "name": "colliderRight",
           "persistentUuid": "461a542f-fe0e-459d-a3e9-c2f77e5b2fb9",
           "width": 40,
@@ -32136,6 +32125,17 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -32303,6 +32303,17 @@
                 "",
                 "\"linear\"",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "True",
+                ""
               ]
             }
           ]
@@ -32641,6 +32652,7 @@
           "target": "accidentOne"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -32830,7 +32842,7 @@
           "isLocked": false,
           "name": "colliders",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -47704,6 +47716,17 @@
                 },
                 {
                   "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "hospital",
+                    "clickable",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -47824,7 +47847,7 @@
                   "parameters": [
                     "",
                     "decisionNo",
-                    "decisionBackground.X() + 200",
+                    "decisionBackground.X() + 400",
                     "decisionBackground.Y() + 300",
                     "\"ui\""
                   ]
@@ -47836,7 +47859,7 @@
                   "parameters": [
                     "",
                     "decisionYes",
-                    "decisionBackground.X() + 800",
+                    "decisionBackground.X() + 1500",
                     "decisionBackground.Y() + 360",
                     "\"ui\""
                   ]
@@ -47937,6 +47960,17 @@
                     "\"Pay RM20\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "hospital",
+                    "clickable",
+                    "False",
+                    ""
+                  ]
                 }
               ]
             }
@@ -47974,6 +48008,17 @@
                 "Player",
                 "isAlive",
                 "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "hospital",
+                "clickable",
+                "False",
                 ""
               ]
             }
@@ -48121,6 +48166,17 @@
                 "\"Lose\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "hospital",
+                "clickable",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -48164,6 +48220,17 @@
                 "Player",
                 "isAlive",
                 "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "hospital",
+                "clickable",
+                "False",
                 ""
               ]
             },
@@ -48429,6 +48496,17 @@
                 "carOne",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "hospital",
+                "clickable",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -48463,6 +48541,17 @@
                 "money",
                 "<",
                 "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "hospital",
+                "clickable",
+                "False",
+                ""
               ]
             },
             {
@@ -48636,6 +48725,17 @@
               "parameters": [
                 "",
                 "\"Lose\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "hospital",
+                "clickable",
+                "True",
                 ""
               ]
             }
@@ -49609,6 +49709,16 @@
                 },
                 {
                   "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "cameraOnPlayer",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -49729,7 +49839,7 @@
                   "parameters": [
                     "",
                     "decisionNo",
-                    "decisionBackground.X() + 200",
+                    "decisionBackground.X() + 300",
                     "decisionBackground.Y() + 300",
                     "\"ui\""
                   ]
@@ -49741,7 +49851,7 @@
                   "parameters": [
                     "",
                     "decisionYes",
-                    "decisionBackground.X() + 800",
+                    "decisionBackground.X() + 1500",
                     "decisionBackground.Y() + 360",
                     "\"ui\""
                   ]
@@ -49840,6 +49950,16 @@
                   "parameters": [
                     "decisionYes",
                     "\"Pay RM20\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "cameraOnPlayer",
+                    "True",
                     ""
                   ]
                 }
@@ -50057,7 +50177,7 @@
               },
               "parameters": [
                 "cameraOnPlayer",
-                "False",
+                "True",
                 ""
               ]
             },
@@ -50242,24 +50362,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "cameraOnPlayer",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::TweenCameraPosition2"
               },
               "parameters": [
@@ -50283,6 +50385,16 @@
                 "",
                 "\"linear\"",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "True",
+                ""
               ]
             },
             {
