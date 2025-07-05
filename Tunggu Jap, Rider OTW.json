@@ -17063,7 +17063,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702628,
+        "zoomFactor": 0.34375202416125167,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18849,7 +18849,6 @@
           "target": "PetrolStation"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -18889,7 +18888,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
