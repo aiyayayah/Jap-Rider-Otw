@@ -21414,7 +21414,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545329582,
+        "zoomFactor": 0.6406912462476775,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22750,6 +22750,7 @@
           "keepRatio": true,
           "layer": "ui",
           "name": "Story_Line",
+          "opacity": 204,
           "persistentUuid": "f9196a35-7dcd-4932-812d-b0660850eb2d",
           "width": 1533,
           "x": 289,
@@ -22918,6 +22919,17 @@
           "actions": [
             {
               "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -22967,6 +22979,68 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Story_Line"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Black_Background"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"ZoomOnPlayer\"",
+                "Player.X()",
+                "Player.Y()",
+                "",
+                "\"linear\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraZoom2"
+              },
+              "parameters": [
+                "",
+                "\"ZoomCamera\"",
+                "2",
+                "",
+                "\"linear\"",
+                "1"
+              ]
             }
           ]
         },
@@ -22998,11 +23072,19 @@
           "actions": [
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "ZoomCamera"
               },
               "parameters": [
                 "",
-                "3",
+                "2",
                 "",
                 "0"
               ]
