@@ -4264,6 +4264,118 @@
         "name": "1212-removebg-preview.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/street_tile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\street_tile_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/street_tile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\street_tile_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/sidewalk_corner_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\sidewalk_corner_00.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/sidewalk_corner_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\sidewalk_corner_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/sidewalk_corner_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\sidewalk_corner_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/sidewalk_corner_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\sidewalk_corner_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/sidewalk_corner_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\sidewalk_corner_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/sidewalk_pattern.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\sidewalk_pattern.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "EXAMPLE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EXAMPLE.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/street_tile_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\street_tile_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/building_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\building_01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/building_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\building_03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/building_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\building_06.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buildings/Houses/building_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Buildings\\Houses\\building_07.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7010,7 +7122,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h8.png",
+                  "image": "assets\\Buildings\\Houses\\building_08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7124,7 +7236,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h7.png",
+                  "image": "assets\\Buildings\\Houses\\building_09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7360,7 +7472,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_download-removebg-preview.png",
+                  "image": "assets\\Buildings\\Houses\\building_06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7478,7 +7590,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_3-removebg-preview.png",
+                  "image": "assets\\Buildings\\Houses\\building_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7828,7 +7940,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_4-removebg-preview.png",
+                  "image": "assets\\Buildings\\Houses\\building_02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7938,7 +8050,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h15.png",
+                  "image": "assets\\Buildings\\Houses\\building_03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7958,16 +8070,16 @@
                         "y": 0
                       },
                       {
-                        "x": 487,
+                        "x": 551,
                         "y": 0
                       },
                       {
-                        "x": 487,
-                        "y": 417
+                        "x": 551,
+                        "y": 667
                       },
                       {
                         "x": 0,
-                        "y": 417
+                        "y": 667
                       }
                     ]
                   ]
@@ -8040,7 +8152,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_h16.png",
+                  "image": "assets\\Buildings\\Houses\\building_05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8060,16 +8172,16 @@
                         "y": 0
                       },
                       {
-                        "x": 362,
+                        "x": 402,
                         "y": 0
                       },
                       {
-                        "x": 362,
-                        "y": 380
+                        "x": 402,
+                        "y": 616
                       },
                       {
                         "x": 0,
-                        "y": 380
+                        "y": 616
                       }
                     ]
                   ]
@@ -8150,7 +8262,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Buildings\\Houses\\assets_Buildings_Houses_assets_Buildings_Houses_h17.png",
+                  "image": "assets\\Buildings\\Houses\\building_07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13391,19 +13503,22 @@
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "tileMap1"
+      },
+      {
         "folderName": "makeDecision",
         "children": [
           {
-            "objectName": "decisionNo"
-          },
-          {
-            "objectName": "decisionYes"
+            "objectName": "decisionText"
           },
           {
             "objectName": "decisionBackground"
           },
           {
-            "objectName": "decisionText"
+            "objectName": "decisionYes"
+          },
+          {
+            "objectName": "decisionNo"
           }
         ]
       },
@@ -21468,7 +21583,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4598521426736661,
+        "zoomFactor": 0.27050126039628025,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21747,8 +21862,8 @@
           "name": "coffeeShop",
           "persistentUuid": "147b55f2-9819-483c-ae5d-9b6e971a2af5",
           "width": 263,
-          "x": 16,
-          "y": 788,
+          "x": 3353,
+          "y": 189,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -21758,14 +21873,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 288,
+          "height": 314,
           "keepRatio": true,
           "layer": "",
           "name": "bakeryShop",
           "persistentUuid": "99bcf6e1-32c8-4e21-9a8b-0f60735e7905",
-          "width": 246,
-          "x": 859,
-          "y": -1037,
+          "width": 264,
+          "x": 4565,
+          "y": -792,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -21792,14 +21907,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 290,
+          "height": 367,
           "keepRatio": true,
           "layer": "",
           "name": "groceryShop",
           "persistentUuid": "5b9d8372-fda2-4c78-b729-9316d13d256a",
-          "width": 240,
-          "x": 1571,
-          "y": -1044,
+          "width": 312,
+          "x": 3542,
+          "y": -972,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -22514,8 +22629,8 @@
           "name": "PetrolStation",
           "persistentUuid": "57d926e8-a146-4ae2-a63f-b4e00ee2e51c",
           "width": 250,
-          "x": 2054,
-          "y": 477,
+          "x": 2131,
+          "y": 752,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -23046,27 +23161,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "TileMap2",
-          "persistentUuid": "b324a34d-d47c-470e-9821-49a7d018904f",
-          "width": 0,
-          "x": 3444,
-          "y": -238,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":23,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406,406],[468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468],[468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468],[433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433,433],[468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468],[468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468,468],[460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "TileMap2",
           "persistentUuid": "5df0e1bb-f23a-413a-94c7-96695101cf7f",
           "width": 0,
           "x": 1820,
@@ -23423,6 +23517,1975 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "a2f4ba0c-8561-4f63-a407-0d86100bf761",
+          "width": 15,
+          "x": 3428,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "430cbc7a-f0e5-489a-8ca4-042a06e3e9b2",
+          "width": 15,
+          "x": 3442,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "79bc475f-3512-478f-a9cf-ee9be4f1148d",
+          "width": 15,
+          "x": 3457,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "eb9ae8fd-46b7-4856-9a48-b49ffaccd40d",
+          "width": 15,
+          "x": 3471,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "5f3a5c9d-237c-4be6-bf60-5dbdcfaf6a28",
+          "width": 15,
+          "x": 3486,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "2d2f0506-8b21-47af-9dae-e7cc3cf1de83",
+          "width": 15,
+          "x": 3500,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "29996bd1-c79d-4f63-b6cd-75aa8ef4df3b",
+          "width": 15,
+          "x": 3515,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "4aa67250-d989-4714-abac-9eb19b6343ef",
+          "width": 15,
+          "x": 3529,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "fb013feb-0b85-427e-ae25-b6e844a10e79",
+          "width": 15,
+          "x": 3544,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "f1d16432-35cb-496d-ade5-4808f3409962",
+          "width": 15,
+          "x": 3558,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "b4b09147-8e7b-4b67-b080-c56549611312",
+          "width": 15,
+          "x": 3573,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "9f681a10-4ea9-49ad-b498-e8bc0371e834",
+          "width": 15,
+          "x": 3587,
+          "y": -342,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_3",
+          "persistentUuid": "45caeafd-0d40-4888-9fde-2f308a9c9eed",
+          "width": 497,
+          "x": 3776,
+          "y": 581,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_2",
+          "persistentUuid": "8ae7cf79-fa3c-49e7-8bec-b90f7d133870",
+          "width": 619,
+          "x": 4270,
+          "y": 582,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_1",
+          "persistentUuid": "1659027a-5a60-4ac0-b718-02041a0ed1d7",
+          "width": 468,
+          "x": 4888,
+          "y": 583,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "1ba3c76f-ca35-46fb-b4a8-1670617b5ec6",
+          "width": 121,
+          "x": 5236,
+          "y": 502,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "f6dd1ca6-fc07-453f-959a-cbea265d434d",
+          "width": 121,
+          "x": 5236,
+          "y": 420,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "53b16403-fb06-43dc-85f0-1e2d789126d1",
+          "width": 121,
+          "x": 5236,
+          "y": 257,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "d583eb2a-b594-45dd-be23-8e484f942876",
+          "width": 121,
+          "x": 5236,
+          "y": 339,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "2c08932d-b787-4b17-ba28-d2840de804a9",
+          "width": 121,
+          "x": 5236,
+          "y": 94,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "aa527d47-3a9d-49b1-aa0e-8046799fab3f",
+          "width": 121,
+          "x": 5236,
+          "y": 176,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "6316e0e0-e6ad-47bc-be17-fabc4c86792a",
+          "width": 121,
+          "x": 5236,
+          "y": -233,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "c6c84bc2-c12a-454d-803d-435778324e91",
+          "width": 121,
+          "x": 5236,
+          "y": -151,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "79168452-5ef2-46e3-acc5-685b2e807ed8",
+          "width": 121,
+          "x": 5236,
+          "y": -70,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "13251887-b9b0-4b90-a17f-04b618e3d0c6",
+          "width": 121,
+          "x": 5236,
+          "y": 12,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "ddf476b3-d739-48c3-ac1f-7d7c0fa0e639",
+          "width": 121,
+          "x": 5236,
+          "y": -315,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 223,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_1",
+          "persistentUuid": "de77834d-91de-406d-8dbe-3a5c3fb2559c",
+          "width": 151,
+          "x": 5391,
+          "y": 491,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "aa85abd9-fffa-4821-8c25-4e31b3dd8c43",
+          "width": 102,
+          "x": 5416,
+          "y": 366,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "b5ea741f-f2df-45de-aec2-f334d0b8a04b",
+          "width": 102,
+          "x": 5417,
+          "y": 268,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "1bfb055d-e89d-4530-bb7a-9ec309fdabf3",
+          "width": 102,
+          "x": 5418,
+          "y": 71,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "ffb9d5c2-0a56-4c2a-beb2-d5a340d8c65d",
+          "width": 102,
+          "x": 5417,
+          "y": 169,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "0ebabe04-cc30-42f3-a318-7dfc6ed562d2",
+          "width": 102,
+          "x": 5419,
+          "y": -127,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "eaa366f5-6d8c-4990-860c-691e9160d62e",
+          "width": 102,
+          "x": 5418,
+          "y": -29,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "f5701349-906b-4393-97bb-8eb1790a59ca",
+          "width": 102,
+          "x": 5420,
+          "y": -324,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "efe77459-1dc9-4c75-87f0-8e9aec5a48d9",
+          "width": 102,
+          "x": 5419,
+          "y": -227,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 223,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_1",
+          "persistentUuid": "0ab9653c-22ce-4602-a62c-1431bc989683",
+          "width": 151,
+          "x": 5153,
+          "y": 685,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "72ffadd9-d0a6-4708-8f60-74bc03535980",
+          "width": 102,
+          "x": 5058,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "18ebc612-e428-4d61-afdf-5ac7d153e909",
+          "width": 102,
+          "x": 4957,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "3c08e43e-e317-44be-8497-5243b6586912",
+          "width": 102,
+          "x": 4857,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "fa297bf3-5458-40ce-8fed-e53d25b735d0",
+          "width": 102,
+          "x": 4756,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "9ed56c81-a183-41bf-8ca7-fa4cc6430ee7",
+          "width": 102,
+          "x": 4657,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "a2e49a3c-e71c-417e-b7df-d1e0df0a2252",
+          "width": 102,
+          "x": 4556,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "a25c9173-e7b9-4237-93a9-bea62b0617de",
+          "width": 102,
+          "x": 4455,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "84574312-49b6-42cf-ae9a-beb230e03424",
+          "width": 102,
+          "x": 4355,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "427325fa-f4c5-44ae-81ae-36282ffb8eb5",
+          "width": 102,
+          "x": 4254,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "7bdb7c7f-1217-468f-b076-b49688c03a31",
+          "width": 102,
+          "x": 4155,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "70e8ef3f-535f-4960-a00e-faf5ab78d40f",
+          "width": 102,
+          "x": 4054,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "f9fc343d-526c-451e-9069-61aac3ec43d4",
+          "width": 102,
+          "x": 3753,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "de7566d0-8a0c-4da7-a6b3-d61c3022f74a",
+          "width": 102,
+          "x": 3854,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_2",
+          "persistentUuid": "b636aa59-f991-4f20-88fd-38619bb03115",
+          "width": 102,
+          "x": 3953,
+          "y": 686,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "keepRatio": true,
+          "layer": "",
+          "name": "street_tile_4",
+          "persistentUuid": "3e76eed8-f125-467e-bd66-5d72f35ec1b3",
+          "width": 287,
+          "x": 5293,
+          "y": 661,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "06c1a03e-0dd9-4d82-9458-a0b65d36d495",
+          "width": 121,
+          "x": 5574,
+          "y": 3,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "8e2baa0d-23ef-4b9a-a1cc-735e83a5547d",
+          "width": 121,
+          "x": 5574,
+          "y": 85,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "43fb2818-a248-4f5a-946f-1b02df90e4fa",
+          "width": 121,
+          "x": 5574,
+          "y": 167,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "8fc30bb4-fa56-4fd9-9393-6dc9086ff275",
+          "width": 121,
+          "x": 5574,
+          "y": 248,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "ecf65db6-b889-44e0-8b5c-1ae553ef1acd",
+          "width": 121,
+          "x": 5574,
+          "y": 330,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "5b17711a-fe21-4b07-8c41-764efb17ea8b",
+          "width": 121,
+          "x": 5574,
+          "y": 412,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "d6cce093-5ef8-4885-aed9-30b627b9661a",
+          "width": 121,
+          "x": 5574,
+          "y": 494,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "b9dd72b2-3dfa-418d-901c-2a2cf8306dc7",
+          "width": 121,
+          "x": 5574,
+          "y": 575,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "d30580d6-490a-4a29-8dc1-8f7cfb6f7cbf",
+          "width": 121,
+          "x": 5574,
+          "y": 657,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "b6b27467-e870-4f70-96ad-7c1358302557",
+          "width": 121,
+          "x": 5574,
+          "y": 738,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "613b38d0-4d47-45ca-b8b3-467a0aa28e45",
+          "width": 121,
+          "x": 5574,
+          "y": 820,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "dffabc5f-14aa-4c90-8b48-d689084faff4",
+          "width": 121,
+          "x": 5574,
+          "y": -244,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "9007d01a-bff9-4927-9608-ee30b00620d8",
+          "width": 121,
+          "x": 5574,
+          "y": -80,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "3d53a68f-2112-4a47-b502-c1199f540254",
+          "width": 121,
+          "x": 5574,
+          "y": -325,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_corner_00",
+          "persistentUuid": "9b168480-4802-41c9-9272-02ee40224db8",
+          "width": 121,
+          "x": 5574,
+          "y": -162,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House11",
+          "persistentUuid": "131bde28-2340-456a-b4cf-fcee441c7c90",
+          "width": 0,
+          "x": 5732,
+          "y": -732,
+          "zOrder": 149,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 400,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House13",
+          "persistentUuid": "31b242c6-ee1b-48b9-aaee-012b9a8758eb",
+          "width": 328,
+          "x": 3826,
+          "y": -376,
+          "zOrder": 150,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 398,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House15",
+          "persistentUuid": "f35b91a4-f2ad-42e6-981c-9667e57161ee",
+          "width": 370,
+          "x": 4863,
+          "y": 178,
+          "zOrder": 151,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 354,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House16",
+          "persistentUuid": "dbd8ec33-a168-45fe-a46c-116b80b30069",
+          "width": 257,
+          "x": 3836,
+          "y": 224,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House10",
+          "persistentUuid": "43b3e7a1-84c9-4a65-a170-b4d71c222538",
+          "width": 0,
+          "x": 6331,
+          "y": 529,
+          "zOrder": 153,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 277,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House17",
+          "persistentUuid": "56ad05e3-44bc-4578-8ff0-db326b00b955",
+          "width": 253,
+          "x": 4890,
+          "y": -358,
+          "zOrder": 154,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House8",
+          "persistentUuid": "338ef084-0e56-4a99-9185-184450e55f21",
+          "width": 0,
+          "x": 7264,
+          "y": 362,
+          "zOrder": 155,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "House7",
+          "persistentUuid": "ad662f42-df5c-4147-b3b2-49f5acb278da",
+          "width": 0,
+          "x": 7900,
+          "y": 360,
+          "zOrder": 156,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "652fa5f7-4b8b-4a20-84e4-82c8d1ee9731",
+          "width": 356,
+          "x": 3819,
+          "y": 69,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "35d6ef51-82e0-4839-b2f5-3e3bd4e00e6b",
+          "width": 356,
+          "x": 4173,
+          "y": 70,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "1c816456-352d-47d5-8754-e6bd2d1f0648",
+          "width": 356,
+          "x": 3818,
+          "y": 153,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "39ee0c52-2d3b-4c87-b430-13b649794fe9",
+          "width": 356,
+          "x": 4171,
+          "y": 153,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "85a47505-d3d8-4cfd-9f25-0693567f5561",
+          "width": 356,
+          "x": 3816,
+          "y": 239,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "00037863-c4a8-474c-ba8c-7c862c9832c7",
+          "width": 356,
+          "x": 3815,
+          "y": 323,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "0055a661-e663-468f-8a71-fdcd7ecbfef2",
+          "width": 356,
+          "x": 4168,
+          "y": 323,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "2818ddbc-26d9-4acc-a926-8ffa40ac43be",
+          "width": 356,
+          "x": 4170,
+          "y": 240,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "2b4e466f-d066-4583-98a2-3d982f6d0b7b",
+          "width": 356,
+          "x": 4527,
+          "y": 68,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "bb1726a8-563e-4044-a2a9-c0975ef25a95",
+          "width": 356,
+          "x": 4880,
+          "y": 68,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "1fd8a243-6ea8-4f93-a792-63d99acad421",
+          "width": 356,
+          "x": 4525,
+          "y": 154,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "c4d393f8-7b2a-4844-9b99-ff0594308ff5",
+          "width": 356,
+          "x": 4879,
+          "y": 155,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "8d24ea2d-3fc4-4089-a31e-6c9a51f4f8ae",
+          "width": 356,
+          "x": 4878,
+          "y": 238,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "344ab9f4-5683-4406-a37e-e59d34dc0047",
+          "width": 356,
+          "x": 4524,
+          "y": 240,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "ccc8aba9-912b-42d4-9e48-ac12ec6570ff",
+          "width": 356,
+          "x": 4521,
+          "y": 323,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "7a5bcecf-710b-4701-8ffd-ef92d92071fe",
+          "width": 356,
+          "x": 4527,
+          "y": 491,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "f29ea4cf-af29-48e7-98b4-3f0f3f389908",
+          "width": 356,
+          "x": 4530,
+          "y": 408,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "8cc2b751-9a57-4fe5-9d62-e861b7a38074",
+          "width": 356,
+          "x": 4176,
+          "y": 408,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "72a0a744-f37f-4734-9e19-9ab051e9b07b",
+          "width": 356,
+          "x": 4174,
+          "y": 491,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "6892feb1-b151-40cf-af80-873f5416d92c",
+          "width": 356,
+          "x": 3822,
+          "y": 407,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "4ea18efb-b387-405c-9c2e-8521e3644c06",
+          "width": 356,
+          "x": 3821,
+          "y": 491,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "52e5235b-238b-4f60-ae21-cecd1d5cadbb",
+          "width": 356,
+          "x": 3816,
+          "y": -354,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "1fb95220-d807-42e8-852f-74135abc7493",
+          "width": 356,
+          "x": 4170,
+          "y": -353,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "d0bcffe5-c75b-4350-a3b1-a69dde7f7776",
+          "width": 356,
+          "x": 3815,
+          "y": -270,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "3c686269-936d-4d93-90b8-50313ef9383e",
+          "width": 356,
+          "x": 4168,
+          "y": -270,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "c3e2c16a-85ab-455d-bc64-487824ce1fce",
+          "width": 356,
+          "x": 3813,
+          "y": -184,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "27a1a075-57dd-48b1-aec2-5171e242a7fc",
+          "width": 356,
+          "x": 3812,
+          "y": -100,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "f62998c5-5c9e-4286-9590-a942b84f9030",
+          "width": 356,
+          "x": 4165,
+          "y": -100,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "e68d622b-c4a7-4d87-b8a7-5f59612eb630",
+          "width": 356,
+          "x": 4167,
+          "y": -183,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "eddf1128-79da-4ceb-bd86-9fb6c056715d",
+          "width": 356,
+          "x": 4524,
+          "y": -355,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "fe7d5450-b94c-4562-b9e9-868ff057b95e",
+          "width": 356,
+          "x": 4522,
+          "y": -269,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "90a62598-fb9b-4ef6-af89-1eef569e1f0b",
+          "width": 356,
+          "x": 4521,
+          "y": -183,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "71dc7eab-767f-46a5-8fcb-e6876b501377",
+          "width": 356,
+          "x": 4518,
+          "y": -100,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "666a6a80-cefa-4302-9a8e-a9d0e675e61e",
+          "width": 356,
+          "x": 4527,
+          "y": -15,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "84684a96-8957-4acd-873a-9f431fddf5fd",
+          "width": 356,
+          "x": 4173,
+          "y": -15,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "f50822f0-9504-4406-b35e-b1db1efe8332",
+          "width": 356,
+          "x": 3819,
+          "y": -16,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "0e6de14b-3e18-4c44-9a74-3dae3f1a7eec",
+          "width": 356,
+          "x": 4870,
+          "y": -100,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "27042dcf-f4bf-4a21-ba75-7d92e8f223a9",
+          "width": 356,
+          "x": 4881,
+          "y": -15,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "6572101b-8d22-4ae2-9ba9-b23af2f73441",
+          "width": 138,
+          "x": 5225,
+          "y": -100,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "a46e62fa-cd7b-42c0-a226-555044b5397d",
+          "width": 356,
+          "x": 4873,
+          "y": -183,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "2004e8cf-58b1-40bd-b835-690e3b279c3b",
+          "width": 356,
+          "x": 4874,
+          "y": -269,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sidewalk_pattern",
+          "persistentUuid": "e10d5ce8-4f02-4b85-99f1-8ac32eca04c2",
+          "width": 356,
+          "x": 4876,
+          "y": -355,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23537,6 +25600,628 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "street_tile_1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\street_tile_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 362,
+                            "y": 0
+                          },
+                          {
+                            "x": 362,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "street_tile_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\street_tile_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sidewalk_corner_00",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\sidewalk_corner_00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 160
+                          },
+                          {
+                            "x": 0,
+                            "y": 160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sidewalk_corner_0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\sidewalk_corner_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 186
+                          },
+                          {
+                            "x": 0,
+                            "y": 186
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sidewalk_corner_1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\sidewalk_corner_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 728,
+                            "y": 1
+                          },
+                          {
+                            "x": 728,
+                            "y": 185
+                          },
+                          {
+                            "x": 0,
+                            "y": 185
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sidewalk_corner_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\sidewalk_corner_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 728,
+                            "y": 1
+                          },
+                          {
+                            "x": 728,
+                            "y": 184
+                          },
+                          {
+                            "x": 0,
+                            "y": 184
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sidewalk_corner_3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\sidewalk_corner_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 728,
+                            "y": 0
+                          },
+                          {
+                            "x": 728,
+                            "y": 184
+                          },
+                          {
+                            "x": 0,
+                            "y": 184
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sidewalk_pattern",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\sidewalk_pattern.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 724,
+                            "y": 0
+                          },
+                          {
+                            "x": 724,
+                            "y": 274
+                          },
+                          {
+                            "x": 0,
+                            "y": 274
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "EXAMPLE.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2820,
+                            "y": 0
+                          },
+                          {
+                            "x": 2820,
+                            "y": 2160
+                          },
+                          {
+                            "x": 0,
+                            "y": 2160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "street_tile_4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\street_tile_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 400,
+                            "y": 0
+                          },
+                          {
+                            "x": 400,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "NewTiledSprite",
+          "texture": "assets\\Map\\tilemap1\\sidewalk_pattern.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -23547,6 +26232,42 @@
           },
           {
             "objectName": "Black_Background"
+          },
+          {
+            "objectName": "street_tile_1"
+          },
+          {
+            "objectName": "street_tile_4"
+          },
+          {
+            "objectName": "sidewalk_corner_00"
+          },
+          {
+            "objectName": "sidewalk_corner_0"
+          },
+          {
+            "objectName": "sidewalk_corner_1"
+          },
+          {
+            "objectName": "sidewalk_pattern"
+          },
+          {
+            "objectName": "sidewalk_corner_2"
+          },
+          {
+            "objectName": "sidewalk_corner_3"
+          },
+          {
+            "objectName": "street_tile_2"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewTiledSprite"
           }
         ]
       },
@@ -23982,6 +26703,39 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
