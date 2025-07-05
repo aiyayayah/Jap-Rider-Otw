@@ -19068,7 +19068,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6040838749989559,
+        "zoomFactor": 0.23089183385227516,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21312,7 +21312,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3895856273827467,
+        "zoomFactor": 0.27050126039626754,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21395,8 +21395,8 @@
           "name": "Player",
           "persistentUuid": "16ef9bc2-b462-4e11-a571-4579a45fed21",
           "width": 21,
-          "x": 1556,
-          "y": 150,
+          "x": 127,
+          "y": 594,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -22842,7 +22842,79 @@
               "parameters": [
                 "money",
                 "=",
-                "1"
+                "22"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraOnPlayer",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "3",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -23395,6 +23467,17 @@
                     "\"ky\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isAlive",
+                    "True",
+                    ""
+                  ]
                 }
               ]
             },
@@ -23422,6 +23505,17 @@
                     "\"sherry\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isAlive",
+                    "True",
+                    ""
+                  ]
                 }
               ]
             },
@@ -23447,6 +23541,17 @@
                   "parameters": [
                     "",
                     "\"ccp\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isAlive",
+                    "True",
                     ""
                   ]
                 }
@@ -36631,13 +36736,7 @@
       "name": "langgarMasukHospital",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "playerMovement"
-        },
-        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -36756,6 +36855,17 @@
                 "Effect",
                 "\"Effect\"",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
+                ""
               ]
             }
           ]
@@ -38011,6 +38121,17 @@
             },
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -38470,6 +38591,17 @@
                 "Effect",
                 "\"hospitalOutline\"",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "False",
+                ""
               ]
             },
             {
