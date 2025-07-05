@@ -19466,7 +19466,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29122588669114485,
+        "zoomFactor": 0.28172599320798836,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21971,7 +21971,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15911838846841306,
+        "zoomFactor": 0.20069741314553213,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31463,6 +31463,23 @@
                 "",
                 "\"linear\"",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Story_Line",
+                "Text",
+                "=",
+                ""
               ]
             }
           ]
