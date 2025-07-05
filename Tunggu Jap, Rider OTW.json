@@ -16274,6 +16274,11 @@
           "name": "maxOrder",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "skipTut",
+          "type": "boolean",
+          "value": true
         }
       ],
       "instances": [
@@ -19232,6 +19237,17 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -19400,6 +19416,17 @@
                 "\"linear\"",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -19443,7 +19470,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "4",
                 "",
                 "0"
               ]
@@ -21526,6 +21553,17 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -21694,6 +21732,17 @@
                 "\"linear\"",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -21737,7 +21786,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "4",
                 "",
                 "0"
               ]
@@ -33014,6 +33063,11 @@
           "name": "maxOrder",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "skipTut",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -34867,10 +34921,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -35288,7 +35342,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "7"
               ]
             },
             {
@@ -35381,6 +35435,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "skipTut",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -35407,6 +35471,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "skipTut",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -35415,7 +35489,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "1"
               ]
             },
             {
