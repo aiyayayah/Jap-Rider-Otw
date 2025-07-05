@@ -16274,11 +16274,6 @@
           "name": "maxOrder",
           "type": "number",
           "value": 1
-        },
-        {
-          "name": "skipTut",
-          "type": "boolean",
-          "value": true
         }
       ],
       "instances": [
@@ -19237,17 +19232,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "canMove",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -19416,17 +19400,6 @@
                 "\"linear\"",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "canMove",
-                "True",
-                ""
-              ]
             }
           ]
         },
@@ -19470,7 +19443,7 @@
               },
               "parameters": [
                 "",
-                "4",
+                "2",
                 "",
                 "0"
               ]
@@ -21553,17 +21526,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "canMove",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -21732,17 +21694,6 @@
                 "\"linear\"",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "canMove",
-                "True",
-                ""
-              ]
             }
           ]
         },
@@ -21786,7 +21737,7 @@
               },
               "parameters": [
                 "",
-                "4",
+                "2",
                 "",
                 "0"
               ]
@@ -33063,11 +33014,6 @@
           "name": "maxOrder",
           "type": "number",
           "value": 1
-        },
-        {
-          "name": "skipTut",
-          "type": "boolean",
-          "value": false
         }
       ],
       "instances": [
@@ -35342,7 +35288,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "7"
+                "5"
               ]
             },
             {
@@ -35435,16 +35381,6 @@
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "skipTut",
-                "False",
-                ""
-              ]
             }
           ]
         },
@@ -35471,16 +35407,6 @@
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "skipTut",
-                "False",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -35489,7 +35415,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "5"
               ]
             },
             {
@@ -55763,7 +55689,7 @@
               "parameters": [
                 "DeliveryTimer",
                 "=",
-                "TimeFormatter::SecondsToHHMMSS(180 -TimerElapsedTime(\"DeliveryTime\"))"
+                "TimeFormatter::SecondsToHHMMSS(deliveryTime-TimerElapsedTime(\"DeliveryTime\"))"
               ]
             }
           ]
