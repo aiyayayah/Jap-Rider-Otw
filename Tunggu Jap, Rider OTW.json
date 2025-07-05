@@ -4882,22 +4882,23 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 100000,
-          "deceleration": 200,
-          "jumpSpeed": 600,
-          "maxSpeed": 100000,
+          "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
+          "deceleration": 1500,
           "gravity": 0,
           "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
         }
@@ -7146,24 +7147,24 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 44,
-                        "y": 85.5
+                        "x": 19,
+                        "y": 82.5
                       },
                       {
-                        "x": 225,
-                        "y": 10
+                        "x": 212.5,
+                        "y": 14
                       },
                       {
-                        "x": 316,
-                        "y": 128
+                        "x": 396.5,
+                        "y": 96.5
                       },
                       {
-                        "x": 327,
-                        "y": 410
+                        "x": 391.5,
+                        "y": 445
                       },
                       {
-                        "x": 56.5,
-                        "y": 409.5
+                        "x": 37,
+                        "y": 444
                       }
                     ]
                   ]
@@ -7260,32 +7261,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2.5,
-                        "y": 57
+                        "x": 7.5,
+                        "y": 307.5
                       },
                       {
-                        "x": 15,
-                        "y": 34
+                        "x": 12,
+                        "y": 110.5
                       },
                       {
-                        "x": 50.5,
-                        "y": 2
+                        "x": 221,
+                        "y": 43.5
                       },
                       {
-                        "x": 145,
-                        "y": 8.5
+                        "x": 415,
+                        "y": 118
                       },
                       {
-                        "x": 188.5,
-                        "y": 47.5
+                        "x": 395,
+                        "y": 471.5
                       },
                       {
-                        "x": 185,
-                        "y": 143
-                      },
-                      {
-                        "x": 3.5,
-                        "y": 141
+                        "x": 35,
+                        "y": 462
                       }
                     ]
                   ]
@@ -7497,27 +7494,19 @@
                     [
                       {
                         "x": 3.5,
-                        "y": 31
+                        "y": 6.5
                       },
                       {
-                        "x": 166.5,
-                        "y": 6
+                        "x": 287,
+                        "y": 12
                       },
                       {
-                        "x": 227.5,
-                        "y": 67.5
+                        "x": 271.5,
+                        "y": 394
                       },
                       {
-                        "x": 222,
-                        "y": 220
-                      },
-                      {
-                        "x": 96,
-                        "y": 215
-                      },
-                      {
-                        "x": 3,
-                        "y": 188
+                        "x": 25,
+                        "y": 392
                       }
                     ]
                   ]
@@ -7964,28 +7953,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4.5,
-                        "y": 23
+                        "x": 2,
+                        "y": 57
                       },
                       {
-                        "x": 17,
-                        "y": 14
+                        "x": 430,
+                        "y": 57
                       },
                       {
-                        "x": 38.5,
-                        "y": 1.5
+                        "x": 422.5,
+                        "y": 695.5
                       },
                       {
-                        "x": 88,
-                        "y": 2.5
-                      },
-                      {
-                        "x": 85,
-                        "y": 81.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 81
+                        "x": 19.5,
+                        "y": 693.5
                       }
                     ]
                   ]
@@ -8107,7 +8088,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "House16",
       "type": "Sprite",
@@ -8192,20 +8173,24 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 14.5,
+                        "y": 189
+                      },
+                      {
+                        "x": 138.5,
+                        "y": 8
                       },
                       {
                         "x": 402,
                         "y": 0
                       },
                       {
-                        "x": 402,
-                        "y": 616
+                        "x": 394,
+                        "y": 581
                       },
                       {
-                        "x": 0,
-                        "y": 616
+                        "x": 33.5,
+                        "y": 582
                       }
                     ]
                   ]
@@ -8302,24 +8287,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9.5,
-                        "y": 36.5
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 97.5,
-                        "y": 1
+                        "x": 283,
+                        "y": 0
                       },
                       {
-                        "x": 198.5,
-                        "y": 37.5
+                        "x": 280,
+                        "y": 368.5
                       },
                       {
-                        "x": 185.5,
-                        "y": 180.5
-                      },
-                      {
-                        "x": 22,
-                        "y": 182
+                        "x": 9,
+                        "y": 377.5
                       }
                     ]
                   ]
@@ -22471,7 +22452,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26167741169926123,
+        "zoomFactor": 0.5610952083583072,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22601,9 +22582,9 @@
           "name": "hospital",
           "persistentUuid": "7dac5f01-490a-4d52-9166-62ebecf6bdf1",
           "width": 381,
-          "x": 677,
-          "y": 1191,
-          "zOrder": 2,
+          "x": 669,
+          "y": 1200,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22637,7 +22618,7 @@
           "width": 372,
           "x": 2713,
           "y": -56,
-          "zOrder": 5,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22711,7 +22692,7 @@
           "width": 294,
           "x": 2358,
           "y": 34,
-          "zOrder": 2,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -22757,7 +22738,7 @@
           "width": 303,
           "x": 1056,
           "y": -1,
-          "zOrder": 3,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -22802,7 +22783,7 @@
           "width": 500,
           "x": -2,
           "y": -2,
-          "zOrder": 10,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -22824,7 +22805,7 @@
           "width": 262,
           "x": 1992,
           "y": 45,
-          "zOrder": 122,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23168,15 +23149,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 400,
+          "height": 627,
           "keepRatio": true,
           "layer": "",
           "name": "TileMap2",
           "persistentUuid": "7fec071b-688b-43b9-b0e7-164af9be2234",
           "width": 444,
-          "x": 636,
-          "y": 1174,
-          "zOrder": 1,
+          "x": 640,
+          "y": 953,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -23845,7 +23826,7 @@
           "width": 301,
           "x": 109,
           "y": 590,
-          "zOrder": 150,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23860,15 +23841,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 354,
+          "height": 400,
           "keepRatio": true,
           "layer": "",
           "name": "House16",
           "persistentUuid": "dbd8ec33-a168-45fe-a46c-116b80b30069",
-          "width": 257,
-          "x": 45,
-          "y": 1190,
-          "zOrder": 152,
+          "width": 341,
+          "x": 100,
+          "y": 1143,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23891,7 +23872,7 @@
           "width": 270,
           "x": 715,
           "y": 31,
-          "zOrder": 154,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -23914,7 +23895,7 @@
           "width": 368,
           "x": 69,
           "y": 22,
-          "zOrder": 156,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24417,7 +24398,7 @@
           "width": 32,
           "x": 645,
           "y": 32,
-          "zOrder": 158,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24655,7 +24636,7 @@
           "width": 32,
           "x": 497,
           "y": -3,
-          "zOrder": 158,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31111,6 +31092,116 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 477,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap2",
+          "persistentUuid": "072c3df9-5fc8-462f-9304-84178e5702b7",
+          "width": 538,
+          "x": 1,
+          "y": 1106,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":19,\"dimY\":19,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[89,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,91],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[116,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,117,118],[143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap2",
+          "persistentUuid": "763d89dd-cb60-4326-b5cf-c91c9ba31d88",
+          "width": 144,
+          "x": 2391,
+          "y": 1227,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[393,394],[420,421]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap2",
+          "persistentUuid": "72330abd-02b2-4694-a187-4b903a0c622f",
+          "width": 144,
+          "x": 2390,
+          "y": 1143,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[447,448],[474,475]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap2",
+          "persistentUuid": "fae03936-0713-44e7-b262-f0d7cdc2088d",
+          "width": 72,
+          "x": 2148,
+          "y": 1243,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[399],[426]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TileMap2",
+          "persistentUuid": "3dab1dd9-1553-46f1-8b2e-06ede6f35314",
+          "width": 72,
+          "x": 2035,
+          "y": 1241,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[449],[476]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -31629,17 +31720,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "street_tile_4",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -31866,9 +31946,6 @@
           },
           {
             "objectName": "no_shadow"
-          },
-          {
-            "objectName": "NewSprite3"
           },
           {
             "objectName": "NewTiledSprite"
@@ -32611,7 +32688,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
