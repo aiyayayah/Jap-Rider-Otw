@@ -21796,7 +21796,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.22336005893815253,
+        "zoomFactor": 1.4790395861759948,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21844,8 +21844,8 @@
           "name": "Player",
           "persistentUuid": "3a3903f5-5e64-4dc7-b551-d21cd1f3358b",
           "width": 0,
-          "x": 843,
-          "y": 1008,
+          "x": 928,
+          "y": 1024,
           "zOrder": 175,
           "numberProperties": [],
           "stringProperties": [],
@@ -25843,7 +25843,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
