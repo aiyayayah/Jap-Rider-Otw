@@ -25515,7 +25515,7 @@
               "parameters": [
                 "targetAmount",
                 "=",
-                "700"
+                "500"
               ]
             },
             {
@@ -25536,7 +25536,7 @@
               "parameters": [
                 "levelTime",
                 "=",
-                "300"
+                "360"
               ]
             },
             {
