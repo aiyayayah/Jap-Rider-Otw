@@ -51965,6 +51965,18 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -52760,6 +52772,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "groceryShop",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -53571,6 +53595,18 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "bakeryShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -54366,6 +54402,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "eggShop",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -55165,6 +55213,18 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "burgerShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -55938,6 +55998,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "icecreamShop",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -56724,6 +56796,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "cottoncandyShop",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SourisSurObjet"
