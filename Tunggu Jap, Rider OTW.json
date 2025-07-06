@@ -20048,7 +20048,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.814188120371042,
+        "zoomFactor": 0.32169117647060885,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21395,55 +21395,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 6.327272727272726,
-          "height": 58,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "Coin",
-          "persistentUuid": "f809aa94-c813-456e-9274-7ae3f5f0f0cf",
-          "width": 58,
-          "x": 43,
-          "y": 39,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 69,
-          "layer": "ui",
-          "name": "Score",
-          "persistentUuid": "68c968ee-323a-4cdb-85fd-4244453f9922",
-          "width": 125,
-          "x": 139,
-          "y": 36,
-          "zOrder": 139,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "Current_Fuel_",
-          "persistentUuid": "217ed928-0b70-4d47-ae12-4c3ec707f7a9",
-          "width": 0,
-          "x": 36,
-          "y": 124,
-          "zOrder": 140,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 293,
           "keepRatio": true,
@@ -21506,6 +21457,147 @@
           "x": 823,
           "y": 743,
           "zOrder": 143,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 11,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Coin",
+          "opacity": 230,
+          "persistentUuid": "081b9d65-4905-487e-b4ea-96ea579e2b80",
+          "width": 101,
+          "x": 158,
+          "y": 305,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 69,
+          "layer": "ui",
+          "name": "Score",
+          "opacity": 230,
+          "persistentUuid": "f72c596c-74ee-4133-b8c0-55ff7613bed6",
+          "width": 125,
+          "x": 294,
+          "y": 321,
+          "zOrder": 139,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Current_Fuel_",
+          "opacity": 230,
+          "persistentUuid": "b1e3b9c7-c116-42a8-9b74-945d2d331c9b",
+          "width": 0,
+          "x": 294,
+          "y": 473,
+          "zOrder": 140,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_Clock",
+          "opacity": 230,
+          "persistentUuid": "bd240213-65e4-492f-90b2-c71030145292",
+          "width": 123,
+          "x": 146,
+          "y": 129,
+          "zOrder": 144,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 767,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "StatusFrame",
+          "opacity": 230,
+          "persistentUuid": "ab031993-0655-478e-952e-851c6ec8bccc",
+          "width": 603,
+          "x": 76,
+          "y": 65,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_Petrol_Status",
+          "opacity": 230,
+          "persistentUuid": "92736218-c05e-427f-8f7c-06c1aa80b3c3",
+          "width": 75,
+          "x": 164,
+          "y": 455,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "LevelTimer",
+          "opacity": 230,
+          "persistentUuid": "39230af8-8d20-4d7d-bb50-d9ed6e51d3c9",
+          "width": 0,
+          "x": 294,
+          "y": 157,
+          "zOrder": 149,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 135,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Star",
+          "opacity": 230,
+          "persistentUuid": "4578826e-da44-40ef-8267-cb1de4b804cc",
+          "width": 438,
+          "x": 156,
+          "y": 588,
+          "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21843,6 +21935,17 @@
             },
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextObject::SetTextAlignment"
               },
               "parameters": [
@@ -21999,6 +22102,17 @@
                 "",
                 "\"linear\"",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "True",
+                ""
               ]
             }
           ]
@@ -22524,7 +22638,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.23089183385228532,
+        "zoomFactor": 0.22336005893815064,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23873,8 +23987,8 @@
           "name": "Coin",
           "persistentUuid": "6a42fb79-4706-4376-b431-8149e1009b67",
           "width": 101,
-          "x": 76,
-          "y": 229,
+          "x": 135,
+          "y": 320,
           "zOrder": 138,
           "numberProperties": [],
           "stringProperties": [],
@@ -23889,8 +24003,8 @@
           "name": "Score",
           "persistentUuid": "a0ef4041-3d66-474e-b327-5395ee31008e",
           "width": 125,
-          "x": 212,
-          "y": 245,
+          "x": 271,
+          "y": 336,
           "zOrder": 139,
           "numberProperties": [],
           "stringProperties": [],
@@ -23905,8 +24019,8 @@
           "name": "Current_Fuel_",
           "persistentUuid": "65eff17d-54d2-4806-8427-f64bef192f37",
           "width": 0,
-          "x": 212,
-          "y": 397,
+          "x": 271,
+          "y": 488,
           "zOrder": 140,
           "numberProperties": [],
           "stringProperties": [],
@@ -23991,8 +24105,8 @@
           "name": "UI_Clock",
           "persistentUuid": "600b52a4-a39b-4e95-ba8e-3bc68b2c022a",
           "width": 123,
-          "x": 64,
-          "y": 53,
+          "x": 123,
+          "y": 144,
           "zOrder": 144,
           "numberProperties": [],
           "stringProperties": [],
@@ -24006,10 +24120,11 @@
           "keepRatio": true,
           "layer": "ui",
           "name": "StatusFrame",
+          "opacity": 230,
           "persistentUuid": "d6796888-3edd-4ee1-b3d5-a7ee3dd931c7",
           "width": 603,
-          "x": -6,
-          "y": -11,
+          "x": 53,
+          "y": 80,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -24025,8 +24140,8 @@
           "name": "UI_Petrol_Status",
           "persistentUuid": "1d85d79f-be05-4c44-bbc2-8a28702dca53",
           "width": 75,
-          "x": 82,
-          "y": 379,
+          "x": 141,
+          "y": 470,
           "zOrder": 146,
           "numberProperties": [],
           "stringProperties": [],
@@ -24058,8 +24173,8 @@
           "name": "LevelTimer",
           "persistentUuid": "fd185ff9-f3e4-4a2a-a4f2-a52a30a786e1",
           "width": 0,
-          "x": 212,
-          "y": 81,
+          "x": 271,
+          "y": 172,
           "zOrder": 149,
           "numberProperties": [],
           "stringProperties": [],
@@ -24091,8 +24206,8 @@
           "name": "Star",
           "persistentUuid": "b6e5c6cd-943a-43d0-9df6-6612f67fc953",
           "width": 438,
-          "x": 74,
-          "y": 512,
+          "x": 133,
+          "y": 603,
           "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
@@ -25590,6 +25705,137 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "carOne",
+          "persistentUuid": "a34ed6fa-57eb-440e-b64f-90769e531efc",
+          "width": 0,
+          "x": 166,
+          "y": 1104,
+          "zOrder": 167,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "carOne",
+          "persistentUuid": "e998bed9-3426-4cb5-815a-4a873bb8a46c",
+          "width": 0,
+          "x": 1552,
+          "y": 1062,
+          "zOrder": 168,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "carTwo",
+          "persistentUuid": "4f65fd48-5c6c-48d2-a96e-ef145a4c6aa8",
+          "width": 48,
+          "x": 2608,
+          "y": 235,
+          "zOrder": 169,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "carTwo",
+          "persistentUuid": "09b05e56-fe72-463b-abec-aa3546f1db74",
+          "width": 48,
+          "x": 240,
+          "y": 267,
+          "zOrder": 169,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "grandmaNpc",
+          "persistentUuid": "81f64e06-60d4-448d-9ceb-26cbf29cb53d",
+          "width": 16,
+          "x": 1696,
+          "y": 928,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 41,
+          "keepRatio": true,
+          "layer": "",
+          "name": "npcHomeless1",
+          "persistentUuid": "f7f57e52-9f2c-40f7-a902-788f7db74f24",
+          "width": 23,
+          "x": 1017,
+          "y": 176,
+          "zOrder": 171,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "npcHomeless2",
+          "persistentUuid": "aa099ba8-defb-4baa-ab53-2a8ca2e47331",
+          "width": 23,
+          "x": 2073,
+          "y": 1696,
+          "zOrder": 172,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -25665,6 +25911,18 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Start Animation"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25689,6 +25947,17 @@
             },
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -25703,7 +25972,7 @@
                 "storyText",
                 "Text",
                 "=",
-                "\"🎓RM700 in 3 minutes!\" +NewLine() + NewLine()+\n\"Semester fees are due. No pay = no future.\""
+                "\"🎓RM700 in 5 minutes!\" +NewLine() + NewLine()+\n\"Semester fees are due. No pay = no future.\""
               ]
             },
             {
@@ -25789,27 +26058,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "money",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "isAlive",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -25839,21 +26087,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenCameraPosition2"
-              },
-              "parameters": [
-                "",
-                "\"ZoomOnPlayer\"",
-                "Player.X()",
-                "Player.Y()",
-                "",
-                "\"linear\"",
-                "0.2"
+                "1"
               ]
             },
             {
@@ -25862,6 +26096,17 @@
               },
               "parameters": [
                 "StatusBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "True",
                 ""
               ]
             }
@@ -25940,7 +26185,16 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -25949,7 +26203,7 @@
               "parameters": [
                 "deliveryTime",
                 "=",
-                "30"
+                "45"
               ]
             },
             {
@@ -25964,12 +26218,33 @@
             },
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "levelTime",
                 "=",
                 "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "money",
+                "=",
+                "0"
               ]
             }
           ]
@@ -26167,6 +26442,27 @@
           "include": {
             "includeConfig": 0
           },
+          "target": "npc1 homelessOne"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "npc2 homelessTwo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "npc3 grandma"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
           "target": "accidentOne"
         },
         {
@@ -26293,7 +26589,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -26760,7 +27056,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9140341873316984,
+        "zoomFactor": 0.18169065978489626,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37779,7 +38075,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -49183,6 +49479,26 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "coffeeShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -49341,18 +49657,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "coffeeShop",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -50152,18 +50456,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "groceryShop",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -50793,6 +51085,26 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bakeryShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -50951,18 +51263,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "bakeryShop",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -51582,6 +51882,26 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "eggShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -51740,18 +52060,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "eggShop",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -52371,6 +52679,26 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "burgerShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -52529,18 +52857,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "burgerShop",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -53138,6 +53454,26 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "icecreamShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -53296,18 +53632,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "icecreamShop",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -53916,6 +54240,26 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cottoncandyShop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -54074,18 +54418,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "cottoncandyShop",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SourisSurObjet"
@@ -59577,7 +59909,7 @@
                 "",
                 "assets\\sound\\money.mp3",
                 "",
-                "90",
+                "100",
                 ""
               ]
             },
