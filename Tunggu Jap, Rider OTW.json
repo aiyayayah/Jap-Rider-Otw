@@ -25382,7 +25382,7 @@
               },
               "parameters": [
                 "",
-                "1",
+                "3",
                 "",
                 "0"
               ]
@@ -62605,7 +62605,7 @@
                     "",
                     "\"DeliveryTime\"",
                     "<=",
-                    "deliveryTime / 2"
+                    "deliveryTime * 0.6"
                   ]
                 }
               ],
@@ -63907,76 +63907,6 @@
                     "UI_npcs"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Rating"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "rating",
-                ">=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "multiplier",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "rating",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "multiplier",
-                "=",
-                "3"
               ]
             }
           ]
