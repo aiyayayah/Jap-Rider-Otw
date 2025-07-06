@@ -5024,6 +5024,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "ChatGPT Image Jul 6, 2025, 10_38_08 AM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image Jul 6, 2025, 10_38_08 AM.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Map/tilemap1/welcome.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\tilemap1\\welcome.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16186,6 +16202,7 @@
         }
       ]
     },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "grandmaNpc",
@@ -25437,7 +25454,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4598521426737189,
+        "zoomFactor": 1.9140341873316984,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27822,23 +27839,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "no_shadow",
-          "persistentUuid": "814fce97-ca93-404b-b0a3-8b2dd2684837",
-          "width": 78,
-          "x": 1215,
-          "y": 366,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 116,
-          "keepRatio": true,
-          "layer": "",
-          "name": "no_shadow",
           "persistentUuid": "b232e3e9-b1df-4709-9255-e009ae8e723e",
           "width": 77,
           "x": 1292,
@@ -27858,8 +27858,8 @@
           "name": "no_shadow",
           "persistentUuid": "63a7998f-c213-4a22-9fb6-d795a9cf0cbf",
           "width": 78,
-          "x": 1369,
-          "y": 366,
+          "x": 1367,
+          "y": 362,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -27908,9 +27908,9 @@
           "layer": "",
           "name": "street_tile_4",
           "persistentUuid": "40ace7e3-19e6-463e-b6b8-595a564520cc",
-          "width": 32,
-          "x": 1237,
-          "y": 157,
+          "width": 41,
+          "x": 1233,
+          "y": 162,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -27978,23 +27978,6 @@
           "persistentUuid": "1142bb0c-36a1-44c6-bcf4-965ec781d538",
           "width": 78,
           "x": 1752,
-          "y": 366,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 116,
-          "keepRatio": true,
-          "layer": "",
-          "name": "no_shadow",
-          "persistentUuid": "6491eae1-44a9-4507-bcf9-33ad89818bf7",
-          "width": 77,
-          "x": 1443,
           "y": 366,
           "zOrder": 1,
           "numberProperties": [],
@@ -31757,9 +31740,9 @@
           "layer": "",
           "name": "no_shadow",
           "persistentUuid": "8d693877-24f7-40b7-8f09-46eb6a967a66",
-          "width": 77,
-          "x": 1429,
-          "y": 354,
+          "width": 79,
+          "x": 1214,
+          "y": 367,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -34419,6 +34402,41 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "welcome",
+          "opacity": 128,
+          "persistentUuid": "877ae823-27de-424a-aea7-f9cf18604789",
+          "width": 287,
+          "x": 2439,
+          "y": 952,
+          "zOrder": 171,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 116,
+          "keepRatio": true,
+          "layer": "",
+          "name": "no_shadow",
+          "persistentUuid": "5e4629c0-6565-4943-8f97-79a65ba1c436",
+          "width": 78,
+          "x": 1444,
+          "y": 364,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35521,6 +35539,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "welcome",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Map\\tilemap1\\welcome.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -35557,6 +35635,9 @@
             "children": [
               {
                 "objectName": "no_shadow"
+              },
+              {
+                "objectName": "welcome"
               },
               {
                 "objectName": "street_tile_2"
