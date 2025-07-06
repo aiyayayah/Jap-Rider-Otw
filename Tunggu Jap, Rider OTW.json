@@ -5238,6 +5238,16 @@
         "name": "assets\\tutorial\\blockimg.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/gasStation.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\gasStation.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -19110,7 +19120,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24672586957407852,
+        "zoomFactor": 0.40575189059440886,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20693,6 +20703,23 @@
           "x": 2712,
           "y": 36,
           "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 251,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_Robber",
+          "persistentUuid": "9922b61d-eb8c-4bd2-82cc-f4582232def2",
+          "width": 249,
+          "x": 77,
+          "y": 1498,
+          "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -61468,7 +61495,7 @@
                   },
                   "parameters": [
                     "money",
-                    "-",
+                    "=",
                     "0"
                   ]
                 },
@@ -61481,6 +61508,14 @@
                     "Text",
                     "=",
                     "money"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
                   ]
                 },
                 {
@@ -61919,6 +61954,38 @@
                 "requestText",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4.0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_Petrol"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ChatBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "requestText"
+              ]
             }
           ],
           "events": [
@@ -61965,6 +62032,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound\\gasStation.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
