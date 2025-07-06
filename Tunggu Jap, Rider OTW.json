@@ -17445,7 +17445,7 @@
     {
       "name": "RefuelAmount",
       "type": "number",
-      "value": 20
+      "value": 60
     },
     {
       "name": "TotalRefuel",
@@ -21108,7 +21108,7 @@
                 "storyText",
                 "Text",
                 "=",
-                "\"🚑 Earn RM400 in 3 minutes!\" +NewLine() + NewLine()+\n\"Family emergency!\""
+                "\"🚑 Earn RM400 in 5 minutes!\" +NewLine() + NewLine()+\n\"Family emergency!\""
               ]
             },
             {
@@ -60245,7 +60245,7 @@
               "parameters": [
                 "PlayerFuel",
                 "=",
-                "20"
+                "60"
               ]
             },
             {
@@ -60554,7 +60554,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "4.0"
+                "1.0"
               ]
             },
             {
@@ -60592,8 +60592,8 @@
                   },
                   "parameters": [
                     "PlayerFuel",
-                    ">=",
-                    "19"
+                    "=",
+                    "60"
                   ]
                 }
               ],
@@ -60621,7 +60621,7 @@
                   "parameters": [
                     "PlayerFuel",
                     "<=",
-                    "19"
+                    "59"
                   ]
                 }
               ],
