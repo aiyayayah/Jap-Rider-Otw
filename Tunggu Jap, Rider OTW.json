@@ -19073,7 +19073,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647060885,
+        "zoomFactor": 0.4335774304702647,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25698,7 +25698,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26167741169921555,
+        "zoomFactor": 0.25314140012986275,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37425,7 +37425,7 @@
           "isLocked": false,
           "name": "colliders",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -37542,7 +37542,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22916801610753826,
+        "zoomFactor": 0.25314140012991815,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38931,8 +38931,8 @@
           "name": "block",
           "persistentUuid": "26cb0735-8ff9-49c4-a049-35fc14287dcd",
           "width": 1062,
-          "x": -2,
-          "y": 590,
+          "x": -6,
+          "y": 592,
           "zOrder": 166,
           "numberProperties": [],
           "stringProperties": [],
