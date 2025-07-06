@@ -5248,6 +5248,44 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/tutorial/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tutorial\\11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BGM/next level.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\BGM\\next level.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BGM/game over.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\BGM\\game over.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sound/homelessOne/talking.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\homelessOne\\talking.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -37032,7 +37070,7 @@
               "parameters": [
                 "money",
                 "=",
-                "30"
+                "0"
               ]
             },
             {
@@ -41023,7 +41061,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.14890670595874259,
+        "zoomFactor": 0.22169247275005163,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41119,7 +41157,7 @@
               },
               "parameters": [
                 "",
-                "assets\\BGM\\MenuBGMusic.mp3",
+                "assets\\BGM\\game over.wav",
                 "",
                 "90",
                 ""
@@ -41542,9 +41580,9 @@
               },
               "parameters": [
                 "",
-                "assets\\BGM\\Win_BG_Musics.mp3",
+                "assets\\BGM\\next level.wav",
                 "",
-                "90",
+                "70",
                 ""
               ]
             }
@@ -41940,7 +41978,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16777359131036276,
+        "zoomFactor": 0.1020182189341738,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42956,6 +42994,66 @@
             "characterSize": 150,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "t11",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\tutorial\\11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -42990,6 +43088,9 @@
           },
           {
             "objectName": "t10"
+          },
+          {
+            "objectName": "t11"
           },
           {
             "objectName": "nextText"
@@ -44082,7 +44183,7 @@
               },
               "parameters": [
                 "",
-                "assets\\tutorial\\start.mp3",
+                "assets\\tutorial\\click.mp3",
                 "",
                 "60",
                 ""
@@ -44094,6 +44195,111 @@
               },
               "parameters": [
                 "t10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "t11",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "t11",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "t11",
+                "Resizable",
+                "=",
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "t11",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\tutorial\\start.mp3",
+                "",
+                "60",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "t11",
                 ""
               ]
             },
@@ -64255,6 +64461,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\homelessOne\\talking.mp3",
+                "",
+                "90",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
