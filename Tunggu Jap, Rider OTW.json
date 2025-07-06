@@ -5804,15 +5804,15 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 0,
           "deceleration": 0,
           "jumpSpeed": 0,
           "jumpSustainTime": 0,
           "maxFallingSpeed": 0,
           "maxSpeed": 0,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 0,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "xGrabTolerance": 0,
           "yGrabOffset": 0,
           "canGoDownFromJumpthru": true,
@@ -61698,6 +61698,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "money",
+                    "-",
+                    "(RandomInRange(15,25) * Player.multiplier)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -63450,6 +63460,17 @@
             },
             {
               "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -64466,6 +64487,17 @@
                 "Text",
                 "=",
                 "\"Thank you so much… really. I’ll go get some nasi lemak now.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                "+",
+                "1"
               ]
             },
             {
@@ -65605,6 +65637,17 @@
               "parameters": [
                 "ChatBox",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rating",
+                "+",
+                "1"
               ]
             },
             {
