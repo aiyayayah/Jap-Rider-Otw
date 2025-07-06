@@ -5176,6 +5176,14 @@
         "name": "assets\\tutorial\\10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/tutorial/bc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tutorial\\bc.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -27210,7 +27218,7 @@
               },
               "parameters": [
                 "",
-                "\"tutorial\"",
+                "\"guide\"",
                 ""
               ]
             }
@@ -42450,8 +42458,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "tut2",
-      "name": "tut2",
+      "mangledName": "guide",
+      "name": "guide",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -42467,7 +42475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19803360294995564,
+        "zoomFactor": 0.23375137642963745,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42477,186 +42485,33 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1821,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t1",
-          "persistentUuid": "e0ed42f0-1dd5-47a3-8659-416da0e88a15",
-          "width": 3234,
-          "x": -16,
-          "y": -10,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1837,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t2",
-          "persistentUuid": "3dfee0c9-7906-4730-9bc9-729333571e5f",
-          "width": 3233,
-          "x": -18,
-          "y": -16,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1823,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t3",
-          "persistentUuid": "b4329689-21ce-4dac-a6b2-8010c51c6eb0",
-          "width": 3224,
-          "x": -14,
-          "y": -9,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1855,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t4",
-          "persistentUuid": "dbddaa20-6163-4c9d-9dcc-0986f83c47ea",
-          "width": 3231,
-          "x": -14,
-          "y": -20,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1814,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t5",
-          "persistentUuid": "a4a4c99e-c7a3-4d3b-b188-389ca0574651",
-          "width": 3212,
-          "x": -1,
-          "y": 2,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1830,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t6",
-          "persistentUuid": "e5222f96-d5dd-414f-9295-8c0d0379afb8",
-          "width": 3227,
-          "x": -9,
-          "y": -11,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1830,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t7",
-          "persistentUuid": "7e08d378-db7a-467b-a2e7-bf5c689e9e4b",
-          "width": 3240,
-          "x": -23,
-          "y": -11,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1830,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t8",
-          "persistentUuid": "0eab8188-a025-477e-a0fc-b972deb6077f",
-          "width": 3221,
-          "x": -4,
-          "y": -6,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1820,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t9",
-          "persistentUuid": "d7574aa7-57fd-4f88-a76b-00a9a8e99fb3",
-          "width": 3224,
-          "x": -14,
-          "y": -1,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1827,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "t10",
-          "persistentUuid": "308034c9-faa9-423f-a8cb-646bef45f864",
-          "width": 3224,
-          "x": -9,
-          "y": -11,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 186,
           "keepRatio": true,
-          "layer": "ui",
+          "layer": "top",
           "name": "nextText",
           "opacity": 204,
           "persistentUuid": "b44b09da-38ad-41c4-b2c1-760d14bca3f5",
           "width": 800,
-          "x": 2424,
-          "y": 1741,
-          "zOrder": 12,
+          "x": -12,
+          "y": 90,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1912,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "bc",
+          "persistentUuid": "7a7c629a-3068-4428-a878-d70e8674e24f",
+          "width": 3522,
+          "x": -161,
+          "y": -27,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43304,6 +43159,66 @@
             "characterSize": 100,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "bc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\tutorial\\bc.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -43341,6 +43256,9 @@
           },
           {
             "objectName": "nextText"
+          },
+          {
+            "objectName": "bc"
           }
         ]
       },
@@ -43365,8 +43283,8 @@
               "parameters": [
                 "",
                 "t1",
-                "-9",
-                "11",
+                "0",
+                "0",
                 ""
               ]
             },
@@ -43378,7 +43296,7 @@
                 "t2",
                 "Resizable",
                 "=",
-                "3200"
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43389,7 +43307,16 @@
                 "t2",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43416,12 +43343,6 @@
                 "",
                 "\"Left\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -43436,13 +43357,21 @@
             },
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
                 "",
                 "t2",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
               ]
             },
@@ -43454,7 +43383,7 @@
                 "t2",
                 "Resizable",
                 "=",
-                "3200"
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43465,7 +43394,16 @@
                 "t2",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43492,12 +43430,6 @@
                 "",
                 "\"Left\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -43512,13 +43444,21 @@
             },
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
                 "",
                 "t3",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
               ]
             },
@@ -43530,7 +43470,7 @@
                 "t3",
                 "Resizable",
                 "=",
-                "3200"
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43541,7 +43481,16 @@
                 "t3",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43568,12 +43517,6 @@
                 "",
                 "\"Left\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -43583,6 +43526,26 @@
               },
               "parameters": [
                 "t3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "t4",
+                "0",
+                "0",
                 ""
               ]
             },
@@ -43594,19 +43557,7 @@
                 "t4",
                 "Resizable",
                 "=",
-                "3200"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "t4",
-                "1600",
-                "900",
-                ""
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43617,7 +43568,16 @@
                 "t4",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43664,13 +43624,10 @@
             },
             {
               "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                "value": "Wait"
               },
               "parameters": [
-                "t5",
-                "Resizable",
-                "=",
-                "3200"
+                "0.1"
               ]
             },
             {
@@ -43680,9 +43637,20 @@
               "parameters": [
                 "",
                 "t5",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "t5",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43693,7 +43661,16 @@
                 "t5",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43735,6 +43712,26 @@
               },
               "parameters": [
                 "t5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "t6",
+                "0",
+                "0",
                 ""
               ]
             },
@@ -43746,19 +43743,7 @@
                 "t6",
                 "Resizable",
                 "=",
-                "3200"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "t6",
-                "1600",
-                "900",
-                ""
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43769,7 +43754,16 @@
                 "t6",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43816,13 +43810,10 @@
             },
             {
               "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                "value": "Wait"
               },
               "parameters": [
-                "t7",
-                "Resizable",
-                "=",
-                "3200"
+                "0.1"
               ]
             },
             {
@@ -43832,9 +43823,20 @@
               "parameters": [
                 "",
                 "t7",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "t7",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43845,7 +43847,16 @@
                 "t7",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43892,13 +43903,10 @@
             },
             {
               "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                "value": "Wait"
               },
               "parameters": [
-                "t8",
-                "Resizable",
-                "=",
-                "3200"
+                "0.1"
               ]
             },
             {
@@ -43908,9 +43916,20 @@
               "parameters": [
                 "",
                 "t8",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "t8",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43921,7 +43940,16 @@
                 "t8",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -43968,13 +43996,10 @@
             },
             {
               "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                "value": "Wait"
               },
               "parameters": [
-                "t9",
-                "Resizable",
-                "=",
-                "3200"
+                "0.1"
               ]
             },
             {
@@ -43984,9 +44009,20 @@
               "parameters": [
                 "",
                 "t9",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "t9",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -43997,7 +44033,16 @@
                 "t9",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -44044,13 +44089,10 @@
             },
             {
               "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                "value": "Wait"
               },
               "parameters": [
-                "t10",
-                "Resizable",
-                "=",
-                "3200"
+                "0.1"
               ]
             },
             {
@@ -44060,9 +44102,20 @@
               "parameters": [
                 "",
                 "t10",
-                "1600",
-                "900",
+                "0",
+                "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "t10",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
               ]
             },
             {
@@ -44073,7 +44126,16 @@
                 "t10",
                 "Resizable",
                 "=",
-                "1800"
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bc",
+                ""
               ]
             }
           ]
@@ -44115,6 +44177,16 @@
               },
               "parameters": [
                 "t10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"tut\"",
                 ""
               ]
             }
@@ -44122,6 +44194,39 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "ui",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -44177,7 +44282,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "ui",
+          "name": "top",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
