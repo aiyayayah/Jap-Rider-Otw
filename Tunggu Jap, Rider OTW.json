@@ -22629,7 +22629,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -22637,8 +22637,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.22336005893815064,
+        "snap": false,
+        "zoomFactor": 0.3010461197182955,
         "windowMask": false
       },
       "objectsGroups": [],
