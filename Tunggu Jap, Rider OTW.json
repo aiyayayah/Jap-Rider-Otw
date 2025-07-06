@@ -26782,7 +26782,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22169247275009382,
+        "zoomFactor": 0.4163025217734122,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37080,7 +37080,7 @@
               "parameters": [
                 "money",
                 "=",
-                "0"
+                "20"
               ]
             },
             {
@@ -44769,7 +44769,7 @@
               "parameters": [
                 "Player",
                 "0",
-                "-350",
+                "-300",
                 ""
               ]
             },
@@ -44841,7 +44841,7 @@
               "parameters": [
                 "Player",
                 "0",
-                "350",
+                "300",
                 ""
               ]
             },
@@ -44912,7 +44912,7 @@
               },
               "parameters": [
                 "Player",
-                "-350",
+                "-300",
                 "0",
                 ""
               ]
@@ -44984,7 +44984,7 @@
               },
               "parameters": [
                 "Player",
-                "350",
+                "300",
                 "0",
                 ""
               ]
