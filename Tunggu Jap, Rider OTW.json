@@ -20663,6 +20663,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "DeliveryTimer",
+          "persistentUuid": "20db1431-ddcb-4109-8b02-f9e025a6e49a",
+          "width": 0,
+          "x": 2834,
+          "y": 49,
+          "zOrder": 150,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 134,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "UI_DeliveryTime",
+          "persistentUuid": "a91a2ec4-0f6f-4590-8369-3a0a344d9d5a",
+          "width": 134,
+          "x": 2712,
+          "y": 36,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -21296,7 +21329,7 @@
               "parameters": [
                 "deliveryTime",
                 "=",
-                "30"
+                "40"
               ]
             },
             {
@@ -21306,7 +21339,7 @@
               "parameters": [
                 "targetAmount",
                 "=",
-                "700"
+                "400"
               ]
             },
             {
