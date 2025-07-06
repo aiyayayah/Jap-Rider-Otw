@@ -37741,7 +37741,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21446078431377322,
+        "zoomFactor": 0.28905162031355564,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39656,30 +39656,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "flippedX": true,
-          "height": 21,
-          "keepRatio": true,
-          "layer": "",
-          "name": "carTwo",
-          "persistentUuid": "823faeb5-e1d6-4a66-b19b-94c4d3c151b7",
-          "width": 48,
-          "x": 243,
-          "y": 224,
-          "zOrder": 169,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direction",
-              "type": "string",
-              "value": "right"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 134,
           "keepRatio": true,
           "layer": "ui",
@@ -39722,6 +39698,74 @@
           "x": -2,
           "y": 586,
           "zOrder": 402,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 605,
+          "keepRatio": true,
+          "layer": "colliders",
+          "name": "Platform_Collider",
+          "persistentUuid": "7fed5640-a5b0-4d6e-903a-b321f0f18dc2",
+          "width": 103,
+          "x": 147,
+          "y": -18,
+          "zOrder": 404,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1825,
+          "keepRatio": true,
+          "layer": "colliders",
+          "name": "Platform_Collider",
+          "persistentUuid": "e3f1275c-ec03-4aa0-84de-3bdb99fc9923",
+          "width": 103,
+          "x": 3191,
+          "y": -11,
+          "zOrder": 404,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 2073,
+          "keepRatio": true,
+          "layer": "colliders",
+          "name": "Platform_Collider",
+          "persistentUuid": "71eac154-cdf8-4960-b5c5-079a413ef397",
+          "width": 103,
+          "x": 2110,
+          "y": 675,
+          "zOrder": 404,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 3021,
+          "keepRatio": true,
+          "layer": "colliders",
+          "name": "Platform_Collider",
+          "persistentUuid": "44e93faf-8247-4cdc-8a08-a74a48fd8569",
+          "width": 103,
+          "x": 1700,
+          "y": -1557,
+          "zOrder": 404,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40799,7 +40843,7 @@
           "isLocked": false,
           "name": "colliders",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -40832,7 +40876,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -40865,7 +40909,7 @@
           "isLocked": false,
           "name": "tut",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
