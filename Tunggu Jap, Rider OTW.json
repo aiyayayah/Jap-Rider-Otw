@@ -21366,7 +21366,7 @@
               "parameters": [
                 "targetAmount",
                 "=",
-                "400"
+                "50"
               ]
             },
             {
@@ -21796,7 +21796,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7130377630691632,
+        "zoomFactor": 0.6244537826601071,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21844,9 +21844,9 @@
           "name": "Player",
           "persistentUuid": "3a3903f5-5e64-4dc7-b551-d21cd1f3358b",
           "width": 0,
-          "x": 627,
-          "y": 1407,
-          "zOrder": 6,
+          "x": 843,
+          "y": 1008,
+          "zOrder": 175,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25382,7 +25382,7 @@
               },
               "parameters": [
                 "",
-                "3",
+                "1",
                 "",
                 "0"
               ]
@@ -46064,6 +46064,26 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -46153,6 +46173,7 @@
           "comment": "Debug"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -46255,6 +46276,92 @@
           "comment": "Generate order (House, NPC, Food)"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "<",
+                "maxOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "RandomInRange(1, houseNum)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(0,6)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugHouse",
+                "Text",
+                "=",
+                "houseOrder"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -62363,17 +62470,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugStatus",
-                "Text",
-                "=",
-                "statusOrder"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -62682,17 +62778,6 @@
                 "statusOrder",
                 "=",
                 "\"failed\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "debugStatus",
-                "Text",
-                "=",
-                "statusOrder"
               ]
             },
             {
