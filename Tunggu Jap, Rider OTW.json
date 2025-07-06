@@ -25242,7 +25242,7 @@
                 "storyText",
                 "Text",
                 "=",
-                "\"🎓RM700 in 5 minutes!\" +NewLine() + NewLine()+\n\"Semester fees are due. No pay = no future.\""
+                "\"🎓RM500 in 6 minutes!\" +NewLine() + NewLine()+\n\"Semester fees are due. No pay = no future.\""
               ]
             },
             {
@@ -36989,7 +36989,7 @@
                 "storyText",
                 "Text",
                 "=",
-                "\"🏠 RM100 needed in 4 minutes!\" +NewLine() + NewLine()+\n\"Rent's due. No money, no shelter.\""
+                "\"🏠 RM100 needed in 5 minutes!\" +NewLine() + NewLine()+\n\"Rent's due. No money, no shelter.\""
               ]
             },
             {
@@ -37294,7 +37294,7 @@
               "parameters": [
                 "levelTime",
                 "=",
-                "240"
+                "300"
               ]
             }
           ]
