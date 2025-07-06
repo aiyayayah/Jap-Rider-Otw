@@ -5296,6 +5296,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/BGM/MenuBGM2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\BGM\\MenuBGM2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5794,25 +5804,25 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 0,
+          "deceleration": 0,
+          "jumpSpeed": 0,
+          "jumpSustainTime": 0,
+          "maxFallingSpeed": 0,
+          "maxSpeed": 0,
           "name": "PlatformerObject",
+          "slopeMaxAngle": 0,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
+          "xGrabTolerance": 0,
+          "yGrabOffset": 0,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
-          "deceleration": 1500,
           "gravity": 0,
           "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
-          "useRepeatedJump": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
+          "useRepeatedJump": false
         }
       ],
       "animations": [
@@ -21108,7 +21118,7 @@
                 "storyText",
                 "Text",
                 "=",
-                "\"🚑 Earn RM400 in 5 minutes!\" +NewLine() + NewLine()+\n\"Family emergency!\""
+                "\"🚑 Earn RM300 in 5 minutes!\" +NewLine() + NewLine()+\n\"Family emergency!\""
               ]
             },
             {
@@ -21129,6 +21139,17 @@
               "parameters": [
                 "storyText",
                 "\"center\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isAlive",
+                "True",
+                ""
               ]
             },
             {
@@ -21221,17 +21242,6 @@
                 "money",
                 "=",
                 "40"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "isAlive",
-                "True",
-                ""
               ]
             },
             {
@@ -21414,7 +21424,7 @@
               "parameters": [
                 "targetAmount",
                 "=",
-                "400"
+                "300"
               ]
             },
             {
@@ -21844,7 +21854,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.4790395861759948,
+        "zoomFactor": 0.18305734955563208,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25891,7 +25901,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -26387,7 +26397,7 @@
               },
               "parameters": [
                 "",
-                "assets\\BGM\\MenuBGMusic.mp3",
+                "assets\\BGM\\MenuBGM2.mp3",
                 "",
                 "90",
                 ""
@@ -40347,12 +40357,31 @@
             },
             {
               "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "canMove",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "CurrentLevel",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "StatusBox"
               ]
             }
           ]
@@ -40427,17 +40456,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "canMove",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -40461,7 +40479,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "3"
               ]
             },
             {
@@ -40514,7 +40532,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "10"
+                "5"
               ]
             },
             {
@@ -40545,16 +40563,6 @@
               "parameters": [
                 "Player",
                 "isAlive",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "cameraOnPlayer",
                 "True",
                 ""
               ]
@@ -40605,6 +40613,33 @@
                 "Player",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "StatusBox",
                 ""
               ]
             }
@@ -40741,26 +40776,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"levelTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "UnPauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"levelTime\""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -46743,6 +46759,17 @@
             },
             {
               "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -47240,7 +47267,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -47372,7 +47399,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -47504,7 +47531,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -47636,7 +47663,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "3"
+                    "4"
                   ]
                 },
                 {
