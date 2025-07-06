@@ -15107,10 +15107,10 @@
       ],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -16185,6 +16185,151 @@
           ]
         }
       ]
+    },
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "grandmaNpc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\npc\\npc3 grandama\\Generic Female NPCs",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\npc3 grandama\\assets_npc_npc3 grandama_Generic Female NPCs.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 50,
+                        "y": 1
+                      },
+                      {
+                        "x": 50,
+                        "y": 99
+                      },
+                      {
+                        "x": 0,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\npc3 grandama\\assets_npc_npc3 grandama_Generic Female NPCs2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 50,
+                        "y": 1
+                      },
+                      {
+                        "x": 50,
+                        "y": 99
+                      },
+                      {
+                        "x": 0,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\npc\\npc3 grandama\\assets_npc_npc3 grandama_Generic Female NPCs3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 50,
+                        "y": 1
+                      },
+                      {
+                        "x": 50,
+                        "y": 99
+                      },
+                      {
+                        "x": 0,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -16455,6 +16600,9 @@
           },
           {
             "objectName": "UI_Robber"
+          },
+          {
+            "objectName": "grandmaNpc"
           },
           {
             "objectName": "npcHomeless1"
@@ -25289,7 +25437,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4163025217734103,
+        "zoomFactor": 0.4598521426737189,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35049,10 +35197,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -35117,10 +35265,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -35185,10 +35333,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -35233,152 +35381,6 @@
                           {
                             "x": 9.5,
                             "y": 31.5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "grandmaNpc",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Outline",
-              "name": "Effect",
-              "doubleParameters": {
-                "padding": 0,
-                "thickness": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\npc\\npc3 grandama\\Generic Female NPCs",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.3,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\npc\\npc3 grandama\\assets_npc_npc3 grandama_Generic Female NPCs.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 50,
-                            "y": 1
-                          },
-                          {
-                            "x": 50,
-                            "y": 99
-                          },
-                          {
-                            "x": 0,
-                            "y": 99
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\npc\\npc3 grandama\\assets_npc_npc3 grandama_Generic Female NPCs2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 50,
-                            "y": 1
-                          },
-                          {
-                            "x": 50,
-                            "y": 99
-                          },
-                          {
-                            "x": 0,
-                            "y": 99
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\npc\\npc3 grandama\\assets_npc_npc3 grandama_Generic Female NPCs3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 50,
-                            "y": 1
-                          },
-                          {
-                            "x": 50,
-                            "y": 99
-                          },
-                          {
-                            "x": 0,
-                            "y": 99
                           }
                         ]
                       ]
@@ -35582,9 +35584,6 @@
               },
               {
                 "objectName": "street_tile_4"
-              },
-              {
-                "objectName": "grandmaNpc"
               },
               {
                 "objectName": "street_tile_1"
@@ -36393,7 +36392,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
