@@ -19081,7 +19081,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702647,
+        "zoomFactor": 0.24672586957407852,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19945,7 +19945,7 @@
           "depth": 1,
           "height": 43,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderLeft",
           "persistentUuid": "aa227dc1-22e0-4fa1-a753-de99377c9e86",
           "width": 52,
@@ -19977,7 +19977,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderStop",
           "persistentUuid": "22f1cd19-a27c-4fb9-bbd4-fe98a83d4d49",
           "width": 0,
@@ -19994,7 +19994,7 @@
           "depth": 1,
           "height": 43,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderLeft",
           "persistentUuid": "081a8f4e-5691-4762-baeb-7cc3d012cc99",
           "width": 52,
@@ -20027,7 +20027,7 @@
           "depth": 1,
           "height": 56,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderRotate",
           "persistentUuid": "92f5fa3d-fcea-48ae-a199-6a44cffb83cc",
           "width": 54,
@@ -20044,7 +20044,7 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderStop",
           "persistentUuid": "51ff93b7-a56e-4500-9158-7db43790a613",
           "width": 151,
@@ -20060,7 +20060,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderRight",
           "persistentUuid": "4e54844c-14d9-4f20-ab22-329619f24cc9",
           "width": 0,
@@ -20092,7 +20092,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderRotate2",
           "persistentUuid": "ee94d63f-920c-4ccb-9c23-5f0fe6844744",
           "width": 0,
@@ -20109,7 +20109,7 @@
           "depth": 1,
           "height": 82,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collider",
           "name": "colliderStop",
           "persistentUuid": "75a9fcd9-acc4-4b35-8730-6ae0daaef9fd",
           "width": 168,
@@ -20957,6 +20957,14 @@
           "actions": [
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "StatusBox"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -21145,6 +21153,33 @@
                 "Player",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "StatusBox",
                 ""
               ]
             }
@@ -21349,11 +21384,12 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "levelTime",
-                ">",
+                "",
+                "\"levelTime\"",
+                ">=",
                 "levelTime"
               ]
             },
@@ -21585,6 +21621,39 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Collider",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "ui",
           "renderingType": "",
           "visibility": true,
@@ -21662,7 +21731,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -21670,8 +21739,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.26364576737712375,
+        "snap": true,
+        "zoomFactor": 0.7130377630691632,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22691,70 +22760,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "debugHouse",
-          "persistentUuid": "2c137aba-55df-4dc1-a871-a251417ee0d0",
-          "width": 0,
-          "x": 250,
-          "y": 1055,
-          "zOrder": 105,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "debugRequest",
-          "persistentUuid": "920fa4af-3d2f-41c4-89fa-a880f0ded4c2",
-          "width": 0,
-          "x": 237,
-          "y": 1124,
-          "zOrder": 106,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "debugNPC",
-          "persistentUuid": "4e216988-6e5d-4fd1-9e92-eda8a893d97f",
-          "width": 0,
-          "x": 240,
-          "y": 1217,
-          "zOrder": 107,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "debugStatus",
-          "persistentUuid": "772f5178-41f6-4783-909c-0a69141e2962",
-          "width": 0,
-          "x": 238,
-          "y": 1373,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 16,
@@ -23242,22 +23247,6 @@
           "x": 133,
           "y": 603,
           "zOrder": 151,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "ui",
-          "name": "debugRating",
-          "persistentUuid": "c0dd6232-d578-4e6e-947c-6e980c776525",
-          "width": 0,
-          "x": 284,
-          "y": 1298,
-          "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23983,8 +23972,8 @@
           "layer": "",
           "name": "Platform_Collider",
           "persistentUuid": "ce0c76d2-15c8-4b4d-99b5-bad33349e9de",
-          "width": 512,
-          "x": 352,
+          "width": 576,
+          "x": 288,
           "y": 1232,
           "zOrder": 165,
           "numberProperties": [],
@@ -24781,47 +24770,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 21,
-          "keepRatio": true,
-          "layer": "",
-          "name": "carTwo",
-          "persistentUuid": "4f65fd48-5c6c-48d2-a96e-ef145a4c6aa8",
-          "width": 48,
-          "x": 2608,
-          "y": 235,
-          "zOrder": 169,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 21,
-          "keepRatio": true,
-          "layer": "",
-          "name": "carTwo",
-          "persistentUuid": "09b05e56-fe72-463b-abec-aa3546f1db74",
-          "width": 48,
-          "x": 240,
-          "y": 267,
-          "zOrder": 169,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direction",
-              "type": "string",
-              "value": "right"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 32,
           "keepRatio": true,
@@ -24866,6 +24814,181 @@
           "x": 2073,
           "y": 1696,
           "zOrder": 172,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1872,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Collider",
+          "persistentUuid": "061e33a0-5a39-491e-bc59-9b5dcd941ce7",
+          "width": 32,
+          "x": -32,
+          "y": -16,
+          "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Collider",
+          "persistentUuid": "999d2090-5a78-4914-9375-040b84ea5f5d",
+          "width": 3280,
+          "x": 0,
+          "y": 1824,
+          "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1936,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Collider",
+          "persistentUuid": "ad68f375-42e6-4451-94b7-451748359374",
+          "width": 128,
+          "x": 3200,
+          "y": -48,
+          "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Collider",
+          "persistentUuid": "d05a36ba-f00e-4206-8e8f-cc476badb174",
+          "width": 3280,
+          "x": -48,
+          "y": -288,
+          "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collider",
+          "name": "colliderLeft",
+          "persistentUuid": "cc9575f2-7076-43ae-b1d8-2cdd362e5fe6",
+          "width": 32,
+          "x": 144,
+          "y": 1056,
+          "zOrder": 173,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collider",
+          "name": "colliderRight",
+          "persistentUuid": "f2844169-7492-4491-98c7-140db6781084",
+          "width": 32,
+          "x": 2752,
+          "y": 1104,
+          "zOrder": 174,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "carOne",
+          "persistentUuid": "2a10cb7f-78d2-4554-961a-f200ceca0b3b",
+          "width": 0,
+          "x": 240,
+          "y": 272,
+          "zOrder": 167,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "carOne",
+          "persistentUuid": "a19eba9e-07b2-4c9e-9b67-af79fee81ec8",
+          "width": 0,
+          "x": 2582,
+          "y": 230,
+          "zOrder": 168,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collider",
+          "name": "colliderLeft",
+          "persistentUuid": "8f384f8a-1705-4fae-a2d8-dc1f39dc569a",
+          "width": 32,
+          "x": 144,
+          "y": 224,
+          "zOrder": 173,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collider",
+          "name": "colliderRight",
+          "persistentUuid": "b73747ab-dec9-48b5-9be8-fddb8caff4b9",
+          "width": 32,
+          "x": 2752,
+          "y": 272,
+          "zOrder": 174,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25134,6 +25257,24 @@
             },
             {
               "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
@@ -25198,6 +25339,20 @@
                 "",
                 "Player",
                 "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "3200",
+                "1808",
                 "",
                 ""
               ]
@@ -25299,39 +25454,6 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"levelTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "UnPauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"levelTime\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
@@ -25374,12 +25496,55 @@
           "conditions": [
             {
               "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\"",
+                ">=",
+                "levelTime"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
-                "levelTime",
-                ">",
-                "levelTime"
+                "money",
+                "<",
+                "0"
               ]
             },
             {
@@ -25591,6 +25756,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Collider",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -26513,7 +26711,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545330283,
+        "zoomFactor": 0.13935037485559448,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36696,6 +36894,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "StatusBox"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -36873,6 +37079,33 @@
                 "Player",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "StatusBox",
                 ""
               ]
             }
@@ -37077,11 +37310,12 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "levelTime",
-                ">",
+                "",
+                "\"levelTime\"",
+                ">=",
                 "levelTime"
               ]
             },
@@ -37550,7 +37784,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36458333333341425,
+        "zoomFactor": 0.21446078431377322,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37594,9 +37828,9 @@
           "name": "Player",
           "persistentUuid": "16ef9bc2-b462-4e11-a571-4579a45fed21",
           "width": 54,
-          "x": 1538,
-          "y": 370,
-          "zOrder": 100,
+          "x": 1497,
+          "y": 393,
+          "zOrder": 403,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -39412,22 +39646,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "policeStation2",
-          "persistentUuid": "6d484ae2-3b7b-4396-a5ea-abb55978d1ec",
-          "width": 0,
-          "x": 270,
-          "y": 270,
-          "zOrder": 156,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 16,
@@ -39737,7 +39955,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -51610,7 +51836,7 @@
                 "coffeeShop",
                 "\"coffeeCookTime\"",
                 ">=",
-                "2"
+                "5"
               ]
             },
             {
@@ -52407,7 +52633,7 @@
                 "groceryShop",
                 "\"groceryCookTime\"",
                 ">=",
-                "2"
+                "7"
               ]
             },
             {
@@ -53216,7 +53442,7 @@
                 "bakeryShop",
                 "\"bakeryCookTime\"",
                 ">=",
-                "2"
+                "7"
               ]
             },
             {
@@ -54013,7 +54239,7 @@
                 "eggShop",
                 "\"eggCookTime\"",
                 ">=",
-                "2"
+                "5"
               ]
             },
             {
@@ -54810,7 +55036,7 @@
                 "burgerShop",
                 "\"burgerCookTime\"",
                 ">=",
-                "2"
+                "8"
               ]
             },
             {
@@ -55585,7 +55811,7 @@
                 "icecreamShop",
                 "\"icecreamCookTime\"",
                 ">=",
-                "2"
+                "3"
               ]
             },
             {
@@ -56371,7 +56597,7 @@
                 "cottoncandyShop",
                 "\"cottoncandyCookTime\"",
                 ">=",
-                "2"
+                "4"
               ]
             },
             {
