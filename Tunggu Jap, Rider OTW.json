@@ -17128,6 +17128,35 @@
           "name": "DeliveryTimer"
         }
       ]
+    },
+    {
+      "name": "Colliders",
+      "objects": [
+        {
+          "name": "colliderLeft"
+        },
+        {
+          "name": "colliderRight"
+        },
+        {
+          "name": "colliderStop"
+        },
+        {
+          "name": "colliderRotate"
+        },
+        {
+          "name": "colliderRotate2"
+        },
+        {
+          "name": "Alley_Collider_1"
+        },
+        {
+          "name": "Alley_Collider2"
+        },
+        {
+          "name": "Platform_Collider"
+        }
+      ]
     }
   ],
   "variables": [
@@ -18387,7 +18416,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2467258695740681,
+        "zoomFactor": 0.19561100536769707,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19945,7 +19974,7 @@
           "depth": 1,
           "height": 43,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderLeft",
           "persistentUuid": "aa227dc1-22e0-4fa1-a753-de99377c9e86",
           "width": 52,
@@ -19977,7 +20006,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderStop",
           "persistentUuid": "22f1cd19-a27c-4fb9-bbd4-fe98a83d4d49",
           "width": 0,
@@ -19994,7 +20023,7 @@
           "depth": 1,
           "height": 43,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderLeft",
           "persistentUuid": "081a8f4e-5691-4762-baeb-7cc3d012cc99",
           "width": 52,
@@ -20027,7 +20056,7 @@
           "depth": 1,
           "height": 56,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderRotate",
           "persistentUuid": "92f5fa3d-fcea-48ae-a199-6a44cffb83cc",
           "width": 54,
@@ -20044,7 +20073,7 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderStop",
           "persistentUuid": "51ff93b7-a56e-4500-9158-7db43790a613",
           "width": 151,
@@ -20060,7 +20089,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderRight",
           "persistentUuid": "4e54844c-14d9-4f20-ab22-329619f24cc9",
           "width": 0,
@@ -20092,7 +20121,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderRotate2",
           "persistentUuid": "ee94d63f-920c-4ccb-9c23-5f0fe6844744",
           "width": 0,
@@ -20109,7 +20138,7 @@
           "depth": 1,
           "height": 82,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderStop",
           "persistentUuid": "75a9fcd9-acc4-4b35-8730-6ae0daaef9fd",
           "width": 168,
@@ -21592,39 +21621,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Collider",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -24892,7 +24888,7 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderLeft",
           "persistentUuid": "cc9575f2-7076-43ae-b1d8-2cdd362e5fe6",
           "width": 32,
@@ -24909,7 +24905,7 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderRight",
           "persistentUuid": "f2844169-7492-4491-98c7-140db6781084",
           "width": 32,
@@ -24965,7 +24961,7 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderLeft",
           "persistentUuid": "8f384f8a-1705-4fae-a2d8-dc1f39dc569a",
           "width": 32,
@@ -24982,7 +24978,7 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "Collider",
+          "layer": "",
           "name": "colliderRight",
           "persistentUuid": "b73747ab-dec9-48b5-9be8-fddb8caff4b9",
           "width": 32,
@@ -25785,39 +25781,6 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Collider",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
           "name": "ui",
           "renderingType": "",
           "visibility": true,
@@ -25904,7 +25867,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25314140012986275,
+        "zoomFactor": 0.08759217997573127,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26711,7 +26674,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13935037485559448,
+        "zoomFactor": 0.2531414001299101,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -26734,7 +26697,7 @@
           "depth": 1,
           "height": 22,
           "keepRatio": true,
-          "layer": "colliders",
+          "layer": "",
           "name": "colliderLeft",
           "persistentUuid": "b0b42f12-a296-49cf-9f4e-727837d79377",
           "width": 18,
@@ -35231,7 +35194,7 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "colliders",
+          "layer": "",
           "name": "colliderRight",
           "persistentUuid": "461a542f-fe0e-459d-a3e9-c2f77e5b2fb9",
           "width": 40,
@@ -37588,39 +37551,6 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Layer",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -37636,39 +37566,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "colliders",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -41909,7 +41806,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3480093143942921,
+        "zoomFactor": 0.16777359131036276,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46222,6 +46119,119 @@
             "textR": 0
           },
           "comment": "Generate order (House, NPC, Food)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Houses"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Houses",
+                "hasOrder",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "orderRequestNum",
+                "<",
+                "maxOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "statusOrder",
+                "=",
+                "\"free\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "houseOrder",
+                "=",
+                "RandomInRange(1, houseNum)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "foodOrder",
+                "=",
+                "GlobalVariableString(foodList[RandomInRange(0,6)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "npcOrder",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugStatus",
+                "Text",
+                "=",
+                "statusOrder"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugHouse",
+                "Text",
+                "=",
+                "houseOrder"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -57308,6 +57318,14 @@
               },
               "parameters": [
                 "decisionText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Colliders"
               ]
             }
           ]
