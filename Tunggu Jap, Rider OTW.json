@@ -37741,7 +37741,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28905162031355564,
+        "zoomFactor": 0.24488383633730895,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -40783,6 +40783,36 @@
               ]
             }
           ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "House1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -40843,7 +40873,7 @@
           "isLocked": false,
           "name": "colliders",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -40876,7 +40906,7 @@
           "isLocked": false,
           "name": "ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -40909,7 +40939,7 @@
           "isLocked": false,
           "name": "tut",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
