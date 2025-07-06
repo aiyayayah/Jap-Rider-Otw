@@ -21251,7 +21251,7 @@
               "parameters": [
                 "money",
                 "=",
-                "40"
+                "0"
               ]
             },
             {
@@ -25252,7 +25252,7 @@
                 "storyText",
                 "Text",
                 "=",
-                "\"🎓RM500 in 6 minutes!\" +NewLine() + NewLine()+\n\"Semester fees are due. No pay = no future.\""
+                "\"🎓RM450 in 8 minutes!\" +NewLine() + NewLine()+\n\"Semester fees are due. No pay = no future.\""
               ]
             },
             {
@@ -25525,7 +25525,7 @@
               "parameters": [
                 "targetAmount",
                 "=",
-                "500"
+                "450"
               ]
             },
             {
@@ -25546,7 +25546,7 @@
               "parameters": [
                 "levelTime",
                 "=",
-                "360"
+                "480"
               ]
             },
             {
