@@ -5230,6 +5230,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/tutorial/blockimg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tutorial\\blockimg.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -37542,7 +37550,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25314140012991815,
+        "zoomFactor": 0.36458333333341425,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38923,23 +38931,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1213,
-          "keepRatio": true,
-          "layer": "",
-          "name": "block",
-          "persistentUuid": "26cb0735-8ff9-49c4-a049-35fc14287dcd",
-          "width": 1062,
-          "x": -6,
-          "y": 592,
-          "zOrder": 166,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -39542,6 +39533,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1212,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blockimg",
+          "persistentUuid": "caaa01b9-43ab-41f9-bfe2-f012ff834214",
+          "width": 1134,
+          "x": -2,
+          "y": 586,
+          "zOrder": 402,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -39555,74 +39563,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "block",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\BG IMG\\BLOCK.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1920,
-                            "y": 0
-                          },
-                          {
-                            "x": 1920,
-                            "y": 1080
-                          },
-                          {
-                            "x": 0,
-                            "y": 1080
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -39788,6 +39728,66 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "blockimg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\tutorial\\blockimg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -39795,9 +39795,6 @@
         "children": [
           {
             "objectName": "NewTiledSprite"
-          },
-          {
-            "objectName": "block"
           },
           {
             "objectName": "tutBackground"
@@ -39810,6 +39807,9 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "blockimg"
           }
         ]
       },
