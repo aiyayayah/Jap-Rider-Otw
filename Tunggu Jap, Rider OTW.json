@@ -58721,6 +58721,15 @@
             },
             {
               "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -59672,6 +59681,15 @@
                 "clickable",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
               ]
             }
           ]
@@ -62851,6 +62869,15 @@
             },
             {
               "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -63287,6 +63314,15 @@
             },
             {
               "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
@@ -63551,6 +63587,15 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         },
@@ -63774,6 +63819,15 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         }
@@ -63906,6 +63960,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
               ]
             },
             {
@@ -64315,6 +64378,15 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         },
@@ -64571,6 +64643,15 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         },
@@ -64794,6 +64875,15 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         }
@@ -64936,6 +65026,15 @@
                 "canMove",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
               ]
             },
             {
@@ -65334,6 +65433,15 @@
                 "grandmaNpc",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         },
@@ -65549,6 +65657,15 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
+              ]
             }
           ]
         },
@@ -65724,6 +65841,15 @@
               "parameters": [
                 "grandmaNpc",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"levelTime\""
               ]
             }
           ]
