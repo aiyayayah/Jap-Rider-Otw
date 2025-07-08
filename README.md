@@ -67,45 +67,50 @@ Your ultimate goal: earn enough money to survive and thrive while managing limit
 
 ## 📚 Tutorial Screenshots
 <p align="center">
-  <img src="screenshots/2.png" width="300" style="margin: 10px;" alt="Tutorial 1">
-  <img src="screenshots/3.png" width="300" style="margin: 10px;" alt="Tutorial 2">
-  <img src="screenshots/4.png" width="300" style="margin: 10px;" alt="Tutorial 3">
+  <img src="screenshots/2.png" width="300" style="margin: 20px;" alt="Tutorial 1">
+  <img src="screenshots/3.png" width="300" style="margin: 20px;" alt="Tutorial 2">
+  <img src="screenshots/4.png" width="300" style="margin: 20px;" alt="Tutorial 3">
 </p>
 <p align="center">
-  <img src="screenshots/5.png" width="300" style="margin: 10px;" alt="Tutorial 4">
-  <img src="screenshots/6.png" width="300" style="margin: 10px;" alt="Tutorial 5">
-  <img src="screenshots/7.png" width="300" style="margin: 10px;" alt="Tutorial 6">
+  <img src="screenshots/5.png" width="300" style="margin: 20px;" alt="Tutorial 4">
+  <img src="screenshots/6.png" width="300" style="margin: 20px;" alt="Tutorial 5">
+  <img src="screenshots/7.png" width="300" style="margin: 20px;" alt="Tutorial 6">
 </p>
 <p align="center">
-  <img src="screenshots/8.png" width="300" style="margin: 10px;" alt="Tutorial 7">
-  <img src="screenshots/9.png" width="300" style="margin: 10px;" alt="Tutorial 8">
-  <img src="screenshots/10.png" width="300" style="margin: 10px;" alt="Tutorial 9">
+  <img src="screenshots/8.png" width="300" style="margin: 20px;" alt="Tutorial 7">
+  <img src="screenshots/9.png" width="300" style="margin: 20px;" alt="Tutorial 8">
+  <img src="screenshots/10.png" width="300" style="margin: 20px;" alt="Tutorial 9">
 </p>
 <p align="center">
-  <img src="screenshots/11.png" width="300" style="margin: 10px;" alt="Tutorial 10">
-  <img src="screenshots/12.png" width="300" style="margin: 10px;" alt="Tutorial 11">
+  <img src="screenshots/11.png" width="300" style="margin: 20px;" alt="Tutorial 10">
+  <img src="screenshots/12.png" width="300" style="margin: 20px;" alt="Tutorial 11">
 </p>
 
 
-## 🧩 Level Screenshots
+## 🧩 Levels Screenshots
+
 ### 🔹 Level 1: Rental
 <p align="center">
-  <img src="screenshots/13.png" width="600" style="margin: 10px;" alt="Level 1 Screenshot 1">
-  <img src="screenshots/17.png" width="600" style="margin: 10px;" alt="Level 1 Screenshot 2">
+  <img src="screenshots/13.png" width="500px" style="margin: 20px;" alt="Level 1 Screenshot 1">
+  <img src="screenshots/17.png" width="500px" style="margin: 20px;" alt="Level 1 Screenshot 2">
 </p>
+
+---
 
 ### 🔹 Level 2: Emergency Expenses
 <p align="center">
-  <img src="screenshots/18.png" width="600" style="margin: 10px;" alt="Level 2 Screenshot 1">
-  <img src="screenshots/19.png" width="600" style="margin: 10px;" alt="Level 2 Screenshot 2">
+  <img src="screenshots/18.png" width="500px" style="margin: 20px;" alt="Level 2 Screenshot 1">
+  <img src="screenshots/19.png" width="500px" style="margin: 20px;" alt="Level 2 Screenshot 2">
 </p>
 
+---
 
 ### 🔹 Level 3: Semester Fees
 <p align="center">
-  <img src="screenshots/20.png" width="600" style="margin: 10px;" alt="Level 3 Screenshot 1">
-  <img src="screenshots/21.png" width="600" style="margin: 10px;" alt="Level 3 Screenshot 2">
+  <img src="screenshots/20.png" width="500px" style="margin: 20px;" alt="Level 3 Screenshot 1">
+  <img src="screenshots/21.png" width="500px" style="margin: 20px;" alt="Level 3 Screenshot 2">
 </p>
+
 
 
 ## 👥 Team Members & Contributions
