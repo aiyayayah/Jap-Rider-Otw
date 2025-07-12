@@ -9,24 +9,15 @@ Your ultimate goal: earn enough money to survive and thrive while managing limit
 ###  Gameplay Objectives
 - **Primary Objective**: Complete delivery orders to earn money and meet each level’s financial goal.
 - **Levels**: Three progressive levels with increasing complexity:
-  1. Pay monthly rent.
-  2. Cover a family emergency.
-  3. Save for tuition fees.
+  1. Pay monthly rent
+  2. Cover a family emergency
+  3. Save for tuition fees
 
 ## 🕹️Core Mechanics
 - **Timed Deliveries**: Deliver orders before deadlines — late deliveries reduce your earnings.
 - **Fuel Management**: Monitor your petrol level and refuel when needed.
 - **Random Events**: Interact with NPCs — some help, some hinder. Beware of robberies and accidents.
 - **Performance Rating**: Your delivery time and accuracy affect your star rating and bonuses.
-
-
-## 🎮Game Features
-- **Interactive World**: Accept orders from houses, wait at shops, and deliver to NPCs.
-- **Resource Management**: Balance money, fuel, and time under pressure.
-- **Realistic Themes**: Reflect real-life stressors like financial burdens, time scarcity, and unexpected emergencies.
-- **Multiple Outcomes**: Your efficiency and decisions impact whether you succeed or fail.
-
-
 
 ## 🧩How to Play
 
@@ -50,7 +41,6 @@ Your ultimate goal: earn enough money to survive and thrive while managing limit
 
 
 ## 🌟Performance Rating System
-
 - Deliver in **< 40%** of the time limit → **+½ star**
 -  Late or incorrect delivery → **0 stars**
   - **3 stars** → Double the earnings  
@@ -58,7 +48,6 @@ Your ultimate goal: earn enough money to survive and thrive while managing limit
 
 
 ## 🏆 Win/Lose Conditions
-
 - **Win**: Reach the money goal before time runs out.
 - **Lose**:
   - Fail to meet the financial goal.
@@ -111,7 +100,9 @@ Your ultimate goal: earn enough money to survive and thrive while managing limit
   <img src="screenshots/21.png" width="500px" style="margin: 20px;" alt="Level 3 Screenshot 2">
 </p>
 
-
+## 🔗 Play the Game
+Try **Jap! Rider Otw** now:  
+👉 [**Click here to play the game**](https://gd.games/instant-builds/04152c96-1d4a-426e-a3bc-b5a3d3436720)
 
 ## 👥 Team Members & Contributions
 
